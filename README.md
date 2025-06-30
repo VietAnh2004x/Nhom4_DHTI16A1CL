@@ -54,6 +54,20 @@
 
 ---
 
+## 🗂️ Cấu trúc thư mục dự án
+├── 📂 Business_Logic_Layer       
+├── 📂 Data_Access_Layer         
+├── 📂 Data_Transfer_Objects    
+├── 📂 Forms                    
+├── 📂 Reports                   
+├── 📂 Resources                 
+├── 📂 Properties                
+├── 📂 References                
+├── 📄 App.config                
+└── 📄 Program.cs                
+
+---
+
 ## 👨‍💻 Nhóm thực hiện
 - Nguyễn Việt Anh (Trưởng nhóm) – Phân tích thiết kế hệ thống
 - Phạm Trần Ngọc Chiến – Tạo cơ sở dữ liệu
