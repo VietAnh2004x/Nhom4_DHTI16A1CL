@@ -55,16 +55,16 @@
 ---
 
 ## 🗂️ Cấu trúc thư mục dự án
-📂 Business_Logic_Layer       → Xử lý nghiệp vụ (BLL)
-📂 Data_Access_Layer          → Truy cập và thao tác dữ liệu (DAL)
-📂 Data_Transfer_Objects      → Các đối tượng trung gian truyền dữ liệu (DTO)
-📂 Forms                      → Giao diện người dùng (Windows Forms)
-📂 Reports                    → Báo cáo thống kê (doanh thu, tồn kho, ...)
-📂 Resources                  → Tài nguyên: hình ảnh, icon, v.v.
-📂 Properties                 → Cấu hình mặc định cho project
-📂 References                 → Thư viện và gói tham chiếu
-📄 App.config                 → File cấu hình kết nối CSDL
-📄 Program.cs                 → File khởi tạo và chạy chương trình
+📂 Business_Logic_Layer      
+📂 Data_Access_Layer         
+📂 Data_Transfer_Objects     
+📂 Forms                     
+📂 Reports                    
+📂 Resources                  
+📂 Properties                
+📂 References                 
+📄 App.config                
+📄 Program.cs                 
 
 ---
 
