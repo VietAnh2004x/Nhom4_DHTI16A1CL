@@ -54,6 +54,21 @@
 
 ---
 
+## 🗂️ Cấu trúc thư mục dự án
+📁 DoAn1_Nhom4_DHTI16A1CL
+├── 📂 Business_Logic_Layer       → Xử lý nghiệp vụ (BLL)
+├── 📂 Data_Access_Layer         → Truy cập và thao tác dữ liệu (DAL)
+├── 📂 Data_Transfer_Objects     → Các đối tượng trung gian truyền dữ liệu (DTO)
+├── 📂 Forms                     → Giao diện người dùng (Windows Forms)
+├── 📂 Reports                   → Báo cáo thống kê (doanh thu, tồn kho, ...)
+├── 📂 Resources                 → Tài nguyên: hình ảnh, icon, v.v.
+├── 📂 Properties                → Cấu hình mặc định cho project
+├── 📂 References                → Thư viện và gói tham chiếu
+├── 📄 App.config                → File cấu hình kết nối CSDL
+└── 📄 Program.cs                → File khởi tạo và chạy chương trình
+
+---
+
 ## 👨‍💻 Nhóm thực hiện
 - Nguyễn Việt Anh (Trưởng nhóm) – Phân tích thiết kế hệ thống
 - Phạm Trần Ngọc Chiến – Tạo cơ sở dữ liệu
