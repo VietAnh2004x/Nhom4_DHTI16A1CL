@@ -71,9 +71,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Business Logic Layer\" />
-    <Folder Include="Data Access Layer\" />
-    <Folder Include="Data Transfer Objects\" />
+    <Folder Include="Business_Logic_Layer\" />
+    <Folder Include="Data_Access_Layer\" />
+    <Folder Include="Data_Transfer_Objects\" />
     <Folder Include="Forms\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\" />
