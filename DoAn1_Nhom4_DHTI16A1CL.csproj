@@ -46,8 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Forms\MainForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\MainForm\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,9 +85,17 @@
     <Folder Include="Business_Logic_Layer\" />
     <Folder Include="Data_Access_Layer\" />
     <Folder Include="Data_Transfer_Objects\" />
-    <Folder Include="Forms\" />
+    <Folder Include="Forms\BaoCao\" />
+    <Folder Include="Forms\QLBaoHanh\" />
+    <Folder Include="Forms\QLDaiLy\" />
+    <Folder Include="Forms\QLHoaDon\" />
+    <Folder Include="Forms\QLKhachHang\" />
+    <Folder Include="Forms\QLTaiKhoan\" />
+    <Folder Include="Forms\QLTonKho\" />
+    <Folder Include="Forms\QLXe\" />
+    <Folder Include="Forms\TongQuan\" />
     <Folder Include="Reports\" />
-    <Folder Include="Resources\" />
+    <Folder Include="Resources\image\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
