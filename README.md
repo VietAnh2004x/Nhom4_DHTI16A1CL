@@ -15,30 +15,25 @@
 ## 🛠️ Các chức năng chính
 
 ### 1. Quản lý danh mục
-- Quản lý thông tin khách hàng
-- Quản lý kho xe
-- Quản lý đại lý cung cấp xe
-- Quản lý hóa đơn
+- Quản lý khách hàng
+- Quản lý xe
+- Quản lý tồn kho
+- Quản lý đại lí
 
-### 2. Quản lý bán hàng
+### 2. Bán xe
 - Xử lý giao dịch bán xe
-- Áp dụng khuyến mãi
-- Tạo và in phiếu giao xe
+- Quản lí hóa đơn
 - Quản lý bảo hành
 
-### 3. Báo cáo – thống kê
-- Thống kê số lượng xe đã bán
-- Báo cáo doanh thu theo tháng, quý, năm
-- Xuất dữ liệu báo cáo ra file Excel
+### 3. Báo cáo
+- Báo cáo doanh thu tuần, tháng, quý, năm
+- Xuất báo cáo Excel
 
-### 4. Tra cứu thông tin
-- Tìm kiếm thông tin khách hàng, đại lý, hóa đơn, xe
-- Tra cứu tình trạng kho
-
-### 5. Phân quyền người dùng
-- Tài khoản **Admin**: toàn quyền
-- Tài khoản **Quản lý**: xem báo cáo, duyệt giao dịch, quản lý dữ liệu
-- Tài khoản **Nhân viên**: bán hàng, tạo hóa đơn, nhập kho
+### 4. Phân quyền người dùng
+- Đăng nhập hệ thống
+- Tạo tài khoản
+- Phân quyền truy cập
+- Đổi mật khẩu
 
 ---
 
