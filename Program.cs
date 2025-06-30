@@ -16,7 +16,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run();
         }
     }
 }
