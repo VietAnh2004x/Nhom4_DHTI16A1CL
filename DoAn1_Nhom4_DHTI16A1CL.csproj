@@ -46,15 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data_Transfer_Objects\BaoHanh.cs" />
+    <Compile Include="Data_Transfer_Objects\ChiTietHoaDon.cs" />
+    <Compile Include="Data_Transfer_Objects\DaiLy.cs" />
+    <Compile Include="Data_Transfer_Objects\DongXe.cs" />
+    <Compile Include="Data_Transfer_Objects\HoaDon.cs" />
+    <Compile Include="Data_Transfer_Objects\KhachHang.cs" />
+    <Compile Include="Data_Transfer_Objects\PhanQuyen.cs" />
+    <Compile Include="Data_Transfer_Objects\SoLuongXe.cs" />
+    <Compile Include="Data_Transfer_Objects\TaiKhoan.cs" />
+    <Compile Include="Data_Transfer_Objects\ThongTinXe.cs" />
     <Compile Include="Forms\MainForm\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\MainForm\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\MainForm\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -84,7 +92,6 @@
   <ItemGroup>
     <Folder Include="Business_Logic_Layer\" />
     <Folder Include="Data_Access_Layer\" />
-    <Folder Include="Data_Transfer_Objects\" />
     <Folder Include="Forms\BaoCao\" />
     <Folder Include="Forms\QLBaoHanh\" />
     <Folder Include="Forms\QLDaiLy\" />
@@ -95,6 +102,7 @@
     <Folder Include="Forms\QLXe\" />
     <Folder Include="Forms\TongQuan\" />
     <Folder Include="Reports\" />
+    <Folder Include="Resources\icon\" />
     <Folder Include="Resources\image\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
