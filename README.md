@@ -55,7 +55,17 @@
 ---
 
 ## 🗂️ Cấu trúc thư mục dự án
-<pre> ## 🗂️ Cấu trúc thư mục dự án Dự án được xây dựng theo mô hình 3 lớp (DTO – DAL – BLL), với cấu trúc thư mục rõ ràng, dễ mở rộng và bảo trì: ```plaintext 📁 DoAn1_Nhom4_DHTI16A1CL ├── 📂 Business_Logic_Layer → Xử lý nghiệp vụ (BLL) ├── 📂 Data_Access_Layer → Truy cập và thao tác dữ liệu (DAL) ├── 📂 Data_Transfer_Objects → Các đối tượng trung gian truyền dữ liệu (DTO) ├── 📂 Forms → Giao diện người dùng (Windows Forms) ├── 📂 Reports → Báo cáo thống kê (doanh thu, tồn kho, ...) ├── 📂 Resources → Tài nguyên: hình ảnh, icon, v.v. ├── 📂 Properties → Cấu hình mặc định cho project ├── 📂 References → Thư viện và gói tham chiếu ├── 📄 App.config → File cấu hình kết nối CSDL └── 📄 Program.cs → File khởi tạo và chạy chương trình ``` > ✅ **Ưu điểm:** Cấu trúc này giúp dễ dàng chia nhỏ chức năng, kiểm soát logic xử lý, và đảm bảo code sạch – rõ ràng – dễ bảo trì. </pre>
+📁 DoAn1_Nhom4_DHTI16A1CL
+-├── 📂 Business_Logic_Layer       → Xử lý nghiệp vụ (BLL)
+-├── 📂 Data_Access_Layer          → Truy cập và thao tác dữ liệu (DAL)
+-├── 📂 Data_Transfer_Objects      → Các đối tượng trung gian truyền dữ liệu (DTO)
+-├── 📂 Forms                      → Giao diện người dùng (Windows Forms)
+-├── 📂 Reports                    → Báo cáo thống kê (doanh thu, tồn kho, ...)
+-├── 📂 Resources                  → Tài nguyên: hình ảnh, icon, v.v.
+-├── 📂 Properties                 → Cấu hình mặc định cho project
+-├── 📂 References                 → Thư viện và gói tham chiếu
+-├── 📄 App.config                 → File cấu hình kết nối CSDL
+-└── 📄 Program.cs                 → File khởi tạo và chạy chương trình
 
 ---
 
