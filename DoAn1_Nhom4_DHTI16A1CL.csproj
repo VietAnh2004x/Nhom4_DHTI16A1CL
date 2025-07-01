@@ -53,7 +53,7 @@
     <Compile Include="Data_Transfer_Objects\HoaDon.cs" />
     <Compile Include="Data_Transfer_Objects\KhachHang.cs" />
     <Compile Include="Data_Transfer_Objects\PhanQuyen.cs" />
-    <Compile Include="Data_Transfer_Objects\SoLuongXe.cs" />
+    <Compile Include="Data_Transfer_Objects\TonXe.cs" />
     <Compile Include="Data_Transfer_Objects\TaiKhoan.cs" />
     <Compile Include="Data_Transfer_Objects\ThongTinXe.cs" />
     <Compile Include="Forms\MainForm\MainForm.cs">
@@ -103,7 +103,9 @@
     <Folder Include="Forms\TongQuan\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\icon\" />
-    <Folder Include="Resources\image\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\image\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

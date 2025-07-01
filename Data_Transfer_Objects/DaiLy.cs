@@ -12,5 +12,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Data_Transfer_Objects
         private string tenNhaSanXuat { get; set;}
         private string diaChi { get; set; }
         private string email {  get; set; }
+        private string soDienThoai { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Data_Transfer_Objects
 {
-    internal class SoLuongXe
+    internal class TonXe
     {
         private string maNhap { get; set; }
         private string maXe { get; set; }
