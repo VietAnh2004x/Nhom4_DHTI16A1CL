@@ -105,7 +105,9 @@
     <Folder Include="Resources\icon\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\image\logo.png" />
+    <Content Include="Resources\image\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

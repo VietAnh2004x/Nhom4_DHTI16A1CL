@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
@@ -67,7 +68,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
             PictureBox pictureLogo = new PictureBox
             {
-                Image = Image.FromFile("A:\\DoAn1\\Resources\\image\\logo.png"), // ← thay đường dẫn đúng
+                Image = Image.FromFile(Path.Combine(Application.StartupPath, "Resources", "image", "logo.png")),
                 SizeMode = PictureBoxSizeMode.Zoom,
                 Dock = DockStyle.Top,
                 Height = 120,
