@@ -100,7 +100,6 @@
     <Folder Include="Forms\QLTaiKhoan\" />
     <Folder Include="Forms\QLTonKho\" />
     <Folder Include="Forms\QLXe\" />
-    <Folder Include="Forms\TongQuan\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\icon\" />
   </ItemGroup>
