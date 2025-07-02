@@ -11,9 +11,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
         private Panel sidebar;
         private Panel logoPanel;
+        private Panel panelContent;
         private Button btnQLXe;
-        private Button btnSub1;
-        private Button btnSub2;
+        private Button btnQLXeMayDien;
+        private Button btnQLXeDapDien;
         private Panel subMenuPanel;
         private Button btnTongQuan;
         private Button btnQLKhachHang;
@@ -37,15 +38,28 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
         private void InitializeComponent()
         {
+            this.panelContent = new System.Windows.Forms.Panel();
             this.SuspendLayout();
+            // 
+            // panelContent
+            // 
+            this.panelContent.BackColor = System.Drawing.Color.White;
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(0, 0);
+            this.panelContent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1236, 673);
+            this.panelContent.TabIndex = 0;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1490, 644);
+            this.ClientSize = new System.Drawing.Size(1236, 673);
+            this.Controls.Add(this.panelContent);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Quản lí kinh doanh cửa hàng";
             this.ResumeLayout(false);
 
         }
@@ -91,7 +105,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             logoPanel.Controls.Add(pictureLogo);
 
             // Nút Quản lý linh kiện
-            btnQLXe = CreateButton("Quản lý Xe");
+            btnQLXe = CreateButton("Quản Lý Xe");
             btnQLXe.Click += BtnQLXe_Click;
 
             // Submenu panel
@@ -102,24 +116,28 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
                 Visible = false
             };
 
-            btnSub1 = CreateButton("   Xe Đạp Điện", 35);
-            btnSub2 = CreateButton("   Xe Máy Điện", 35);
+            btnQLXeMayDien = CreateButton("   Xe Máy Điện", 35);
+            //btnQLXeMayDien.Click += btnQLXeMayDien_Click;
+            btnQLXeDapDien = CreateButton("   Xe Đạp Điện", 35);
+            btnQLXeDapDien.Click += btnQLXeDapDien_Click;
 
             // Thêm sub button theo thứ tự thủ công (sub2 trên cùng)
-            subMenuPanel.Controls.Add(btnSub2);
-            subMenuPanel.Controls.Add(btnSub1);
+            subMenuPanel.Controls.Add(btnQLXeMayDien);
+            subMenuPanel.Controls.Add(btnQLXeDapDien);
+            
 
             // Các nút còn lại
 
-            btnTongQuan = CreateButton("Tổng quan");
-            btnQLKhachHang = CreateButton("Quản lý khách hàng");
-            btnQLTonKho = CreateButton("Quản lý tồn kho");
-            btnQLHoaDon = CreateButton("Quản lý hóa đơn");
-            btnQLBaoHanh = CreateButton("Quản lý bảo hành");
-            btnBaoCao = CreateButton("Báo cáo");
-            btnQLDaiLy = CreateButton("Quản lý đại lý");
-            btnQLTaiKhoan = CreateButton("Quản lý tài khoản");
-            btnDangXuat = CreateButton("Đăng xuất");
+            btnTongQuan = CreateButton("Tổng Quan");
+            btnTongQuan.Click += btnTongQuan_Click;
+            btnQLKhachHang = CreateButton("Quản Lý Khách Hàng");
+            btnQLTonKho = CreateButton("Quản Lý Tồn Kho");
+            btnQLHoaDon = CreateButton("Quản Lý Hóa Đơn");
+            btnQLBaoHanh = CreateButton("Quản Lý Bảo Hành");
+            btnBaoCao = CreateButton("Báo Cáo");
+            btnQLDaiLy = CreateButton("Quản Lý Đại Lý");
+            btnQLTaiKhoan = CreateButton("Quản Lý Tài Khoản");
+            btnDangXuat = CreateButton("Đăng Xuất");
 
             // Thêm toàn bộ control vào sidebar theo đúng thứ tự (logo trên cùng)
             sidebar.Controls.AddRange(new Control[]
