@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -38,17 +39,13 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            OpenChildForm(new TongQuanForm()); // hoặc Form nào bạn muốn hiển thị mặc định
+            OpenChildForm(new TongQuanForm());
         }
 
-        private void btnQLXeDapDien_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new QLXe.XeDapDienForm());
-        }
-
-        private void btnTongQuan_Click(object sender, EventArgs e)
+        private void btnTongQuanForm_Click(object sender, EventArgs e)
         {
             OpenChildForm(new TongQuanForm());
         }
+
     }
 }

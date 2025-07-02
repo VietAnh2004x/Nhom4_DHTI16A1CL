@@ -119,7 +119,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             btnQLXeMayDien = CreateButton("   Xe Máy Điện", 35);
             //btnQLXeMayDien.Click += btnQLXeMayDien_Click;
             btnQLXeDapDien = CreateButton("   Xe Đạp Điện", 35);
-            btnQLXeDapDien.Click += btnQLXeDapDien_Click;
+            //btnQLXeDapDien.Click += btnQLXeDapDien_Click;
 
             // Thêm sub button theo thứ tự thủ công (sub2 trên cùng)
             subMenuPanel.Controls.Add(btnQLXeMayDien);
@@ -129,7 +129,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             // Các nút còn lại
 
             btnTongQuan = CreateButton("Tổng Quan");
-            btnTongQuan.Click += btnTongQuan_Click;
+            btnTongQuan.Click += btnTongQuanForm_Click;
             btnQLKhachHang = CreateButton("Quản Lý Khách Hàng");
             btnQLTonKho = CreateButton("Quản Lý Tồn Kho");
             btnQLHoaDon = CreateButton("Quản Lý Hóa Đơn");
