@@ -13,5 +13,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Data_Transfer_Objects
         private string maXe { get; set; }
         private DateTime ngayBatDau { get; set; }
         private int thoiHanThang { get; set; }
+
     }
 }

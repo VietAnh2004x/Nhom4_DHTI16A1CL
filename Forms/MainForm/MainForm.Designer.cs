@@ -11,17 +11,21 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
         private Panel sidebar;
         private Panel logoPanel;
-        private Button btnQLLinhKien;
-        private Button btnSub1;
-        private Button btnSub2;
-        private Button btnSub3;
+        private Panel panelContent;
+        private Button btnQLXe;
+        private Button btnQLXeMayDien;
+        private Button btnQLXeDapDien;
         private Panel subMenuPanel;
-        private Button btnThuongHieu;
-        private Button btnThanhToan;
-        private Button btnKhachHang;
-        private Button btnKho;
+        private Button btnTongQuan;
+        private Button btnQLKhachHang;
+        private Button btnQLTonKho;
+        private Button btnQLHoaDon;
+        private Button btnQLBaoHanh;
+        private Button btnBaoCao;
+        private Button btnQLDaiLy;
+        private Button btnQLTaiKhoan;
+        private Button btnDangXuat;
         private bool subMenuVisible = false;
-
 
         protected override void Dispose(bool disposing)
         {
@@ -34,15 +38,28 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
         private void InitializeComponent()
         {
+            this.panelContent = new System.Windows.Forms.Panel();
             this.SuspendLayout();
+            // 
+            // panelContent
+            // 
+            this.panelContent.BackColor = System.Drawing.Color.White;
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(0, 0);
+            this.panelContent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1236, 673);
+            this.panelContent.TabIndex = 0;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1490, 644);
+            this.ClientSize = new System.Drawing.Size(1236, 673);
+            this.Controls.Add(this.panelContent);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Quản lí kinh doanh cửa hàng";
             this.ResumeLayout(false);
 
         }
@@ -88,8 +105,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             logoPanel.Controls.Add(pictureLogo);
 
             // Nút Quản lý linh kiện
-            btnQLLinhKien = CreateButton("Quản lý Linh Kiện");
-            btnQLLinhKien.Click += BtnQLLinhKien_Click;
+            btnQLXe = CreateButton("Quản Lý Xe");
+            btnQLXe.Click += BtnQLXe_Click;
 
             // Submenu panel
             subMenuPanel = new Panel
@@ -99,30 +116,43 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
                 Visible = false
             };
 
-            btnSub1 = CreateButton("   Linh Kiện", 35);
-            btnSub2 = CreateButton("   Nhóm Linh Kiện", 35);
-            btnSub3 = CreateButton("   Loại Linh Kiện", 35);
+            btnQLXeMayDien = CreateButton("   Xe Máy Điện", 35);
+            //btnQLXeMayDien.Click += btnQLXeMayDien_Click;
+            btnQLXeDapDien = CreateButton("   Xe Đạp Điện", 35);
+            btnQLXeDapDien.Click += btnQLXeDapDien_Click;
 
-            // Thêm sub button theo thứ tự thủ công (sub3 trên cùng)
-            subMenuPanel.Controls.Add(btnSub3);
-            subMenuPanel.Controls.Add(btnSub2);
-            subMenuPanel.Controls.Add(btnSub1);
+            // Thêm sub button theo thứ tự thủ công (sub2 trên cùng)
+            subMenuPanel.Controls.Add(btnQLXeMayDien);
+            subMenuPanel.Controls.Add(btnQLXeDapDien);
+            
 
             // Các nút còn lại
-            btnThuongHieu = CreateButton("Quản lý Thương hiệu");
-            btnThanhToan = CreateButton("Quản lý Thanh toán");
-            btnKhachHang = CreateButton("Quản lý Khách hàng");
-            btnKho = CreateButton("Quản lý Kho");
+
+            btnTongQuan = CreateButton("Tổng Quan");
+            btnTongQuan.Click += btnTongQuan_Click;
+            btnQLKhachHang = CreateButton("Quản Lý Khách Hàng");
+            btnQLTonKho = CreateButton("Quản Lý Tồn Kho");
+            btnQLHoaDon = CreateButton("Quản Lý Hóa Đơn");
+            btnQLBaoHanh = CreateButton("Quản Lý Bảo Hành");
+            btnBaoCao = CreateButton("Báo Cáo");
+            btnQLDaiLy = CreateButton("Quản Lý Đại Lý");
+            btnQLTaiKhoan = CreateButton("Quản Lý Tài Khoản");
+            btnDangXuat = CreateButton("Đăng Xuất");
 
             // Thêm toàn bộ control vào sidebar theo đúng thứ tự (logo trên cùng)
             sidebar.Controls.AddRange(new Control[]
             {
-                btnKho,
-                btnKhachHang,
-                btnThanhToan,
-                btnThuongHieu,
+                btnDangXuat,
+                btnQLTaiKhoan,
+                btnBaoCao,
+                btnQLDaiLy,
+                btnQLBaoHanh,
+                btnQLHoaDon,
+                btnQLTonKho,
+                btnQLKhachHang,
                 subMenuPanel,
-                btnQLLinhKien,
+                btnQLXe,
+                btnTongQuan,
                 logoPanel
             });
         }
@@ -144,11 +174,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             };
         }
 
-        private void BtnQLLinhKien_Click(object sender, EventArgs e)
+        private void BtnQLXe_Click(object sender, EventArgs e)
         {
             subMenuVisible = !subMenuVisible;
             subMenuPanel.Visible = subMenuVisible;
-            subMenuPanel.Height = subMenuVisible ? 120 : 0; // 3 buttons x 40 height
+            subMenuPanel.Height = subMenuVisible ? 80 : 0; // 2 buttons x 40 height
         }
     }
 }
