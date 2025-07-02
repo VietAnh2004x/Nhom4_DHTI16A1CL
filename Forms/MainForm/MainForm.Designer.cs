@@ -11,17 +11,20 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
         private Panel sidebar;
         private Panel logoPanel;
-        private Button btnQLLinhKien;
+        private Button btnQLXe;
         private Button btnSub1;
         private Button btnSub2;
-        private Button btnSub3;
         private Panel subMenuPanel;
-        private Button btnThuongHieu;
-        private Button btnThanhToan;
-        private Button btnKhachHang;
-        private Button btnKho;
+        private Button btnTongQuan;
+        private Button btnQLKhachHang;
+        private Button btnQLTonKho;
+        private Button btnQLHoaDon;
+        private Button btnQLBaoHanh;
+        private Button btnBaoCao;
+        private Button btnQLDaiLy;
+        private Button btnQLTaiKhoan;
+        private Button btnDangXuat;
         private bool subMenuVisible = false;
-
 
         protected override void Dispose(bool disposing)
         {
@@ -88,8 +91,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             logoPanel.Controls.Add(pictureLogo);
 
             // Nút Quản lý linh kiện
-            btnQLLinhKien = CreateButton("Quản lý Linh Kiện");
-            btnQLLinhKien.Click += BtnQLLinhKien_Click;
+            btnQLXe = CreateButton("Quản lý Xe");
+            btnQLXe.Click += BtnQLXe_Click;
 
             // Submenu panel
             subMenuPanel = new Panel
@@ -99,30 +102,39 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
                 Visible = false
             };
 
-            btnSub1 = CreateButton("   Linh Kiện", 35);
-            btnSub2 = CreateButton("   Nhóm Linh Kiện", 35);
-            btnSub3 = CreateButton("   Loại Linh Kiện", 35);
+            btnSub1 = CreateButton("   Xe Đạp Điện", 35);
+            btnSub2 = CreateButton("   Xe Máy Điện", 35);
 
-            // Thêm sub button theo thứ tự thủ công (sub3 trên cùng)
-            subMenuPanel.Controls.Add(btnSub3);
+            // Thêm sub button theo thứ tự thủ công (sub2 trên cùng)
             subMenuPanel.Controls.Add(btnSub2);
             subMenuPanel.Controls.Add(btnSub1);
 
             // Các nút còn lại
-            btnThuongHieu = CreateButton("Quản lý Thương hiệu");
-            btnThanhToan = CreateButton("Quản lý Thanh toán");
-            btnKhachHang = CreateButton("Quản lý Khách hàng");
-            btnKho = CreateButton("Quản lý Kho");
+
+            btnTongQuan = CreateButton("Tổng quan");
+            btnQLKhachHang = CreateButton("Quản lý khách hàng");
+            btnQLTonKho = CreateButton("Quản lý tồn kho");
+            btnQLHoaDon = CreateButton("Quản lý hóa đơn");
+            btnQLBaoHanh = CreateButton("Quản lý bảo hành");
+            btnBaoCao = CreateButton("Báo cáo");
+            btnQLDaiLy = CreateButton("Quản lý đại lý");
+            btnQLTaiKhoan = CreateButton("Quản lý tài khoản");
+            btnDangXuat = CreateButton("Đăng xuất");
 
             // Thêm toàn bộ control vào sidebar theo đúng thứ tự (logo trên cùng)
             sidebar.Controls.AddRange(new Control[]
             {
-                btnKho,
-                btnKhachHang,
-                btnThanhToan,
-                btnThuongHieu,
+                btnDangXuat,
+                btnQLTaiKhoan,
+                btnBaoCao,
+                btnQLDaiLy,
+                btnQLBaoHanh,
+                btnQLHoaDon,
+                btnQLTonKho,
+                btnQLKhachHang,
                 subMenuPanel,
-                btnQLLinhKien,
+                btnQLXe,
+                btnTongQuan,
                 logoPanel
             });
         }
@@ -144,11 +156,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             };
         }
 
-        private void BtnQLLinhKien_Click(object sender, EventArgs e)
+        private void BtnQLXe_Click(object sender, EventArgs e)
         {
             subMenuVisible = !subMenuVisible;
             subMenuPanel.Visible = subMenuVisible;
-            subMenuPanel.Height = subMenuVisible ? 120 : 0; // 3 buttons x 40 height
+            subMenuPanel.Height = subMenuVisible ? 80 : 0; // 2 buttons x 40 height
         }
     }
 }
