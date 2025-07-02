@@ -120,6 +120,7 @@
     <Folder Include="Forms\QLTonKho\" />
     <Folder Include="Forms\SideBar\" />
     <Folder Include="Forms\TongQuan\" />
+    <Folder Include="Forms\QLXe\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\icon\" />
   </ItemGroup>
