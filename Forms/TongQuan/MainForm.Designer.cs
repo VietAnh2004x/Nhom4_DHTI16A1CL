@@ -133,6 +133,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             btnQLKhachHang = CreateButton("Quản Lý Khách Hàng");
             btnQLKhachHang.Click += btnQLKhachHang_Click;
             btnQLTonKho = CreateButton("Quản Lý Tồn Kho");
+            btnQLTonKho.Click += btnQLTonKho_Click;
             btnQLHoaDon = CreateButton("Quản Lý Hóa Đơn");
             btnQLBaoHanh = CreateButton("Quản Lý Bảo Hành");
             btnBaoCao = CreateButton("Báo Cáo");

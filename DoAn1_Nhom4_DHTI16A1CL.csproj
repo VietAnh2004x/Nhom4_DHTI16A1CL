@@ -63,6 +63,12 @@
     <Compile Include="Forms\QLKhachHang\KhachHangForm.Designer.cs">
       <DependentUpon>KhachHangForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\QLTonKho\TonKhoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLTonKho\TonKhoForm.Designer.cs">
+      <DependentUpon>TonKhoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QLXe\QLXeDapDienForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\QLKhachHang\KhachHangForm.resx">
       <DependentUpon>KhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLTonKho\TonKhoForm.resx">
+      <DependentUpon>TonKhoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLXe\QLXeDapDienForm.resx">
       <DependentUpon>QLXeDapDienForm.cs</DependentUpon>
@@ -134,7 +143,6 @@
     <Folder Include="Forms\QLDaiLy\" />
     <Folder Include="Forms\QLHoaDon\" />
     <Folder Include="Forms\QLTaiKhoan\" />
-    <Folder Include="Forms\QLTonKho\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\icon\" />
   </ItemGroup>

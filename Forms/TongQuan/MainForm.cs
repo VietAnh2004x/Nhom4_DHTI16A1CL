@@ -53,5 +53,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
         {
             OpenChildForm(new QLKhachHang.KhachHangForm());
         }
+        private void btnQLTonKho_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new QLTonKho.TonKhoForm());
+        }
     }
 }

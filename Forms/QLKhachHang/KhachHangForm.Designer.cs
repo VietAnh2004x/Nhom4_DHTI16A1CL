@@ -18,8 +18,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tbTong = new System.Windows.Forms.TableLayoutPanel();
             this.txtTieuDe = new System.Windows.Forms.Label();
@@ -84,8 +84,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.tbTong.Location = new System.Drawing.Point(0, 0);
             this.tbTong.Name = "tbTong";
             this.tbTong.RowCount = 2;
-            this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85F));
+            this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90F));
             this.tbTong.Size = new System.Drawing.Size(1209, 736);
             this.tbTong.TabIndex = 0;
             // 
@@ -96,7 +96,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.txtTieuDe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
             this.txtTieuDe.Location = new System.Drawing.Point(3, 0);
             this.txtTieuDe.Name = "txtTieuDe";
-            this.txtTieuDe.Size = new System.Drawing.Size(1203, 110);
+            this.txtTieuDe.Size = new System.Drawing.Size(1203, 73);
             this.txtTieuDe.TabIndex = 0;
             this.txtTieuDe.Text = "KHÁCH HÀNG";
             this.txtTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -109,26 +109,26 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.tbHienThiChung.Controls.Add(this.tbTrai, 0, 0);
             this.tbHienThiChung.Controls.Add(this.tbPhai, 1, 0);
             this.tbHienThiChung.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbHienThiChung.Location = new System.Drawing.Point(3, 113);
+            this.tbHienThiChung.Location = new System.Drawing.Point(3, 76);
             this.tbHienThiChung.Name = "tbHienThiChung";
             this.tbHienThiChung.RowCount = 1;
             this.tbHienThiChung.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tbHienThiChung.Size = new System.Drawing.Size(1203, 620);
+            this.tbHienThiChung.Size = new System.Drawing.Size(1203, 657);
             this.tbHienThiChung.TabIndex = 1;
             // 
             // tbTrai
             // 
             this.tbTrai.ColumnCount = 1;
-            this.tbTrai.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 535F));
+            this.tbTrai.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tbTrai.Controls.Add(this.grTTKhachHang, 0, 0);
             this.tbTrai.Controls.Add(this.grTacVu, 0, 1);
             this.tbTrai.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbTrai.Location = new System.Drawing.Point(3, 3);
             this.tbTrai.Name = "tbTrai";
             this.tbTrai.RowCount = 2;
-            this.tbTrai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85F));
-            this.tbTrai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tbTrai.Size = new System.Drawing.Size(535, 614);
+            this.tbTrai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
+            this.tbTrai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tbTrai.Size = new System.Drawing.Size(535, 651);
             this.tbTrai.TabIndex = 0;
             // 
             // grTTKhachHang
@@ -147,50 +147,49 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.grTTKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
             this.grTTKhachHang.Location = new System.Drawing.Point(3, 3);
             this.grTTKhachHang.Name = "grTTKhachHang";
-            this.grTTKhachHang.Size = new System.Drawing.Size(529, 515);
+            this.grTTKhachHang.Size = new System.Drawing.Size(529, 514);
             this.grTTKhachHang.TabIndex = 0;
             this.grTTKhachHang.TabStop = false;
             this.grTTKhachHang.Text = "Thông tin khách hàng";
             // 
             // lbEmail
             // 
-            this.lbEmail.Location = new System.Drawing.Point(170, 338);
+            this.lbEmail.Location = new System.Drawing.Point(170, 314);
             this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(196, 30);
+            this.lbEmail.Size = new System.Drawing.Size(196, 25);
             this.lbEmail.TabIndex = 10;
             // 
             // lbSDT
             // 
-            this.lbSDT.Location = new System.Drawing.Point(170, 276);
+            this.lbSDT.Location = new System.Drawing.Point(170, 252);
             this.lbSDT.Name = "lbSDT";
-            this.lbSDT.Size = new System.Drawing.Size(196, 30);
+            this.lbSDT.Size = new System.Drawing.Size(196, 25);
             this.lbSDT.TabIndex = 9;
             // 
             // lbHoTen
             // 
-            this.lbHoTen.Location = new System.Drawing.Point(170, 144);
+            this.lbHoTen.Location = new System.Drawing.Point(170, 120);
             this.lbHoTen.Name = "lbHoTen";
-            this.lbHoTen.Size = new System.Drawing.Size(196, 30);
+            this.lbHoTen.Size = new System.Drawing.Size(196, 25);
             this.lbHoTen.TabIndex = 8;
             // 
             // lbDiaChi
             // 
-            this.lbDiaChi.Location = new System.Drawing.Point(170, 210);
+            this.lbDiaChi.Location = new System.Drawing.Point(170, 186);
             this.lbDiaChi.Name = "lbDiaChi";
-            this.lbDiaChi.Size = new System.Drawing.Size(196, 30);
+            this.lbDiaChi.Size = new System.Drawing.Size(196, 25);
             this.lbDiaChi.TabIndex = 7;
             // 
             // lbMaKH
             // 
-            this.lbMaKH.Location = new System.Drawing.Point(170, 78);
+            this.lbMaKH.Location = new System.Drawing.Point(170, 54);
             this.lbMaKH.Name = "lbMaKH";
-            this.lbMaKH.Size = new System.Drawing.Size(196, 30);
+            this.lbMaKH.Size = new System.Drawing.Size(196, 25);
             this.lbMaKH.TabIndex = 6;
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.txtDiaChi.Location = new System.Drawing.Point(6, 213);
+            this.txtDiaChi.Location = new System.Drawing.Point(6, 189);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(100, 23);
             this.txtDiaChi.TabIndex = 5;
@@ -198,8 +197,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // txtHoTen
             // 
-            this.txtHoTen.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.txtHoTen.Location = new System.Drawing.Point(6, 147);
+            this.txtHoTen.Location = new System.Drawing.Point(6, 123);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(100, 23);
             this.txtHoTen.TabIndex = 4;
@@ -207,8 +205,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // txtSoDT
             // 
-            this.txtSoDT.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.txtSoDT.Location = new System.Drawing.Point(6, 279);
+            this.txtSoDT.Location = new System.Drawing.Point(6, 255);
             this.txtSoDT.Name = "txtSoDT";
             this.txtSoDT.Size = new System.Drawing.Size(121, 23);
             this.txtSoDT.TabIndex = 3;
@@ -216,8 +213,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // txtEmail
             // 
-            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.txtEmail.Location = new System.Drawing.Point(6, 345);
+            this.txtEmail.Location = new System.Drawing.Point(6, 321);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(100, 23);
             this.txtEmail.TabIndex = 2;
@@ -225,8 +221,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // txtMaKhachHang1
             // 
-            this.txtMaKhachHang1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.txtMaKhachHang1.Location = new System.Drawing.Point(6, 81);
+            this.txtMaKhachHang1.Location = new System.Drawing.Point(6, 57);
             this.txtMaKhachHang1.Name = "txtMaKhachHang1";
             this.txtMaKhachHang1.Size = new System.Drawing.Size(140, 23);
             this.txtMaKhachHang1.TabIndex = 0;
@@ -240,9 +235,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.grTacVu.Controls.Add(this.btnThem);
             this.grTacVu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grTacVu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.grTacVu.Location = new System.Drawing.Point(3, 524);
+            this.grTacVu.Location = new System.Drawing.Point(3, 523);
             this.grTacVu.Name = "grTacVu";
-            this.grTacVu.Size = new System.Drawing.Size(529, 87);
+            this.grTacVu.Size = new System.Drawing.Size(529, 125);
             this.grTacVu.TabIndex = 1;
             this.grTacVu.TabStop = false;
             this.grTacVu.Text = "Tác vụ";
@@ -255,9 +250,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.btnLamMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLamMoi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnLamMoi.ForeColor = System.Drawing.Color.White;
-            this.btnLamMoi.Location = new System.Drawing.Point(335, 29);
+            this.btnLamMoi.Location = new System.Drawing.Point(336, 54);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(100, 43);
+            this.btnLamMoi.Size = new System.Drawing.Size(100, 33);
             this.btnLamMoi.TabIndex = 3;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.UseVisualStyleBackColor = false;
@@ -270,9 +265,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(233, 29);
+            this.btnXoa.Location = new System.Drawing.Point(234, 54);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(82, 43);
+            this.btnXoa.Size = new System.Drawing.Size(82, 33);
             this.btnXoa.TabIndex = 2;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
@@ -285,9 +280,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnSua.ForeColor = System.Drawing.Color.White;
-            this.btnSua.Location = new System.Drawing.Point(126, 29);
+            this.btnSua.Location = new System.Drawing.Point(127, 54);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(87, 43);
+            this.btnSua.Size = new System.Drawing.Size(87, 33);
             this.btnSua.TabIndex = 1;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
@@ -300,9 +295,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnThem.ForeColor = System.Drawing.Color.White;
-            this.btnThem.Location = new System.Drawing.Point(22, 29);
+            this.btnThem.Location = new System.Drawing.Point(23, 54);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(84, 43);
+            this.btnThem.Size = new System.Drawing.Size(84, 33);
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
@@ -319,7 +314,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.tbPhai.RowCount = 2;
             this.tbPhai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tbPhai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85F));
-            this.tbPhai.Size = new System.Drawing.Size(656, 614);
+            this.tbPhai.Size = new System.Drawing.Size(656, 651);
             this.tbPhai.TabIndex = 1;
             // 
             // grTimKiem
@@ -331,7 +326,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.grTimKiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
             this.grTimKiem.Location = new System.Drawing.Point(3, 3);
             this.grTimKiem.Name = "grTimKiem";
-            this.grTimKiem.Size = new System.Drawing.Size(650, 86);
+            this.grTimKiem.Size = new System.Drawing.Size(650, 91);
             this.grTimKiem.TabIndex = 0;
             this.grTimKiem.TabStop = false;
             this.grTimKiem.Text = "Tìm kiếm khách hàng";
@@ -344,9 +339,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.btnTimKiem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnTimKiem.ForeColor = System.Drawing.Color.White;
-            this.btnTimKiem.Location = new System.Drawing.Point(411, 34);
+            this.btnTimKiem.Location = new System.Drawing.Point(434, 31);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(126, 30);
+            this.btnTimKiem.Size = new System.Drawing.Size(100, 30);
             this.btnTimKiem.TabIndex = 8;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
@@ -355,12 +350,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             this.textBox6.Location = new System.Drawing.Point(177, 35);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(196, 30);
+            this.textBox6.Size = new System.Drawing.Size(196, 25);
             this.textBox6.TabIndex = 7;
             // 
             // txtMaKhachHang
             // 
-            this.txtMaKhachHang.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.txtMaKhachHang.Location = new System.Drawing.Point(11, 38);
             this.txtMaKhachHang.Name = "txtMaKhachHang";
             this.txtMaKhachHang.Size = new System.Drawing.Size(160, 23);
@@ -372,9 +366,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.grDSKhachHang.Controls.Add(this.dataHienThi);
             this.grDSKhachHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grDSKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.grDSKhachHang.Location = new System.Drawing.Point(3, 95);
+            this.grDSKhachHang.Location = new System.Drawing.Point(3, 100);
             this.grDSKhachHang.Name = "grDSKhachHang";
-            this.grDSKhachHang.Size = new System.Drawing.Size(650, 516);
+            this.grDSKhachHang.Size = new System.Drawing.Size(650, 548);
             this.grDSKhachHang.TabIndex = 1;
             this.grDSKhachHang.TabStop = false;
             this.grDSKhachHang.Text = "Danh sách khách hàng";
@@ -383,14 +377,13 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             this.dataHienThi.AllowUserToAddRows = false;
             this.dataHienThi.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataHienThi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.dataHienThi.ColumnHeadersDefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataHienThi.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.dataHienThi.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.dataHienThi.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            this.dataHienThi.ColumnHeadersDefaultCellStyle.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            this.dataHienThi.ColumnHeadersDefaultCellStyle.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dataHienThi.ColumnHeadersDefaultCellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataHienThi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataHienThi.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.columnMaKH,
@@ -398,22 +391,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.columnDiaChi,
             this.columnSDT,
             this.columnEmail});
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 10F);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.LightBlue;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataHienThi.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataHienThi.EnableHeadersVisualStyles = false;
             this.dataHienThi.GridColor = System.Drawing.Color.LightGray;
-            this.dataHienThi.Location = new System.Drawing.Point(3, 26);
+            this.dataHienThi.Location = new System.Drawing.Point(3, 21);
             this.dataHienThi.Name = "dataHienThi";
             this.dataHienThi.RowHeadersWidth = 51;
             this.dataHienThi.RowTemplate.Height = 24;
-            this.dataHienThi.Size = new System.Drawing.Size(644, 487);
+            this.dataHienThi.Size = new System.Drawing.Size(644, 524);
             this.dataHienThi.TabIndex = 0;
             // 
             // columnMaKH
@@ -458,7 +443,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // KhachHangForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1209, 736);
