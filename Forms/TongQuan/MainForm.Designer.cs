@@ -118,6 +118,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
             btnQLXeMayDien = CreateButton("   Xe Máy Điện", 35);
             btnQLXeMayDien.Click += btnQLXeMayDien_Click;
+
             btnQLXeDapDien = CreateButton("   Xe Đạp Điện", 35);
             btnQLXeDapDien.Click += btnQLXeDapDien_Click;
 
@@ -130,15 +131,24 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
 
             btnTongQuan = CreateButton("Tổng Quan");
             btnTongQuan.Click += btnTongQuanForm_Click;
+
             btnQLKhachHang = CreateButton("Quản Lý Khách Hàng");
             btnQLKhachHang.Click += btnQLKhachHang_Click;
+
             btnQLTonKho = CreateButton("Quản Lý Tồn Kho");
             btnQLTonKho.Click += btnQLTonKho_Click;
+
             btnQLHoaDon = CreateButton("Quản Lý Hóa Đơn");
+
             btnQLBaoHanh = CreateButton("Quản Lý Bảo Hành");
+
             btnBaoCao = CreateButton("Báo Cáo");
+
             btnQLDaiLy = CreateButton("Quản Lý Đại Lý");
+            btnQLDaiLy.Click += btnQLDaiLy_Click;
+
             btnQLTaiKhoan = CreateButton("Quản Lý Tài Khoản");
+
             btnDangXuat = CreateButton("Đăng Xuất");
 
             // Thêm toàn bộ control vào sidebar theo đúng thứ tự (logo trên cùng)
