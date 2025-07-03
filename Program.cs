@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm;
+using DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon;
 namespace DoAn1_Nhom4_DHTI16A1CL
 {
     internal static class Program

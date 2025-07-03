@@ -62,10 +62,19 @@
     <Compile Include="Forms\MainForm\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\QLHoaDon\HoaDonBanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLHoaDon\HoaDonBanHang.Designer.cs">
+      <DependentUpon>HoaDonBanHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\MainForm\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLHoaDon\HoaDonBanHang.resx">
+      <DependentUpon>HoaDonBanHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,7 +104,6 @@
     <Folder Include="Forms\BaoCao\" />
     <Folder Include="Forms\QLBaoHanh\" />
     <Folder Include="Forms\QLDaiLy\" />
-    <Folder Include="Forms\QLHoaDon\" />
     <Folder Include="Forms\QLKhachHang\" />
     <Folder Include="Forms\QLTaiKhoan\" />
     <Folder Include="Forms\QLTonKho\" />
