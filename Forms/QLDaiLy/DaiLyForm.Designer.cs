@@ -22,45 +22,45 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.tbTong = new System.Windows.Forms.TableLayoutPanel();
             this.tbHienThi = new System.Windows.Forms.TableLayoutPanel();
             this.tbTrai = new System.Windows.Forms.TableLayoutPanel();
-            this.grTTDaiLy = new System.Windows.Forms.GroupBox();
-            this.tbSoDienThoai = new System.Windows.Forms.TextBox();
-            this.tbEmail = new System.Windows.Forms.TextBox();
-            this.tbTenDaiLy = new System.Windows.Forms.TextBox();
-            this.tbDiaChi = new System.Windows.Forms.TextBox();
-            this.tbMaDaiLy = new System.Windows.Forms.TextBox();
-            this.txtSoDienThoai = new System.Windows.Forms.Label();
-            this.txtEmail = new System.Windows.Forms.Label();
-            this.txtDiaChi = new System.Windows.Forms.Label();
-            this.txtTenDaiLy = new System.Windows.Forms.Label();
-            this.txtMaDaiLy = new System.Windows.Forms.Label();
-            this.grTacVu = new System.Windows.Forms.GroupBox();
+            this.grpTTDaiLy = new System.Windows.Forms.GroupBox();
+            this.txtSoDienThoai = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtTenDaiLy = new System.Windows.Forms.TextBox();
+            this.txtDiaChi = new System.Windows.Forms.TextBox();
+            this.txtMaDaiLy = new System.Windows.Forms.TextBox();
+            this.lblSoDienThoai = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblDiaChi = new System.Windows.Forms.Label();
+            this.lblTenDaiLy = new System.Windows.Forms.Label();
+            this.lblMaDaiLy = new System.Windows.Forms.Label();
+            this.grpTacVu = new System.Windows.Forms.GroupBox();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.tbPhai = new System.Windows.Forms.TableLayoutPanel();
-            this.grDaiLy = new System.Windows.Forms.GroupBox();
-            this.tbTimKiemDaiLy = new System.Windows.Forms.TextBox();
-            this.lbTimKiemDaiLy = new System.Windows.Forms.Label();
+            this.grpTimKiemDaiLy = new System.Windows.Forms.GroupBox();
+            this.txtTimKiemDaiLy = new System.Windows.Forms.TextBox();
+            this.lblTimKiemDaiLy = new System.Windows.Forms.Label();
             this.btnTimKiem = new System.Windows.Forms.Button();
-            this.grDSDaiLy = new System.Windows.Forms.GroupBox();
-            this.dataDSDaiLy = new System.Windows.Forms.DataGridView();
-            this.txtHienThi = new System.Windows.Forms.Label();
-            this.columnMaDaiLy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnTenDaiLy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnSoDienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.grpDSDaiLy = new System.Windows.Forms.GroupBox();
+            this.dgvDSDaiLy = new System.Windows.Forms.DataGridView();
+            this.lblTieuDe = new System.Windows.Forms.Label();
+            this.colMaDaiLy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenDaiLy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSoDienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.tbTong.SuspendLayout();
             this.tbHienThi.SuspendLayout();
             this.tbTrai.SuspendLayout();
-            this.grTTDaiLy.SuspendLayout();
-            this.grTacVu.SuspendLayout();
+            this.grpTTDaiLy.SuspendLayout();
+            this.grpTacVu.SuspendLayout();
             this.tbPhai.SuspendLayout();
-            this.grDaiLy.SuspendLayout();
-            this.grDSDaiLy.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDSDaiLy)).BeginInit();
+            this.grpTimKiemDaiLy.SuspendLayout();
+            this.grpDSDaiLy.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSDaiLy)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -78,7 +78,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.tbTong.ColumnCount = 1;
             this.tbTong.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tbTong.Controls.Add(this.tbHienThi, 0, 1);
-            this.tbTong.Controls.Add(this.txtHienThi, 0, 0);
+            this.tbTong.Controls.Add(this.lblTieuDe, 0, 0);
             this.tbTong.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbTong.Location = new System.Drawing.Point(0, 0);
             this.tbTong.Name = "tbTong";
@@ -107,8 +107,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             // 
             this.tbTrai.ColumnCount = 1;
             this.tbTrai.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 353F));
-            this.tbTrai.Controls.Add(this.grTTDaiLy, 0, 0);
-            this.tbTrai.Controls.Add(this.grTacVu, 0, 1);
+            this.tbTrai.Controls.Add(this.grpTTDaiLy, 0, 0);
+            this.tbTrai.Controls.Add(this.grpTacVu, 0, 1);
             this.tbTrai.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbTrai.Location = new System.Drawing.Point(3, 3);
             this.tbTrai.Name = "tbTrai";
@@ -118,114 +118,114 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.tbTrai.Size = new System.Drawing.Size(353, 527);
             this.tbTrai.TabIndex = 0;
             // 
-            // grTTDaiLy
+            // grpTTDaiLy
             // 
-            this.grTTDaiLy.Controls.Add(this.tbSoDienThoai);
-            this.grTTDaiLy.Controls.Add(this.tbEmail);
-            this.grTTDaiLy.Controls.Add(this.tbTenDaiLy);
-            this.grTTDaiLy.Controls.Add(this.tbDiaChi);
-            this.grTTDaiLy.Controls.Add(this.tbMaDaiLy);
-            this.grTTDaiLy.Controls.Add(this.txtSoDienThoai);
-            this.grTTDaiLy.Controls.Add(this.txtEmail);
-            this.grTTDaiLy.Controls.Add(this.txtDiaChi);
-            this.grTTDaiLy.Controls.Add(this.txtTenDaiLy);
-            this.grTTDaiLy.Controls.Add(this.txtMaDaiLy);
-            this.grTTDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grTTDaiLy.Location = new System.Drawing.Point(3, 3);
-            this.grTTDaiLy.Name = "grTTDaiLy";
-            this.grTTDaiLy.Size = new System.Drawing.Size(347, 389);
-            this.grTTDaiLy.TabIndex = 0;
-            this.grTTDaiLy.TabStop = false;
-            this.grTTDaiLy.Text = "Thông Tin Đại Lý";
-            // 
-            // tbSoDienThoai
-            // 
-            this.tbSoDienThoai.Location = new System.Drawing.Point(129, 260);
-            this.tbSoDienThoai.Name = "tbSoDienThoai";
-            this.tbSoDienThoai.Size = new System.Drawing.Size(131, 25);
-            this.tbSoDienThoai.TabIndex = 9;
-            // 
-            // tbEmail
-            // 
-            this.tbEmail.Location = new System.Drawing.Point(129, 206);
-            this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(131, 25);
-            this.tbEmail.TabIndex = 8;
-            // 
-            // tbTenDaiLy
-            // 
-            this.tbTenDaiLy.Location = new System.Drawing.Point(129, 98);
-            this.tbTenDaiLy.Name = "tbTenDaiLy";
-            this.tbTenDaiLy.Size = new System.Drawing.Size(131, 25);
-            this.tbTenDaiLy.TabIndex = 7;
-            // 
-            // tbDiaChi
-            // 
-            this.tbDiaChi.Location = new System.Drawing.Point(129, 152);
-            this.tbDiaChi.Name = "tbDiaChi";
-            this.tbDiaChi.Size = new System.Drawing.Size(131, 25);
-            this.tbDiaChi.TabIndex = 6;
-            // 
-            // tbMaDaiLy
-            // 
-            this.tbMaDaiLy.Location = new System.Drawing.Point(129, 45);
-            this.tbMaDaiLy.Name = "tbMaDaiLy";
-            this.tbMaDaiLy.Size = new System.Drawing.Size(131, 25);
-            this.tbMaDaiLy.TabIndex = 5;
+            this.grpTTDaiLy.Controls.Add(this.txtSoDienThoai);
+            this.grpTTDaiLy.Controls.Add(this.txtEmail);
+            this.grpTTDaiLy.Controls.Add(this.txtTenDaiLy);
+            this.grpTTDaiLy.Controls.Add(this.txtDiaChi);
+            this.grpTTDaiLy.Controls.Add(this.txtMaDaiLy);
+            this.grpTTDaiLy.Controls.Add(this.lblSoDienThoai);
+            this.grpTTDaiLy.Controls.Add(this.lblEmail);
+            this.grpTTDaiLy.Controls.Add(this.lblDiaChi);
+            this.grpTTDaiLy.Controls.Add(this.lblTenDaiLy);
+            this.grpTTDaiLy.Controls.Add(this.lblMaDaiLy);
+            this.grpTTDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grpTTDaiLy.Location = new System.Drawing.Point(3, 3);
+            this.grpTTDaiLy.Name = "grpTTDaiLy";
+            this.grpTTDaiLy.Size = new System.Drawing.Size(347, 389);
+            this.grpTTDaiLy.TabIndex = 0;
+            this.grpTTDaiLy.TabStop = false;
+            this.grpTTDaiLy.Text = "Thông Tin Đại Lý";
             // 
             // txtSoDienThoai
             // 
-            this.txtSoDienThoai.Location = new System.Drawing.Point(6, 263);
+            this.txtSoDienThoai.Location = new System.Drawing.Point(129, 260);
             this.txtSoDienThoai.Name = "txtSoDienThoai";
-            this.txtSoDienThoai.Size = new System.Drawing.Size(103, 22);
-            this.txtSoDienThoai.TabIndex = 4;
-            this.txtSoDienThoai.Text = "Số Điện Thoại:";
+            this.txtSoDienThoai.Size = new System.Drawing.Size(131, 25);
+            this.txtSoDienThoai.TabIndex = 9;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(6, 209);
+            this.txtEmail.Location = new System.Drawing.Point(129, 206);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(54, 22);
-            this.txtEmail.TabIndex = 3;
-            this.txtEmail.Text = "Email:";
-            // 
-            // txtDiaChi
-            // 
-            this.txtDiaChi.Location = new System.Drawing.Point(6, 155);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(79, 22);
-            this.txtDiaChi.TabIndex = 2;
-            this.txtDiaChi.Text = "Địa Chỉ:";
+            this.txtEmail.Size = new System.Drawing.Size(131, 25);
+            this.txtEmail.TabIndex = 8;
             // 
             // txtTenDaiLy
             // 
-            this.txtTenDaiLy.Location = new System.Drawing.Point(6, 101);
+            this.txtTenDaiLy.Location = new System.Drawing.Point(129, 98);
             this.txtTenDaiLy.Name = "txtTenDaiLy";
-            this.txtTenDaiLy.Size = new System.Drawing.Size(91, 22);
-            this.txtTenDaiLy.TabIndex = 1;
-            this.txtTenDaiLy.Text = "Tên Đại Lý:";
+            this.txtTenDaiLy.Size = new System.Drawing.Size(131, 25);
+            this.txtTenDaiLy.TabIndex = 7;
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Location = new System.Drawing.Point(129, 152);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(131, 25);
+            this.txtDiaChi.TabIndex = 6;
             // 
             // txtMaDaiLy
             // 
-            this.txtMaDaiLy.Location = new System.Drawing.Point(6, 48);
+            this.txtMaDaiLy.Location = new System.Drawing.Point(129, 45);
             this.txtMaDaiLy.Name = "txtMaDaiLy";
-            this.txtMaDaiLy.Size = new System.Drawing.Size(91, 21);
-            this.txtMaDaiLy.TabIndex = 0;
-            this.txtMaDaiLy.Text = "Mã Đại Lý:";
+            this.txtMaDaiLy.Size = new System.Drawing.Size(131, 25);
+            this.txtMaDaiLy.TabIndex = 5;
             // 
-            // grTacVu
+            // lblSoDienThoai
             // 
-            this.grTacVu.Controls.Add(this.btnLamMoi);
-            this.grTacVu.Controls.Add(this.btnXoa);
-            this.grTacVu.Controls.Add(this.btnSua);
-            this.grTacVu.Controls.Add(this.btnThem);
-            this.grTacVu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grTacVu.Location = new System.Drawing.Point(3, 398);
-            this.grTacVu.Name = "grTacVu";
-            this.grTacVu.Size = new System.Drawing.Size(347, 126);
-            this.grTacVu.TabIndex = 1;
-            this.grTacVu.TabStop = false;
-            this.grTacVu.Text = "Tác Vụ";
+            this.lblSoDienThoai.Location = new System.Drawing.Point(6, 263);
+            this.lblSoDienThoai.Name = "lblSoDienThoai";
+            this.lblSoDienThoai.Size = new System.Drawing.Size(103, 22);
+            this.lblSoDienThoai.TabIndex = 4;
+            this.lblSoDienThoai.Text = "Số Điện Thoại:";
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.Location = new System.Drawing.Point(6, 209);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(54, 22);
+            this.lblEmail.TabIndex = 3;
+            this.lblEmail.Text = "Email:";
+            // 
+            // lblDiaChi
+            // 
+            this.lblDiaChi.Location = new System.Drawing.Point(6, 155);
+            this.lblDiaChi.Name = "lblDiaChi";
+            this.lblDiaChi.Size = new System.Drawing.Size(79, 22);
+            this.lblDiaChi.TabIndex = 2;
+            this.lblDiaChi.Text = "Địa Chỉ:";
+            // 
+            // lblTenDaiLy
+            // 
+            this.lblTenDaiLy.Location = new System.Drawing.Point(6, 101);
+            this.lblTenDaiLy.Name = "lblTenDaiLy";
+            this.lblTenDaiLy.Size = new System.Drawing.Size(91, 22);
+            this.lblTenDaiLy.TabIndex = 1;
+            this.lblTenDaiLy.Text = "Tên Đại Lý:";
+            // 
+            // lblMaDaiLy
+            // 
+            this.lblMaDaiLy.Location = new System.Drawing.Point(6, 48);
+            this.lblMaDaiLy.Name = "lblMaDaiLy";
+            this.lblMaDaiLy.Size = new System.Drawing.Size(91, 21);
+            this.lblMaDaiLy.TabIndex = 0;
+            this.lblMaDaiLy.Text = "Mã Đại Lý:";
+            // 
+            // grpTacVu
+            // 
+            this.grpTacVu.Controls.Add(this.btnLamMoi);
+            this.grpTacVu.Controls.Add(this.btnXoa);
+            this.grpTacVu.Controls.Add(this.btnSua);
+            this.grpTacVu.Controls.Add(this.btnThem);
+            this.grpTacVu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grpTacVu.Location = new System.Drawing.Point(3, 398);
+            this.grpTacVu.Name = "grpTacVu";
+            this.grpTacVu.Size = new System.Drawing.Size(347, 126);
+            this.grpTacVu.TabIndex = 1;
+            this.grpTacVu.TabStop = false;
+            this.grpTacVu.Text = "Tác Vụ";
             // 
             // btnLamMoi
             // 
@@ -283,8 +283,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             // 
             this.tbPhai.ColumnCount = 1;
             this.tbPhai.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 534F));
-            this.tbPhai.Controls.Add(this.grDaiLy, 0, 0);
-            this.tbPhai.Controls.Add(this.grDSDaiLy, 0, 1);
+            this.tbPhai.Controls.Add(this.grpTimKiemDaiLy, 0, 0);
+            this.tbPhai.Controls.Add(this.grpDSDaiLy, 0, 1);
             this.tbPhai.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbPhai.Location = new System.Drawing.Point(362, 3);
             this.tbPhai.Name = "tbPhai";
@@ -294,33 +294,33 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.tbPhai.Size = new System.Drawing.Size(534, 527);
             this.tbPhai.TabIndex = 1;
             // 
-            // grDaiLy
+            // grpTimKiemDaiLy
             // 
-            this.grDaiLy.Controls.Add(this.tbTimKiemDaiLy);
-            this.grDaiLy.Controls.Add(this.lbTimKiemDaiLy);
-            this.grDaiLy.Controls.Add(this.btnTimKiem);
-            this.grDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grDaiLy.Location = new System.Drawing.Point(3, 3);
-            this.grDaiLy.Name = "grDaiLy";
-            this.grDaiLy.Size = new System.Drawing.Size(528, 125);
-            this.grDaiLy.TabIndex = 0;
-            this.grDaiLy.TabStop = false;
-            this.grDaiLy.Text = "Tìm Kiếm Đại Lý";
+            this.grpTimKiemDaiLy.Controls.Add(this.txtTimKiemDaiLy);
+            this.grpTimKiemDaiLy.Controls.Add(this.lblTimKiemDaiLy);
+            this.grpTimKiemDaiLy.Controls.Add(this.btnTimKiem);
+            this.grpTimKiemDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grpTimKiemDaiLy.Location = new System.Drawing.Point(3, 3);
+            this.grpTimKiemDaiLy.Name = "grpTimKiemDaiLy";
+            this.grpTimKiemDaiLy.Size = new System.Drawing.Size(528, 125);
+            this.grpTimKiemDaiLy.TabIndex = 0;
+            this.grpTimKiemDaiLy.TabStop = false;
+            this.grpTimKiemDaiLy.Text = "Tìm Kiếm Đại Lý";
             // 
-            // tbTimKiemDaiLy
+            // txtTimKiemDaiLy
             // 
-            this.tbTimKiemDaiLy.Location = new System.Drawing.Point(118, 48);
-            this.tbTimKiemDaiLy.Name = "tbTimKiemDaiLy";
-            this.tbTimKiemDaiLy.Size = new System.Drawing.Size(131, 25);
-            this.tbTimKiemDaiLy.TabIndex = 6;
+            this.txtTimKiemDaiLy.Location = new System.Drawing.Point(118, 48);
+            this.txtTimKiemDaiLy.Name = "txtTimKiemDaiLy";
+            this.txtTimKiemDaiLy.Size = new System.Drawing.Size(131, 25);
+            this.txtTimKiemDaiLy.TabIndex = 6;
             // 
-            // lbTimKiemDaiLy
+            // lblTimKiemDaiLy
             // 
-            this.lbTimKiemDaiLy.Location = new System.Drawing.Point(30, 51);
-            this.lbTimKiemDaiLy.Name = "lbTimKiemDaiLy";
-            this.lbTimKiemDaiLy.Size = new System.Drawing.Size(82, 22);
-            this.lbTimKiemDaiLy.TabIndex = 5;
-            this.lbTimKiemDaiLy.Text = "Mã Đại Lý:";
+            this.lblTimKiemDaiLy.Location = new System.Drawing.Point(30, 51);
+            this.lblTimKiemDaiLy.Name = "lblTimKiemDaiLy";
+            this.lblTimKiemDaiLy.Size = new System.Drawing.Size(82, 22);
+            this.lblTimKiemDaiLy.TabIndex = 5;
+            this.lblTimKiemDaiLy.Text = "Mã Đại Lý:";
             // 
             // btnTimKiem
             // 
@@ -335,75 +335,75 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = false;
             // 
-            // grDSDaiLy
+            // grpDSDaiLy
             // 
-            this.grDSDaiLy.Controls.Add(this.dataDSDaiLy);
-            this.grDSDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grDSDaiLy.Location = new System.Drawing.Point(3, 134);
-            this.grDSDaiLy.Name = "grDSDaiLy";
-            this.grDSDaiLy.Size = new System.Drawing.Size(528, 390);
-            this.grDSDaiLy.TabIndex = 1;
-            this.grDSDaiLy.TabStop = false;
-            this.grDSDaiLy.Text = "Danh Sách Đại Lý";
+            this.grpDSDaiLy.Controls.Add(this.dgvDSDaiLy);
+            this.grpDSDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grpDSDaiLy.Location = new System.Drawing.Point(3, 134);
+            this.grpDSDaiLy.Name = "grpDSDaiLy";
+            this.grpDSDaiLy.Size = new System.Drawing.Size(528, 390);
+            this.grpDSDaiLy.TabIndex = 1;
+            this.grpDSDaiLy.TabStop = false;
+            this.grpDSDaiLy.Text = "Danh Sách Đại Lý";
             // 
-            // dataDSDaiLy
+            // dgvDSDaiLy
             // 
-            this.dataDSDaiLy.AllowUserToAddRows = false;
-            this.dataDSDaiLy.BackgroundColor = System.Drawing.Color.White;
-            this.dataDSDaiLy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataDSDaiLy.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.columnMaDaiLy,
-            this.columnTenDaiLy,
-            this.columnDiaChi,
-            this.columnEmail,
-            this.columnSoDienThoai});
-            this.dataDSDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataDSDaiLy.Location = new System.Drawing.Point(3, 21);
-            this.dataDSDaiLy.Name = "dataDSDaiLy";
-            this.dataDSDaiLy.Size = new System.Drawing.Size(522, 366);
-            this.dataDSDaiLy.TabIndex = 0;
+            this.dgvDSDaiLy.AllowUserToAddRows = false;
+            this.dgvDSDaiLy.BackgroundColor = System.Drawing.Color.White;
+            this.dgvDSDaiLy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSDaiLy.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colMaDaiLy,
+            this.colTenDaiLy,
+            this.colDiaChi,
+            this.colEmail,
+            this.colSoDienThoai});
+            this.dgvDSDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvDSDaiLy.Location = new System.Drawing.Point(3, 21);
+            this.dgvDSDaiLy.Name = "dgvDSDaiLy";
+            this.dgvDSDaiLy.Size = new System.Drawing.Size(522, 366);
+            this.dgvDSDaiLy.TabIndex = 0;
             // 
-            // txtHienThi
+            // lblTieuDe
             // 
-            this.txtHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtHienThi.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.txtHienThi.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.txtHienThi.Location = new System.Drawing.Point(3, 0);
-            this.txtHienThi.Name = "txtHienThi";
-            this.txtHienThi.Size = new System.Drawing.Size(899, 94);
-            this.txtHienThi.TabIndex = 1;
-            this.txtHienThi.Text = "Quản Lý Đại Lý";
-            this.txtHienThi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTieuDe.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblTieuDe.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.lblTieuDe.ForeColor = System.Drawing.Color.DarkSlateBlue;
+            this.lblTieuDe.Location = new System.Drawing.Point(3, 0);
+            this.lblTieuDe.Name = "lblTieuDe";
+            this.lblTieuDe.Size = new System.Drawing.Size(899, 94);
+            this.lblTieuDe.TabIndex = 1;
+            this.lblTieuDe.Text = "Quản Lý Đại Lý";
+            this.lblTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // columnMaDaiLy
+            // colMaDaiLy
             // 
-            this.columnMaDaiLy.HeaderText = "Mã Đại Lý";
-            this.columnMaDaiLy.Name = "columnMaDaiLy";
+            this.colMaDaiLy.HeaderText = "Mã Đại Lý";
+            this.colMaDaiLy.Name = "colMaDaiLy";
             // 
-            // columnTenDaiLy
+            // colTenDaiLy
             // 
-            this.columnTenDaiLy.HeaderText = "Tên Đại Lý";
-            this.columnTenDaiLy.Name = "columnTenDaiLy";
-            this.columnTenDaiLy.ReadOnly = true;
+            this.colTenDaiLy.HeaderText = "Tên Đại Lý";
+            this.colTenDaiLy.Name = "colTenDaiLy";
+            this.colTenDaiLy.ReadOnly = true;
             // 
-            // columnDiaChi
+            // colDiaChi
             // 
-            this.columnDiaChi.HeaderText = "Địa Chỉ";
-            this.columnDiaChi.Name = "columnDiaChi";
-            this.columnDiaChi.ReadOnly = true;
+            this.colDiaChi.HeaderText = "Địa Chỉ";
+            this.colDiaChi.Name = "colDiaChi";
+            this.colDiaChi.ReadOnly = true;
             // 
-            // columnEmail
+            // colEmail
             // 
-            this.columnEmail.HeaderText = "Email";
-            this.columnEmail.Name = "columnEmail";
-            this.columnEmail.ReadOnly = true;
+            this.colEmail.HeaderText = "Email";
+            this.colEmail.Name = "colEmail";
+            this.colEmail.ReadOnly = true;
             // 
-            // columnSoDienThoai
+            // colSoDienThoai
             // 
-            this.columnSoDienThoai.HeaderText = "Số Điện Thoại";
-            this.columnSoDienThoai.Name = "columnSoDienThoai";
-            this.columnSoDienThoai.ReadOnly = true;
-            this.columnSoDienThoai.Width = 150;
+            this.colSoDienThoai.HeaderText = "Số Điện Thoại";
+            this.colSoDienThoai.Name = "colSoDienThoai";
+            this.colSoDienThoai.ReadOnly = true;
+            this.colSoDienThoai.Width = 150;
             // 
             // DaiLyForm
             // 
@@ -418,14 +418,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.tbTong.ResumeLayout(false);
             this.tbHienThi.ResumeLayout(false);
             this.tbTrai.ResumeLayout(false);
-            this.grTTDaiLy.ResumeLayout(false);
-            this.grTTDaiLy.PerformLayout();
-            this.grTacVu.ResumeLayout(false);
+            this.grpTTDaiLy.ResumeLayout(false);
+            this.grpTTDaiLy.PerformLayout();
+            this.grpTacVu.ResumeLayout(false);
             this.tbPhai.ResumeLayout(false);
-            this.grDaiLy.ResumeLayout(false);
-            this.grDaiLy.PerformLayout();
-            this.grDSDaiLy.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataDSDaiLy)).EndInit();
+            this.grpTimKiemDaiLy.ResumeLayout(false);
+            this.grpTimKiemDaiLy.PerformLayout();
+            this.grpDSDaiLy.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSDaiLy)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -435,33 +435,33 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
         private System.Windows.Forms.TableLayoutPanel tbHienThi;
         private System.Windows.Forms.TableLayoutPanel tbTrai;
         private System.Windows.Forms.TableLayoutPanel tbPhai;
-        private System.Windows.Forms.GroupBox grTTDaiLy;
-        private System.Windows.Forms.Label txtHienThi;
-        private System.Windows.Forms.GroupBox grTacVu;
-        private System.Windows.Forms.GroupBox grDaiLy;
-        private System.Windows.Forms.GroupBox grDSDaiLy;
-        private System.Windows.Forms.TextBox tbSoDienThoai;
-        private System.Windows.Forms.TextBox tbEmail;
-        private System.Windows.Forms.TextBox tbTenDaiLy;
-        private System.Windows.Forms.TextBox tbDiaChi;
-        private System.Windows.Forms.TextBox tbMaDaiLy;
-        private System.Windows.Forms.Label txtSoDienThoai;
-        private System.Windows.Forms.Label txtEmail;
-        private System.Windows.Forms.Label txtDiaChi;
-        private System.Windows.Forms.Label txtTenDaiLy;
-        private System.Windows.Forms.Label txtMaDaiLy;
+        private System.Windows.Forms.GroupBox grpTTDaiLy;
+        private System.Windows.Forms.Label lblTieuDe;
+        private System.Windows.Forms.GroupBox grpTacVu;
+        private System.Windows.Forms.GroupBox grpTimKiemDaiLy;
+        private System.Windows.Forms.GroupBox grpDSDaiLy;
+        private System.Windows.Forms.TextBox txtSoDienThoai;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtTenDaiLy;
+        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.TextBox txtMaDaiLy;
+        private System.Windows.Forms.Label lblSoDienThoai;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.Label lblDiaChi;
+        private System.Windows.Forms.Label lblTenDaiLy;
+        private System.Windows.Forms.Label lblMaDaiLy;
         private System.Windows.Forms.Button btnLamMoi;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.TextBox tbTimKiemDaiLy;
-        private System.Windows.Forms.Label lbTimKiemDaiLy;
+        private System.Windows.Forms.TextBox txtTimKiemDaiLy;
+        private System.Windows.Forms.Label lblTimKiemDaiLy;
         private System.Windows.Forms.Button btnTimKiem;
-        private System.Windows.Forms.DataGridView dataDSDaiLy;
-        private DataGridViewTextBoxColumn columnMaDaiLy;
-        private DataGridViewTextBoxColumn columnTenDaiLy;
-        private DataGridViewTextBoxColumn columnDiaChi;
-        private DataGridViewTextBoxColumn columnEmail;
-        private DataGridViewTextBoxColumn columnSoDienThoai;
+        private System.Windows.Forms.DataGridView dgvDSDaiLy;
+        private DataGridViewTextBoxColumn colMaDaiLy;
+        private DataGridViewTextBoxColumn colTenDaiLy;
+        private DataGridViewTextBoxColumn colDiaChi;
+        private DataGridViewTextBoxColumn colEmail;
+        private DataGridViewTextBoxColumn colSoDienThoai;
     }
 }

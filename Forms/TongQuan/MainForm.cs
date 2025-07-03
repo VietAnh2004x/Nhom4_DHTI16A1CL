@@ -36,7 +36,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             childForm.BringToFront();
             childForm.Show();
         }
-
         private void btnTongQuanForm_Click(object sender, EventArgs e)
         {
             OpenChildForm(new TongQuanForm());
@@ -60,6 +59,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
         private void btnQLDaiLy_Click(object sender, EventArgs e)
         {
             OpenChildForm(new QLDaiLy.DaiLyForm());
+        }
+        private void btnQLHoaDon_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new QLHoaDon.HoaDonForm());
+        }
+        private void btnQLBaoHanh_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new QLBaoHanh.BaoHanhForm());
         }
     }
 }

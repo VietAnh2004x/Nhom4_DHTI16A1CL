@@ -57,11 +57,23 @@
     <Compile Include="Data_Transfer_Objects\TonXe.cs" />
     <Compile Include="Data_Transfer_Objects\TaiKhoan.cs" />
     <Compile Include="Data_Transfer_Objects\ThongTinXe.cs" />
+    <Compile Include="Forms\QLBaoHanh\BaoHanhForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLBaoHanh\BaoHanhForm.Designer.cs">
+      <DependentUpon>BaoHanhForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QLDaiLy\DaiLyForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\QLDaiLy\DaiLyForm.Designer.cs">
       <DependentUpon>DaiLyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLHoaDon\HoaDonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLHoaDon\HoaDonForm.Designer.cs">
+      <DependentUpon>HoaDonForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLKhachHang\KhachHangForm.cs">
       <SubType>Form</SubType>
@@ -101,8 +113,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\QLBaoHanh\BaoHanhForm.resx">
+      <DependentUpon>BaoHanhForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLDaiLy\DaiLyForm.resx">
       <DependentUpon>DaiLyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLHoaDon\HoaDonForm.resx">
+      <DependentUpon>HoaDonForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLKhachHang\KhachHangForm.resx">
       <DependentUpon>KhachHangForm.cs</DependentUpon>
@@ -148,8 +166,6 @@
     <Folder Include="Business_Logic_Layer\" />
     <Folder Include="Data_Access_Layer\" />
     <Folder Include="Forms\BaoCao\" />
-    <Folder Include="Forms\QLBaoHanh\" />
-    <Folder Include="Forms\QLHoaDon\" />
     <Folder Include="Forms\QLTaiKhoan\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\icon\" />

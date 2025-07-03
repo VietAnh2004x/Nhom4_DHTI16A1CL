@@ -28,14 +28,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.panel1 = new System.Windows.Forms.Panel();
             this.tbTong = new System.Windows.Forms.TableLayoutPanel();
             this.tbHienThi = new System.Windows.Forms.TableLayoutPanel();
-            this.lbSLKH = new System.Windows.Forms.Label();
-            this.lbDoanhThu = new System.Windows.Forms.Label();
-            this.lbSLXeMay = new System.Windows.Forms.Label();
-            this.lbSLXeDap = new System.Windows.Forms.Label();
-            this.txtSLKhachHang = new System.Windows.Forms.Label();
+            this.txtSoDonHang = new System.Windows.Forms.Label();
             this.txtDoanhThu = new System.Windows.Forms.Label();
-            this.txtSLXeMay = new System.Windows.Forms.Label();
-            this.txtSLXeDap = new System.Windows.Forms.Label();
+            this.txtSoLuongXeMayDien = new System.Windows.Forms.Label();
+            this.txtSoLuongXeDapDien = new System.Windows.Forms.Label();
+            this.lblSoDonHang = new System.Windows.Forms.Label();
+            this.lblDoanhThu = new System.Windows.Forms.Label();
+            this.lblSoLuongXeMayDien = new System.Windows.Forms.Label();
+            this.lblSoLuongXeDapDien = new System.Windows.Forms.Label();
             this.tbBangBieu = new System.Windows.Forms.TableLayoutPanel();
             this.chartTopSanPham = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartDoanhThu = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -67,12 +67,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.tbTong.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbTong.Location = new System.Drawing.Point(0, 0);
             this.tbTong.Name = "tbTong";
+            this.tbTong.Padding = new System.Windows.Forms.Padding(20);
             this.tbTong.RowCount = 2;
             this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35F));
             this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65F));
             this.tbTong.Size = new System.Drawing.Size(800, 450);
             this.tbTong.TabIndex = 0;
-            this.tbTong.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
             // 
             // tbHienThi
             // 
@@ -81,126 +81,126 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.tbHienThi.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tbHienThi.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tbHienThi.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tbHienThi.Controls.Add(this.lbSLKH, 3, 1);
-            this.tbHienThi.Controls.Add(this.lbDoanhThu, 2, 1);
-            this.tbHienThi.Controls.Add(this.lbSLXeMay, 1, 1);
-            this.tbHienThi.Controls.Add(this.lbSLXeDap, 0, 1);
-            this.tbHienThi.Controls.Add(this.txtSLKhachHang, 3, 0);
-            this.tbHienThi.Controls.Add(this.txtDoanhThu, 2, 0);
-            this.tbHienThi.Controls.Add(this.txtSLXeMay, 1, 0);
-            this.tbHienThi.Controls.Add(this.txtSLXeDap, 0, 0);
+            this.tbHienThi.Controls.Add(this.txtSoDonHang, 3, 1);
+            this.tbHienThi.Controls.Add(this.txtDoanhThu, 2, 1);
+            this.tbHienThi.Controls.Add(this.txtSoLuongXeMayDien, 1, 1);
+            this.tbHienThi.Controls.Add(this.txtSoLuongXeDapDien, 0, 1);
+            this.tbHienThi.Controls.Add(this.lblSoDonHang, 3, 0);
+            this.tbHienThi.Controls.Add(this.lblDoanhThu, 2, 0);
+            this.tbHienThi.Controls.Add(this.lblSoLuongXeMayDien, 1, 0);
+            this.tbHienThi.Controls.Add(this.lblSoLuongXeDapDien, 0, 0);
             this.tbHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbHienThi.Location = new System.Drawing.Point(3, 3);
+            this.tbHienThi.Location = new System.Drawing.Point(23, 23);
             this.tbHienThi.Name = "tbHienThi";
             this.tbHienThi.RowCount = 2;
             this.tbHienThi.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tbHienThi.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tbHienThi.Size = new System.Drawing.Size(794, 219);
+            this.tbHienThi.Size = new System.Drawing.Size(754, 137);
             this.tbHienThi.TabIndex = 0;
             // 
-            // lbSLKH
+            // txtSoDonHang
             // 
-            this.lbSLKH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbSLKH.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
-            this.lbSLKH.Location = new System.Drawing.Point(597, 131);
-            this.lbSLKH.Name = "lbSLKH";
-            this.lbSLKH.Size = new System.Drawing.Size(194, 88);
-            this.lbSLKH.TabIndex = 7;
-            this.lbSLKH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbSLKH.BackColor = Color.FromArgb(255, 204, 229);
-            this.lbSLKH.ForeColor = Color.DarkRed;
-            // 
-            // lbDoanhThu
-            // 
-            this.lbDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbDoanhThu.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
-            this.lbDoanhThu.Location = new System.Drawing.Point(399, 131);
-            this.lbDoanhThu.Name = "lbDoanhThu";
-            this.lbDoanhThu.Size = new System.Drawing.Size(192, 88);
-            this.lbDoanhThu.TabIndex = 6;
-            this.lbDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbDoanhThu.BackColor = Color.FromArgb(255, 255, 204);
-            this.lbDoanhThu.ForeColor = Color.DarkOrange;
-            // 
-            // lbSLXeMay
-            // 
-            this.lbSLXeMay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbSLXeMay.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
-            this.lbSLXeMay.Location = new System.Drawing.Point(201, 131);
-            this.lbSLXeMay.Name = "lbSLXeMay";
-            this.lbSLXeMay.Size = new System.Drawing.Size(192, 88);
-            this.lbSLXeMay.BackColor = Color.FromArgb(204, 255, 229);
-            this.lbSLXeMay.TabIndex = 5;
-            this.lbSLXeMay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbSLXeMay.ForeColor = Color.DarkGreen;
-            // 
-            // lbSLXeDap
-            // 
-            this.lbSLXeDap.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbSLXeDap.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
-            this.lbSLXeDap.Location = new System.Drawing.Point(3, 131);
-            this.lbSLXeDap.Name = "lbSLXeDap";
-            this.lbSLXeDap.Size = new System.Drawing.Size(192, 88);
-            this.lbSLXeDap.TabIndex = 4;
-            this.lbSLXeDap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbSLXeDap.BackColor = Color.FromArgb(204, 229, 255);
-            this.lbSLXeDap.ForeColor = Color.DarkBlue;
-            // 
-            // txtSLKhachHang
-            // 
-            this.txtSLKhachHang.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtSLKhachHang.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
-            this.txtSLKhachHang.Location = new System.Drawing.Point(597, 0);
-            this.txtSLKhachHang.Name = "txtSLKhachHang";
-            this.txtSLKhachHang.Size = new System.Drawing.Size(194, 131);
-            this.txtSLKhachHang.TabIndex = 3;
-            this.txtSLKhachHang.Text = "Tổng số khách hàng mua hôm nay";
-            this.txtSLKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.txtSLKhachHang.BackColor = Color.FromArgb(255, 204, 229);
-            this.txtSLKhachHang.ForeColor = Color.DarkRed;
-            this.txtSLKhachHang.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.txtSoDonHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(229)))));
+            this.txtSoDonHang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtSoDonHang.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
+            this.txtSoDonHang.ForeColor = System.Drawing.Color.DarkRed;
+            this.txtSoDonHang.Location = new System.Drawing.Point(567, 82);
+            this.txtSoDonHang.Name = "txtSoDonHang";
+            this.txtSoDonHang.Size = new System.Drawing.Size(184, 55);
+            this.txtSoDonHang.TabIndex = 7;
+            this.txtSoDonHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtDoanhThu
             // 
+            this.txtDoanhThu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(204)))));
             this.txtDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtDoanhThu.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
-            this.txtDoanhThu.Location = new System.Drawing.Point(399, 0);
+            this.txtDoanhThu.ForeColor = System.Drawing.Color.DarkOrange;
+            this.txtDoanhThu.Location = new System.Drawing.Point(379, 82);
             this.txtDoanhThu.Name = "txtDoanhThu";
-            this.txtDoanhThu.Size = new System.Drawing.Size(192, 131);
-            this.txtDoanhThu.TabIndex = 2;
-            this.txtDoanhThu.BackColor = Color.FromArgb(255, 255, 204);
-            this.txtDoanhThu.Text = "Doanh thu hôm nay";
+            this.txtDoanhThu.Size = new System.Drawing.Size(182, 55);
+            this.txtDoanhThu.TabIndex = 6;
             this.txtDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.txtDoanhThu.ForeColor = Color.DarkOrange;
-            this.txtDoanhThu.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             // 
-            // txtSLXeMay
+            // txtSoLuongXeMayDien
             // 
-            this.txtSLXeMay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtSLXeMay.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
-            this.txtSLXeMay.Location = new System.Drawing.Point(201, 0);
-            this.txtSLXeMay.Name = "txtSLXeMay";
-            this.txtSLXeMay.Size = new System.Drawing.Size(192, 131);
-            this.txtSLXeMay.TabIndex = 1;
-            this.txtSLXeMay.Text = "Tổng số xe máy điện hiện có";
-            this.txtSLXeMay.BackColor = Color.FromArgb(204, 255, 229);
-            this.txtSLXeMay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.txtSLXeMay.ForeColor = Color.DarkGreen;
-            this.txtSLXeMay.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.txtSoLuongXeMayDien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(229)))));
+            this.txtSoLuongXeMayDien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtSoLuongXeMayDien.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
+            this.txtSoLuongXeMayDien.ForeColor = System.Drawing.Color.DarkGreen;
+            this.txtSoLuongXeMayDien.Location = new System.Drawing.Point(191, 82);
+            this.txtSoLuongXeMayDien.Name = "txtSoLuongXeMayDien";
+            this.txtSoLuongXeMayDien.Size = new System.Drawing.Size(182, 55);
+            this.txtSoLuongXeMayDien.TabIndex = 5;
+            this.txtSoLuongXeMayDien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtSLXeDap
+            // txtSoLuongXeDapDien
             // 
-            this.txtSLXeDap.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtSLXeDap.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
-            this.txtSLXeDap.Location = new System.Drawing.Point(3, 0);
-            this.txtSLXeDap.Name = "txtSLXeDap";
-            this.txtSLXeDap.Size = new System.Drawing.Size(192, 131);
-            this.txtSLXeDap.TabIndex = 0;
-            this.txtSLXeDap.Text = "Tổng số xe đạp điện hiện có";
-            this.txtSLXeDap.BackColor = Color.FromArgb(204, 229, 255);
-            this.txtSLXeDap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.txtSLXeDap.ForeColor = Color.DarkBlue;
-            this.txtSLXeDap.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.txtSoLuongXeDapDien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.txtSoLuongXeDapDien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtSoLuongXeDapDien.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
+            this.txtSoLuongXeDapDien.ForeColor = System.Drawing.Color.DarkBlue;
+            this.txtSoLuongXeDapDien.Location = new System.Drawing.Point(3, 82);
+            this.txtSoLuongXeDapDien.Name = "txtSoLuongXeDapDien";
+            this.txtSoLuongXeDapDien.Size = new System.Drawing.Size(182, 55);
+            this.txtSoLuongXeDapDien.TabIndex = 4;
+            this.txtSoLuongXeDapDien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSoDonHang
+            // 
+            this.lblSoDonHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(229)))));
+            this.lblSoDonHang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblSoDonHang.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
+            this.lblSoDonHang.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblSoDonHang.Location = new System.Drawing.Point(567, 0);
+            this.lblSoDonHang.Name = "lblSoDonHang";
+            this.lblSoDonHang.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.lblSoDonHang.Size = new System.Drawing.Size(184, 82);
+            this.lblSoDonHang.TabIndex = 3;
+            this.lblSoDonHang.Text = "Tổng số khách hàng mua hôm nay";
+            this.lblSoDonHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDoanhThu
+            // 
+            this.lblDoanhThu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(204)))));
+            this.lblDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblDoanhThu.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
+            this.lblDoanhThu.ForeColor = System.Drawing.Color.DarkOrange;
+            this.lblDoanhThu.Location = new System.Drawing.Point(379, 0);
+            this.lblDoanhThu.Name = "lblDoanhThu";
+            this.lblDoanhThu.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.lblDoanhThu.Size = new System.Drawing.Size(182, 82);
+            this.lblDoanhThu.TabIndex = 2;
+            this.lblDoanhThu.Text = "Doanh thu hôm nay";
+            this.lblDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSoLuongXeMayDien
+            // 
+            this.lblSoLuongXeMayDien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(229)))));
+            this.lblSoLuongXeMayDien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblSoLuongXeMayDien.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
+            this.lblSoLuongXeMayDien.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblSoLuongXeMayDien.Location = new System.Drawing.Point(191, 0);
+            this.lblSoLuongXeMayDien.Name = "lblSoLuongXeMayDien";
+            this.lblSoLuongXeMayDien.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.lblSoLuongXeMayDien.Size = new System.Drawing.Size(182, 82);
+            this.lblSoLuongXeMayDien.TabIndex = 1;
+            this.lblSoLuongXeMayDien.Text = "Tổng số xe máy điện hiện có";
+            this.lblSoLuongXeMayDien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSoLuongXeDapDien
+            // 
+            this.lblSoLuongXeDapDien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.lblSoLuongXeDapDien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblSoLuongXeDapDien.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
+            this.lblSoLuongXeDapDien.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblSoLuongXeDapDien.Location = new System.Drawing.Point(3, 0);
+            this.lblSoLuongXeDapDien.Name = "lblSoLuongXeDapDien";
+            this.lblSoLuongXeDapDien.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.lblSoLuongXeDapDien.Size = new System.Drawing.Size(182, 82);
+            this.lblSoLuongXeDapDien.TabIndex = 0;
+            this.lblSoLuongXeDapDien.Text = "Tổng số xe đạp điện hiện có";
+            this.lblSoLuongXeDapDien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbBangBieu
             // 
@@ -210,11 +210,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.tbBangBieu.Controls.Add(this.chartTopSanPham, 0, 0);
             this.tbBangBieu.Controls.Add(this.chartDoanhThu, 1, 0);
             this.tbBangBieu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbBangBieu.Location = new System.Drawing.Point(3, 228);
+            this.tbBangBieu.Location = new System.Drawing.Point(23, 166);
             this.tbBangBieu.Name = "tbBangBieu";
             this.tbBangBieu.RowCount = 1;
             this.tbBangBieu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 219F));
-            this.tbBangBieu.Size = new System.Drawing.Size(794, 219);
+            this.tbBangBieu.Size = new System.Drawing.Size(754, 261);
             this.tbBangBieu.TabIndex = 1;
             // 
             // chartTopSanPham
@@ -228,11 +228,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.chartTopSanPham.Name = "chartTopSanPham";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
-            series1.Name = "Series1";
+            series1.Name = "Sản Phẩm";
             this.chartTopSanPham.Series.Add(series1);
-            this.chartTopSanPham.Size = new System.Drawing.Size(391, 213);
+            this.chartTopSanPham.Size = new System.Drawing.Size(371, 255);
             this.chartTopSanPham.TabIndex = 0;
-            this.chartTopSanPham.Text = "chart1";
+            this.chartTopSanPham.Text = "Top Sản Phẩm";
             // 
             // chartDoanhThu
             // 
@@ -241,15 +241,15 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.chartDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
             legend2.Name = "Legend1";
             this.chartDoanhThu.Legends.Add(legend2);
-            this.chartDoanhThu.Location = new System.Drawing.Point(400, 3);
+            this.chartDoanhThu.Location = new System.Drawing.Point(380, 3);
             this.chartDoanhThu.Name = "chartDoanhThu";
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
-            series2.Name = "Series1";
+            series2.Name = "VNĐ";
             this.chartDoanhThu.Series.Add(series2);
-            this.chartDoanhThu.Size = new System.Drawing.Size(391, 213);
+            this.chartDoanhThu.Size = new System.Drawing.Size(371, 255);
             this.chartDoanhThu.TabIndex = 1;
-            this.chartDoanhThu.Text = "chart2";
+            this.chartDoanhThu.Text = "Doanh Thu";
             // 
             // TongQuanForm
             // 
@@ -273,24 +273,24 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
         private System.Windows.Forms.TableLayoutPanel tbTong;
         private System.Windows.Forms.TableLayoutPanel tbHienThi;
         private System.Windows.Forms.TableLayoutPanel tbBangBieu;
-        private System.Windows.Forms.Label lbSLKH;
-        private System.Windows.Forms.Label lbDoanhThu;
-        private System.Windows.Forms.Label lbSLXeMay;
-        private System.Windows.Forms.Label lbSLXeDap;
-        private System.Windows.Forms.Label txtSLKhachHang;
+        private System.Windows.Forms.Label txtSoDonHang;
         private System.Windows.Forms.Label txtDoanhThu;
-        private System.Windows.Forms.Label txtSLXeMay;
-        private System.Windows.Forms.Label txtSLXeDap;
+        private System.Windows.Forms.Label txtSoLuongXeMayDien;
+        private System.Windows.Forms.Label txtSoLuongXeDapDien;
+        private System.Windows.Forms.Label lblSoDonHang;
+        private System.Windows.Forms.Label lblDoanhThu;
+        private System.Windows.Forms.Label lblSoLuongXeMayDien;
+        private System.Windows.Forms.Label lblSoLuongXeDapDien;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartTopSanPham;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartDoanhThu;
 
         private void LoadDashboard()
         {
             // Gán số liệu
-            lbSLXeDap.Text = "45 Xe";
-            lbSLXeMay.Text = "30 Xe";
-            lbDoanhThu.Text = "12,000,000 VNĐ";
-            lbSLKH.Text = "9 Khách Hàng";
+            txtSoLuongXeDapDien.Text = "45 Xe";
+            txtSoLuongXeMayDien.Text = "30 Xe";
+            txtDoanhThu.Text = "12,000,000 VNĐ";
+            txtSoDonHang.Text = "9 Khách Hàng";
 
             // Bar Chart - Top sản phẩm bán chạy
             chartTopSanPham.Series.Clear();
