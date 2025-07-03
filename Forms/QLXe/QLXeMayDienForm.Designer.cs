@@ -27,6 +27,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.tbHienThiBang = new System.Windows.Forms.TableLayoutPanel();
             this.grTTBang = new System.Windows.Forms.GroupBox();
             this.dataDSXe = new System.Windows.Forms.DataGridView();
+            this.columnMaXeDapDien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnDongXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnMauSac = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnSLAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnDLAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnHinhAnh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grTacVu = new System.Windows.Forms.GroupBox();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -48,14 +56,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtTenXe = new System.Windows.Forms.Label();
             this.txtMaXe = new System.Windows.Forms.Label();
             this.txtDongXe = new System.Windows.Forms.Label();
-            this.columnMaXeDapDien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnDongXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnMauSac = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnSLAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnDLAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnHinhAnh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.tbTong.SuspendLayout();
             this.tbHienThiXe.SuspendLayout();
@@ -187,6 +187,70 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.dataDSXe.Size = new System.Drawing.Size(686, 477);
             this.dataDSXe.TabIndex = 0;
             // 
+            // columnMaXeDapDien
+            // 
+            this.columnMaXeDapDien.HeaderText = "Mã Xe Máy Điện";
+            this.columnMaXeDapDien.MinimumWidth = 6;
+            this.columnMaXeDapDien.Name = "columnMaXeDapDien";
+            this.columnMaXeDapDien.ReadOnly = true;
+            this.columnMaXeDapDien.Width = 175;
+            // 
+            // columnTenXe
+            // 
+            this.columnTenXe.HeaderText = "Tên Xe";
+            this.columnTenXe.MinimumWidth = 6;
+            this.columnTenXe.Name = "columnTenXe";
+            this.columnTenXe.ReadOnly = true;
+            this.columnTenXe.Width = 125;
+            // 
+            // columnDongXe
+            // 
+            this.columnDongXe.HeaderText = "Dòng Xe";
+            this.columnDongXe.MinimumWidth = 6;
+            this.columnDongXe.Name = "columnDongXe";
+            this.columnDongXe.ReadOnly = true;
+            this.columnDongXe.Width = 125;
+            // 
+            // columnMauSac
+            // 
+            this.columnMauSac.HeaderText = "Màu Sắc";
+            this.columnMauSac.MinimumWidth = 6;
+            this.columnMauSac.Name = "columnMauSac";
+            this.columnMauSac.ReadOnly = true;
+            this.columnMauSac.Width = 125;
+            // 
+            // columnSLAcQuy
+            // 
+            this.columnSLAcQuy.HeaderText = "Số Bình Ắc Quy";
+            this.columnSLAcQuy.MinimumWidth = 6;
+            this.columnSLAcQuy.Name = "columnSLAcQuy";
+            this.columnSLAcQuy.ReadOnly = true;
+            this.columnSLAcQuy.Width = 175;
+            // 
+            // columnDLAcQuy
+            // 
+            this.columnDLAcQuy.HeaderText = "Dung Lượng Ắc Quy";
+            this.columnDLAcQuy.MinimumWidth = 6;
+            this.columnDLAcQuy.Name = "columnDLAcQuy";
+            this.columnDLAcQuy.ReadOnly = true;
+            this.columnDLAcQuy.Width = 200;
+            // 
+            // columnGia
+            // 
+            this.columnGia.HeaderText = "Giá";
+            this.columnGia.MinimumWidth = 6;
+            this.columnGia.Name = "columnGia";
+            this.columnGia.ReadOnly = true;
+            this.columnGia.Width = 125;
+            // 
+            // columnHinhAnh
+            // 
+            this.columnHinhAnh.HeaderText = "Hình Ảnh";
+            this.columnHinhAnh.MinimumWidth = 6;
+            this.columnHinhAnh.Name = "columnHinhAnh";
+            this.columnHinhAnh.ReadOnly = true;
+            this.columnHinhAnh.Width = 125;
+            // 
             // grTacVu
             // 
             this.grTacVu.Controls.Add(this.btnLamMoi);
@@ -196,7 +260,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.grTacVu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(26)))), ((int)(((byte)(139)))));
             this.grTacVu.Location = new System.Drawing.Point(3, 515);
             this.grTacVu.Name = "grTacVu";
-            this.grTacVu.Size = new System.Drawing.Size(397, 79);
+            this.grTacVu.Size = new System.Drawing.Size(462, 85);
             this.grTacVu.TabIndex = 1;
             this.grTacVu.TabStop = false;
             this.grTacVu.Text = "Tác vụ";
@@ -208,7 +272,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.btnLamMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLamMoi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnLamMoi.ForeColor = System.Drawing.Color.White;
-            this.btnLamMoi.Location = new System.Drawing.Point(285, 29);
+            this.btnLamMoi.Location = new System.Drawing.Point(348, 29);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(103, 39);
             this.btnLamMoi.TabIndex = 4;
@@ -222,7 +286,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(192, 29);
+            this.btnXoa.Location = new System.Drawing.Point(234, 29);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(87, 39);
             this.btnXoa.TabIndex = 2;
@@ -236,7 +300,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnSua.ForeColor = System.Drawing.Color.White;
-            this.btnSua.Location = new System.Drawing.Point(99, 29);
+            this.btnSua.Location = new System.Drawing.Point(120, 29);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(87, 39);
             this.btnSua.TabIndex = 1;
@@ -412,70 +476,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtDongXe.Size = new System.Drawing.Size(84, 21);
             this.txtDongXe.TabIndex = 0;
             this.txtDongXe.Text = "Dòng Xe:";
-            // 
-            // columnMaXeDapDien
-            // 
-            this.columnMaXeDapDien.HeaderText = "Mã Xe Máy Điện";
-            this.columnMaXeDapDien.MinimumWidth = 6;
-            this.columnMaXeDapDien.Name = "columnMaXeDapDien";
-            this.columnMaXeDapDien.ReadOnly = true;
-            this.columnMaXeDapDien.Width = 125;
-            // 
-            // columnTenXe
-            // 
-            this.columnTenXe.HeaderText = "Tên Xe";
-            this.columnTenXe.MinimumWidth = 6;
-            this.columnTenXe.Name = "columnTenXe";
-            this.columnTenXe.ReadOnly = true;
-            this.columnTenXe.Width = 125;
-            // 
-            // columnDongXe
-            // 
-            this.columnDongXe.HeaderText = "Dòng Xe";
-            this.columnDongXe.MinimumWidth = 6;
-            this.columnDongXe.Name = "columnDongXe";
-            this.columnDongXe.ReadOnly = true;
-            this.columnDongXe.Width = 125;
-            // 
-            // columnMauSac
-            // 
-            this.columnMauSac.HeaderText = "Màu Sắc";
-            this.columnMauSac.MinimumWidth = 6;
-            this.columnMauSac.Name = "columnMauSac";
-            this.columnMauSac.ReadOnly = true;
-            this.columnMauSac.Width = 125;
-            // 
-            // columnSLAcQuy
-            // 
-            this.columnSLAcQuy.HeaderText = "Số Bình Ắc Quy";
-            this.columnSLAcQuy.MinimumWidth = 6;
-            this.columnSLAcQuy.Name = "columnSLAcQuy";
-            this.columnSLAcQuy.ReadOnly = true;
-            this.columnSLAcQuy.Width = 125;
-            // 
-            // columnDLAcQuy
-            // 
-            this.columnDLAcQuy.HeaderText = "Dung Lượng Ắc Quy";
-            this.columnDLAcQuy.MinimumWidth = 6;
-            this.columnDLAcQuy.Name = "columnDLAcQuy";
-            this.columnDLAcQuy.ReadOnly = true;
-            this.columnDLAcQuy.Width = 125;
-            // 
-            // columnGia
-            // 
-            this.columnGia.HeaderText = "Giá";
-            this.columnGia.MinimumWidth = 6;
-            this.columnGia.Name = "columnGia";
-            this.columnGia.ReadOnly = true;
-            this.columnGia.Width = 125;
-            // 
-            // columnHinhAnh
-            // 
-            this.columnHinhAnh.HeaderText = "Hình Ảnh";
-            this.columnHinhAnh.MinimumWidth = 6;
-            this.columnHinhAnh.Name = "columnHinhAnh";
-            this.columnHinhAnh.ReadOnly = true;
-            this.columnHinhAnh.Width = 125;
             // 
             // QLXeMayDienForm
             // 

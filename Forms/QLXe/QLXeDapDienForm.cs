@@ -16,6 +16,5 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
         {
             InitializeComponent();
         }
-
     }
 }
