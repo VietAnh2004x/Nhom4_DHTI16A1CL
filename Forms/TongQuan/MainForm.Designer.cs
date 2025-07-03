@@ -117,7 +117,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             };
 
             btnQLXeMayDien = CreateButton("   Xe Máy Điện", 35);
-            //btnQLXeMayDien.Click += btnQLXeMayDien_Click;
+            btnQLXeMayDien.Click += btnQLXeMayDien_Click;
             btnQLXeDapDien = CreateButton("   Xe Đạp Điện", 35);
             btnQLXeDapDien.Click += btnQLXeDapDien_Click;
 

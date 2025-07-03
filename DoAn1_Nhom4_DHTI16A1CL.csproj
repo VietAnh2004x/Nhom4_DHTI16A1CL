@@ -63,6 +63,12 @@
     <Compile Include="Forms\QLXe\QLXeDapDienForm.Designer.cs">
       <DependentUpon>QLXeDapDienForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\QLXe\QLXeMayDienForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLXe\QLXeMayDienForm.Designer.cs">
+      <DependentUpon>QLXeMayDienForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\TongQuan\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\QLXe\QLXeDapDienForm.resx">
       <DependentUpon>QLXeDapDienForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLXe\QLXeMayDienForm.resx">
+      <DependentUpon>QLXeMayDienForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\TongQuan\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

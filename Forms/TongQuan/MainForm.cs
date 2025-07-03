@@ -51,5 +51,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
         {
             OpenChildForm(new QLXe.QLXeDapDienForm());
         }
+        private void btnQLXeMayDien_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new QLXe.QLXeMayDienForm());
+        }
     }
 }
