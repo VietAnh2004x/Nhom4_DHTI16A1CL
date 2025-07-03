@@ -18,8 +18,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tbTong = new System.Windows.Forms.TableLayoutPanel();
             this.txtTieuDe = new System.Windows.Forms.Label();
@@ -36,7 +36,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.lbSoBinhAcQuy = new System.Windows.Forms.NumericUpDown();
             this.lbSLAcQuy = new System.Windows.Forms.NumericUpDown();
             this.lbBaoHanh = new System.Windows.Forms.NumericUpDown();
-            this.lbGiaSauThue = new System.Windows.Forms.TextBox();
             this.lbGia = new System.Windows.Forms.TextBox();
             this.lbMaXe = new System.Windows.Forms.TextBox();
             this.lbTenXe = new System.Windows.Forms.TextBox();
@@ -45,7 +44,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtSLAcQuy = new System.Windows.Forms.Label();
             this.txtDLAcQuy = new System.Windows.Forms.Label();
             this.txtBaoHanh = new System.Windows.Forms.Label();
-            this.txtGiaSauThue = new System.Windows.Forms.Label();
             this.txtGia = new System.Windows.Forms.Label();
             this.txtTenXe = new System.Windows.Forms.Label();
             this.txtMaXe = new System.Windows.Forms.Label();
@@ -57,8 +55,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.columnSLAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnDLAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnThue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.columnGiaSauThue = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnHinhAnh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.tbTong.SuspendLayout();
@@ -101,14 +97,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // txtTieuDe
             // 
             this.txtTieuDe.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtTieuDe.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.txtTieuDe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(26)))), ((int)(((byte)(139)))));
             this.txtTieuDe.Location = new System.Drawing.Point(3, 0);
             this.txtTieuDe.Name = "txtTieuDe";
             this.txtTieuDe.Size = new System.Drawing.Size(1172, 68);
             this.txtTieuDe.TabIndex = 0;
             this.txtTieuDe.Text = "Thông Tin Xe Máy Điện";
             this.txtTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.txtTieuDe.Font = new Font("Segoe UI", 14, FontStyle.Bold);
-            this.txtTieuDe.ForeColor = Color.FromArgb(85, 26, 139);
             // 
             // tbHienThiXe
             // 
@@ -129,7 +125,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // tbHienThiBang
             // 
             this.tbHienThiBang.ColumnCount = 1;
-            this.tbHienThiBang.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 643F));
+            this.tbHienThiBang.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 698F));
             this.tbHienThiBang.Controls.Add(this.grTTBang, 0, 0);
             this.tbHienThiBang.Controls.Add(this.grTacVu, 0, 1);
             this.tbHienThiBang.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -145,11 +141,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             this.grTTBang.Controls.Add(this.dataDSXe);
             this.grTTBang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grTTBang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(26)))), ((int)(((byte)(139)))));
             this.grTTBang.Location = new System.Drawing.Point(3, 3);
             this.grTTBang.Name = "grTTBang";
             this.grTTBang.Size = new System.Drawing.Size(692, 506);
             this.grTTBang.TabIndex = 0;
-            this.grTTBang.ForeColor = Color.FromArgb(85, 26, 139);
             this.grTTBang.TabStop = false;
             this.grTTBang.Text = "Danh sách xe máy điện";
             // 
@@ -157,14 +153,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             this.dataDSXe.AllowUserToAddRows = false;
             this.dataDSXe.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataDSXe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataDSXe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataDSXe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataDSXe.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.columnMaXeDapDien,
@@ -174,17 +170,15 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.columnSLAcQuy,
             this.columnDLAcQuy,
             this.columnGia,
-            this.columnThue,
-            this.columnGiaSauThue,
             this.columnHinhAnh});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 10F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.LightBlue;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataDSXe.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(26)))), ((int)(((byte)(139)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.LightBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataDSXe.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataDSXe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataDSXe.Location = new System.Drawing.Point(3, 26);
             this.dataDSXe.Name = "dataDSXe";
@@ -199,17 +193,17 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.grTacVu.Controls.Add(this.btnXoa);
             this.grTacVu.Controls.Add(this.btnSua);
             this.grTacVu.Controls.Add(this.btnThem);
+            this.grTacVu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(26)))), ((int)(((byte)(139)))));
             this.grTacVu.Location = new System.Drawing.Point(3, 515);
             this.grTacVu.Name = "grTacVu";
             this.grTacVu.Size = new System.Drawing.Size(397, 79);
-            this.grTacVu.ForeColor = Color.FromArgb(85, 26, 139);
             this.grTacVu.TabIndex = 1;
             this.grTacVu.TabStop = false;
             this.grTacVu.Text = "Tác vụ";
             // 
             // btnLamMoi
             // 
-            this.btnLamMoi.BackColor = ColorTranslator.FromHtml("#F39C12");
+            this.btnLamMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
             this.btnLamMoi.FlatAppearance.BorderSize = 0;
             this.btnLamMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLamMoi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
@@ -223,7 +217,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = ColorTranslator.FromHtml("#E74C3C");
+            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
             this.btnXoa.FlatAppearance.BorderSize = 0;
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
@@ -237,7 +231,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             // btnSua
             // 
-            this.btnSua.BackColor = ColorTranslator.FromHtml("#27AE60");
+            this.btnSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
             this.btnSua.FlatAppearance.BorderSize = 0;
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
@@ -251,7 +245,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             // btnThem
             // 
-            this.btnThem.BackColor = ColorTranslator.FromHtml("#8E44AD");
+            this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(68)))), ((int)(((byte)(173)))));
             this.btnThem.FlatAppearance.BorderSize = 0;
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
@@ -268,7 +262,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.grTTXe.Controls.Add(this.lbSoBinhAcQuy);
             this.grTTXe.Controls.Add(this.lbSLAcQuy);
             this.grTTXe.Controls.Add(this.lbBaoHanh);
-            this.grTTXe.Controls.Add(this.lbGiaSauThue);
             this.grTTXe.Controls.Add(this.lbGia);
             this.grTTXe.Controls.Add(this.lbMaXe);
             this.grTTXe.Controls.Add(this.lbTenXe);
@@ -277,15 +270,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.grTTXe.Controls.Add(this.txtSLAcQuy);
             this.grTTXe.Controls.Add(this.txtDLAcQuy);
             this.grTTXe.Controls.Add(this.txtBaoHanh);
-            this.grTTXe.Controls.Add(this.txtGiaSauThue);
             this.grTTXe.Controls.Add(this.txtGia);
             this.grTTXe.Controls.Add(this.txtTenXe);
             this.grTTXe.Controls.Add(this.txtMaXe);
             this.grTTXe.Controls.Add(this.txtDongXe);
             this.grTTXe.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grTTXe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(26)))), ((int)(((byte)(139)))));
             this.grTTXe.Location = new System.Drawing.Point(3, 3);
             this.grTTXe.Name = "grTTXe";
-            this.grTTXe.ForeColor = Color.FromArgb(85, 26, 139);
             this.grTTXe.Size = new System.Drawing.Size(462, 603);
             this.grTTXe.TabIndex = 1;
             this.grTTXe.TabStop = false;
@@ -294,7 +286,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // lbSoBinhAcQuy
             // 
             this.lbSoBinhAcQuy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbSoBinhAcQuy.Location = new System.Drawing.Point(187, 532);
+            this.lbSoBinhAcQuy.Location = new System.Drawing.Point(187, 493);
             this.lbSoBinhAcQuy.Name = "lbSoBinhAcQuy";
             this.lbSoBinhAcQuy.Size = new System.Drawing.Size(54, 30);
             this.lbSoBinhAcQuy.TabIndex = 16;
@@ -302,7 +294,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // lbSLAcQuy
             // 
             this.lbSLAcQuy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbSLAcQuy.Location = new System.Drawing.Point(187, 470);
+            this.lbSLAcQuy.Location = new System.Drawing.Point(187, 427);
             this.lbSLAcQuy.Name = "lbSLAcQuy";
             this.lbSLAcQuy.Size = new System.Drawing.Size(54, 30);
             this.lbSLAcQuy.TabIndex = 15;
@@ -310,23 +302,15 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // lbBaoHanh
             // 
             this.lbBaoHanh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbBaoHanh.Location = new System.Drawing.Point(111, 411);
+            this.lbBaoHanh.Location = new System.Drawing.Point(330, 364);
             this.lbBaoHanh.Name = "lbBaoHanh";
             this.lbBaoHanh.Size = new System.Drawing.Size(54, 30);
             this.lbBaoHanh.TabIndex = 14;
             // 
-            // lbGiaSauThue
-            // 
-            this.lbGiaSauThue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbGiaSauThue.Location = new System.Drawing.Point(293, 352);
-            this.lbGiaSauThue.Name = "lbGiaSauThue";
-            this.lbGiaSauThue.Size = new System.Drawing.Size(100, 30);
-            this.lbGiaSauThue.TabIndex = 13;
-            // 
             // lbGia
             // 
             this.lbGia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbGia.Location = new System.Drawing.Point(56, 352);
+            this.lbGia.Location = new System.Drawing.Point(58, 364);
             this.lbGia.Name = "lbGia";
             this.lbGia.Size = new System.Drawing.Size(100, 30);
             this.lbGia.TabIndex = 12;
@@ -334,7 +318,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // lbMaXe
             // 
             this.lbMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbMaXe.Location = new System.Drawing.Point(96, 233);
+            this.lbMaXe.Location = new System.Drawing.Point(96, 240);
             this.lbMaXe.Name = "lbMaXe";
             this.lbMaXe.Size = new System.Drawing.Size(100, 30);
             this.lbMaXe.TabIndex = 11;
@@ -342,7 +326,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // lbTenXe
             // 
             this.lbTenXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbTenXe.Location = new System.Drawing.Point(96, 174);
+            this.lbTenXe.Location = new System.Drawing.Point(96, 177);
             this.lbTenXe.Name = "lbTenXe";
             this.lbTenXe.Size = new System.Drawing.Size(100, 30);
             this.lbTenXe.TabIndex = 10;
@@ -350,7 +334,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // lbDongXe
             // 
             this.lbDongXe.FormattingEnabled = true;
-            this.lbDongXe.Location = new System.Drawing.Point(96, 292);
+            this.lbDongXe.Location = new System.Drawing.Point(96, 300);
             this.lbDongXe.Name = "lbDongXe";
             this.lbDongXe.Size = new System.Drawing.Size(121, 31);
             this.lbDongXe.TabIndex = 9;
@@ -369,7 +353,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // txtSLAcQuy
             // 
             this.txtSLAcQuy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.txtSLAcQuy.Location = new System.Drawing.Point(6, 534);
+            this.txtSLAcQuy.Location = new System.Drawing.Point(6, 495);
             this.txtSLAcQuy.Name = "txtSLAcQuy";
             this.txtSLAcQuy.Size = new System.Drawing.Size(152, 28);
             this.txtSLAcQuy.TabIndex = 7;
@@ -378,7 +362,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // txtDLAcQuy
             // 
             this.txtDLAcQuy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.txtDLAcQuy.Location = new System.Drawing.Point(6, 472);
+            this.txtDLAcQuy.Location = new System.Drawing.Point(6, 429);
             this.txtDLAcQuy.Name = "txtDLAcQuy";
             this.txtDLAcQuy.Size = new System.Drawing.Size(175, 24);
             this.txtDLAcQuy.TabIndex = 6;
@@ -387,25 +371,16 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // txtBaoHanh
             // 
             this.txtBaoHanh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.txtBaoHanh.Location = new System.Drawing.Point(6, 413);
+            this.txtBaoHanh.Location = new System.Drawing.Point(226, 366);
             this.txtBaoHanh.Name = "txtBaoHanh";
             this.txtBaoHanh.Size = new System.Drawing.Size(98, 21);
             this.txtBaoHanh.TabIndex = 5;
             this.txtBaoHanh.Text = "Bảo Hành:";
             // 
-            // txtGiaSauThue
-            // 
-            this.txtGiaSauThue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.txtGiaSauThue.Location = new System.Drawing.Point(170, 355);
-            this.txtGiaSauThue.Name = "txtGiaSauThue";
-            this.txtGiaSauThue.Size = new System.Drawing.Size(117, 22);
-            this.txtGiaSauThue.TabIndex = 4;
-            this.txtGiaSauThue.Text = "Giá Sau Thuế:";
-            // 
             // txtGia
             // 
             this.txtGia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.txtGia.Location = new System.Drawing.Point(6, 354);
+            this.txtGia.Location = new System.Drawing.Point(6, 366);
             this.txtGia.Name = "txtGia";
             this.txtGia.Size = new System.Drawing.Size(44, 21);
             this.txtGia.TabIndex = 3;
@@ -423,7 +398,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // txtMaXe
             // 
             this.txtMaXe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.txtMaXe.Location = new System.Drawing.Point(6, 236);
+            this.txtMaXe.Location = new System.Drawing.Point(6, 240);
             this.txtMaXe.Name = "txtMaXe";
             this.txtMaXe.Size = new System.Drawing.Size(70, 21);
             this.txtMaXe.TabIndex = 1;
@@ -432,7 +407,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // txtDongXe
             // 
             this.txtDongXe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.txtDongXe.Location = new System.Drawing.Point(6, 295);
+            this.txtDongXe.Location = new System.Drawing.Point(6, 303);
             this.txtDongXe.Name = "txtDongXe";
             this.txtDongXe.Size = new System.Drawing.Size(84, 21);
             this.txtDongXe.TabIndex = 0;
@@ -494,22 +469,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.columnGia.ReadOnly = true;
             this.columnGia.Width = 125;
             // 
-            // columnThue
-            // 
-            this.columnThue.HeaderText = "Thuế";
-            this.columnThue.MinimumWidth = 6;
-            this.columnThue.Name = "columnThue";
-            this.columnThue.ReadOnly = true;
-            this.columnThue.Width = 125;
-            // 
-            // columnGiaSauThue
-            // 
-            this.columnGiaSauThue.HeaderText = "Giá Sau Thuế";
-            this.columnGiaSauThue.MinimumWidth = 6;
-            this.columnGiaSauThue.Name = "columnGiaSauThue";
-            this.columnGiaSauThue.ReadOnly = true;
-            this.columnGiaSauThue.Width = 125;
-            // 
             // columnHinhAnh
             // 
             this.columnHinhAnh.HeaderText = "Hình Ảnh";
@@ -518,15 +477,15 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.columnHinhAnh.ReadOnly = true;
             this.columnHinhAnh.Width = 125;
             // 
-            // QLXeMayDien
+            // QLXeMayDienForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = Color.FromArgb(245, 240, 255);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1178, 683);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.Name = "QLXeMayDien";
+            this.Name = "QLXeMayDienForm";
             this.Text = "QLXeMayDienForm";
             this.panel1.ResumeLayout(false);
             this.tbTong.ResumeLayout(false);
@@ -537,7 +496,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.grTacVu.ResumeLayout(false);
             this.grTTXe.ResumeLayout(false);
             this.grTTXe.PerformLayout();
-
             ((System.ComponentModel.ISupportInitialize)(this.lbSoBinhAcQuy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbSLAcQuy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbBaoHanh)).EndInit();
@@ -557,7 +515,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
         private System.Windows.Forms.Label txtSLAcQuy;
         private System.Windows.Forms.Label txtDLAcQuy;
         private System.Windows.Forms.Label txtBaoHanh;
-        private System.Windows.Forms.Label txtGiaSauThue;
         private System.Windows.Forms.Label txtGia;
         private System.Windows.Forms.Label txtTenXe;
         private System.Windows.Forms.Label txtMaXe;
@@ -566,7 +523,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
         private System.Windows.Forms.NumericUpDown lbSoBinhAcQuy;
         private System.Windows.Forms.NumericUpDown lbSLAcQuy;
         private System.Windows.Forms.NumericUpDown lbBaoHanh;
-        private System.Windows.Forms.TextBox lbGiaSauThue;
         private System.Windows.Forms.TextBox lbGia;
         private System.Windows.Forms.TextBox lbMaXe;
         private System.Windows.Forms.TextBox lbTenXe;
@@ -576,15 +532,13 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnMaXeDapDien;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnTenXe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnDongXe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnMauSac;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnSLAcQuy;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnDLAcQuy;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnGia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnThue;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnGiaSauThue;
-        private System.Windows.Forms.DataGridViewTextBoxColumn columnHinhAnh;
+        private DataGridViewTextBoxColumn columnMaXeDapDien;
+        private DataGridViewTextBoxColumn columnTenXe;
+        private DataGridViewTextBoxColumn columnDongXe;
+        private DataGridViewTextBoxColumn columnMauSac;
+        private DataGridViewTextBoxColumn columnSLAcQuy;
+        private DataGridViewTextBoxColumn columnDLAcQuy;
+        private DataGridViewTextBoxColumn columnGia;
+        private DataGridViewTextBoxColumn columnHinhAnh;
     }
 }

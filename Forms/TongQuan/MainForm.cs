@@ -19,7 +19,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
         {
             InitializeComponent();
             InitializeSidebar();
-            this.Load += FormMain_Load; // Gán sự kiện Load
+            this.Load += btnTongQuanForm_Click; // Gán sự kiện Load
         }
         private void OpenChildForm(Form childForm)
         {
@@ -37,16 +37,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             childForm.Show();
         }
 
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-            OpenChildForm(new TongQuanForm());
-        }
-
         private void btnTongQuanForm_Click(object sender, EventArgs e)
         {
             OpenChildForm(new TongQuanForm());
         }
-
         private void btnQLXeDapDien_Click(object sender, EventArgs e)
         {
             OpenChildForm(new QLXe.QLXeDapDienForm());
@@ -54,6 +48,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
         private void btnQLXeMayDien_Click(object sender, EventArgs e)
         {
             OpenChildForm(new QLXe.QLXeMayDienForm());
+        }
+        private void btnQLKhachHang_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new QLKhachHang.KhachHangForm());
         }
     }
 }

@@ -15,8 +15,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Data_Transfer_Objects
         private string mauSac { get; set; }
         private int soBinhAcQuy { get; set; }
         private double dungLuongAcQuy { get; set; }
-        private double giaNhap { get; set; }
-        private double thue {  get; set; }
+        private double gia { get; set; }
         private double lePhi { get; set; }
         private string hinhAnh {  get; set; }
     }

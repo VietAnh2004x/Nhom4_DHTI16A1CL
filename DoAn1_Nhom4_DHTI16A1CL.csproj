@@ -57,6 +57,12 @@
     <Compile Include="Data_Transfer_Objects\TonXe.cs" />
     <Compile Include="Data_Transfer_Objects\TaiKhoan.cs" />
     <Compile Include="Data_Transfer_Objects\ThongTinXe.cs" />
+    <Compile Include="Forms\QLKhachHang\KhachHangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLKhachHang\KhachHangForm.Designer.cs">
+      <DependentUpon>KhachHangForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QLXe\QLXeDapDienForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\QLKhachHang\KhachHangForm.resx">
+      <DependentUpon>KhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLXe\QLXeDapDienForm.resx">
       <DependentUpon>QLXeDapDienForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,7 +133,6 @@
     <Folder Include="Forms\QLBaoHanh\" />
     <Folder Include="Forms\QLDaiLy\" />
     <Folder Include="Forms\QLHoaDon\" />
-    <Folder Include="Forms\QLKhachHang\" />
     <Folder Include="Forms\QLTaiKhoan\" />
     <Folder Include="Forms\QLTonKho\" />
     <Folder Include="Reports\" />
