@@ -47,5 +47,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
             OpenChildForm(new TongQuanForm());
         }
 
+        private void btnQLXeDapDien_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new QLXe.QLXeDapDienForm());
+        }
     }
 }
