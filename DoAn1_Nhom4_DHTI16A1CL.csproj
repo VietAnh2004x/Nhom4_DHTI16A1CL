@@ -57,6 +57,12 @@
     <Compile Include="Data_Transfer_Objects\TonXe.cs" />
     <Compile Include="Data_Transfer_Objects\TaiKhoan.cs" />
     <Compile Include="Data_Transfer_Objects\ThongTinXe.cs" />
+    <Compile Include="Forms\DangNhap\dang_nhap_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DangNhap\dang_nhap_form.Designer.cs">
+      <DependentUpon>dang_nhap_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QLXe\QLXeDapDienForm.cs">
       <SubType>Form</SubType>
     </Compile>
