@@ -57,6 +57,12 @@
     <Compile Include="Data_Transfer_Objects\TonXe.cs" />
     <Compile Include="Data_Transfer_Objects\TaiKhoan.cs" />
     <Compile Include="Data_Transfer_Objects\ThongTinXe.cs" />
+    <Compile Include="Forms\QLBaoCao\BaoCaoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLBaoCao\BaoCaoForm.Designer.cs">
+      <DependentUpon>BaoCaoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QLBaoHanh\BaoHanhForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,12 @@
     </Compile>
     <Compile Include="Forms\QLKhachHang\KhachHangForm.Designer.cs">
       <DependentUpon>KhachHangForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLTaiKhoan\TaiKhoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLTaiKhoan\TaiKhoanForm.Designer.cs">
+      <DependentUpon>TaiKhoanForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLTonKho\TonKhoForm.cs">
       <SubType>Form</SubType>
@@ -113,6 +125,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\QLBaoCao\BaoCaoForm.resx">
+      <DependentUpon>BaoCaoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLBaoHanh\BaoHanhForm.resx">
       <DependentUpon>BaoHanhForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLKhachHang\KhachHangForm.resx">
       <DependentUpon>KhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLTaiKhoan\TaiKhoanForm.resx">
+      <DependentUpon>TaiKhoanForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLTonKho\TonKhoForm.resx">
       <DependentUpon>TonKhoForm.cs</DependentUpon>
@@ -165,8 +183,6 @@
   <ItemGroup>
     <Folder Include="Business_Logic_Layer\" />
     <Folder Include="Data_Access_Layer\" />
-    <Folder Include="Forms\BaoCao\" />
-    <Folder Include="Forms\QLTaiKhoan\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\icon\" />
   </ItemGroup>

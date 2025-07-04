@@ -68,5 +68,13 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm
         {
             OpenChildForm(new QLBaoHanh.BaoHanhForm());
         }
+        private void btnBaoCao_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new QLBaoCao.BaoCaoForm());
+        }
+        private void btnQLTaiKhoan_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new QLTaiKhoan.TaiKhoanForm());
+        }
     }
 }
