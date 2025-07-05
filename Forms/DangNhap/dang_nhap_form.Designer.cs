@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-
+using DoAn1_Nhom4_DHTI16A1CL;
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.DangNhap
 {
     public partial class dang_nhap_form : Form
@@ -83,15 +83,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.DangNhap
             btnLogin.FlatStyle = FlatStyle.Flat;
             btnLogin.Click += BtnLogin_Click;
             this.Controls.Add(btnLogin);
-
-            // Link Đăng ký
-            linkRegister = new LinkLabel();
-            linkRegister.Text = "Đăng ký";
-            linkRegister.Location = new Point(50, 400);
-            linkRegister.AutoSize = true;
-            linkRegister.Click += LinkRegister_Click;
-            this.Controls.Add(linkRegister);
-
+        
             // Link Quên mật khẩu
             linkForgot = new LinkLabel();
             linkForgot.Text = "Quên mật khẩu?";
@@ -107,19 +99,27 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.DangNhap
             string pass = txtPassword.Text;
 
             if (user == "admin" && pass == "123")
+            {
                 MessageBox.Show("Đăng nhập thành công!", "Thông báo");
-            else
-                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
 
-        private void LinkRegister_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Chuyển sang form Đăng ký...");
+                // Ẩn form đăng nhập
+                this.Hide();
+
+                // Mở MainForm (đang test, ko khuyến khích dùng cách này vì dễ rối)
+                DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm.MainForm form = new DoAn1_Nhom4_DHTI16A1CL.Forms.MainForm.MainForm();
+                form.FormClosed += (s, args) => this.Close(); // Đóng form chính thì thoát toàn bộ
+                form.Show();
+            }
+            else
+            {
+                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void LinkForgot_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chuyển sang form Quên mật khẩu...");
+            quen_mat_khau_form forgotForm = new quen_mat_khau_form();
+            forgotForm.ShowDialog(); // Hiển thị form quên mật khẩu dưới dạng dialog
         }
     }
 }
