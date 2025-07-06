@@ -75,6 +75,18 @@
     <Compile Include="Forms\QLDaiLy\usDaiLy.Designer.cs">
       <DependentUpon>usDaiLy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\QLDangNhap\usDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLDangNhap\usDangNhap.Designer.cs">
+      <DependentUpon>usDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLDangNhap\usQuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLDangNhap\usQuenMatKhau.Designer.cs">
+      <DependentUpon>usQuenMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QLHoaDon\usHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
