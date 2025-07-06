@@ -17,7 +17,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lblTieuDe = new System.Windows.Forms.Label();
             this.grpDoanhThu = new System.Windows.Forms.GroupBox();
@@ -31,14 +31,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.btnThongKe = new System.Windows.Forms.Button();
             this.grpSLThongKe = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.lblSoKhachHang = new System.Windows.Forms.Label();
+            this.txtDaiLy = new System.Windows.Forms.TextBox();
             this.txtTongDoanhThu = new System.Windows.Forms.TextBox();
-            this.txtSoKhachHang = new System.Windows.Forms.TextBox();
             this.lblTongDoanhThu = new System.Windows.Forms.Label();
-            this.lblDaiLy = new System.Windows.Forms.Label();
             this.txtTongSoXeBanRa = new System.Windows.Forms.TextBox();
             this.lblTongSoXeBanRa = new System.Windows.Forms.Label();
-            this.txtDaiLy = new System.Windows.Forms.TextBox();
+            this.lblSoKhachHang = new System.Windows.Forms.Label();
+            this.txtSoKhachHang = new System.Windows.Forms.TextBox();
+            this.lblDaiLy = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.grpDoanhThu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDoanhThuTheoThongKe)).BeginInit();
@@ -59,7 +59,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.tableLayoutPanel1.Controls.Add(this.grpChonThongKe, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.grpSLThongKe, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(10, 10);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 12);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
@@ -67,17 +68,18 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(980, 730);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1307, 899);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // lblTieuDe
             // 
             this.lblTieuDe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTieuDe.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.lblTieuDe.ForeColor = Color.FromArgb(50, 50, 50);
-            this.lblTieuDe.Location = new System.Drawing.Point(3, 0);
+            this.lblTieuDe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.lblTieuDe.Location = new System.Drawing.Point(4, 0);
+            this.lblTieuDe.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTieuDe.Name = "lblTieuDe";
-            this.lblTieuDe.Size = new System.Drawing.Size(974, 109);
+            this.lblTieuDe.Size = new System.Drawing.Size(1299, 134);
             this.lblTieuDe.TabIndex = 0;
             this.lblTieuDe.Text = "BÁO CÁO - THỐNG KÊ";
             this.lblTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -86,10 +88,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             // 
             this.grpDoanhThu.Controls.Add(this.dgvDoanhThuTheoThongKe);
             this.grpDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grpDoanhThu.ForeColor = Color.FromArgb(50, 50, 50);
-            this.grpDoanhThu.Location = new System.Drawing.Point(3, 331);
+            this.grpDoanhThu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.grpDoanhThu.Location = new System.Drawing.Point(4, 406);
+            this.grpDoanhThu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpDoanhThu.Name = "grpDoanhThu";
-            this.grpDoanhThu.Size = new System.Drawing.Size(974, 322);
+            this.grpDoanhThu.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDoanhThu.Size = new System.Drawing.Size(1299, 396);
             this.grpDoanhThu.TabIndex = 3;
             this.grpDoanhThu.TabStop = false;
             this.grpDoanhThu.Text = "Chi tiết theo thống kê";
@@ -97,32 +101,35 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             // dgvDoanhThuTheoThongKe
             // 
             this.dgvDoanhThuTheoThongKe.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDoanhThuTheoThongKe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDoanhThuTheoThongKe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDoanhThuTheoThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDoanhThuTheoThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDoanhThuTheoThongKe.EnableHeadersVisualStyles = false;
-            this.dgvDoanhThuTheoThongKe.Location = new System.Drawing.Point(3, 19);
+            this.dgvDoanhThuTheoThongKe.Location = new System.Drawing.Point(4, 19);
+            this.dgvDoanhThuTheoThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvDoanhThuTheoThongKe.Name = "dgvDoanhThuTheoThongKe";
-            this.dgvDoanhThuTheoThongKe.Size = new System.Drawing.Size(968, 300);
+            this.dgvDoanhThuTheoThongKe.RowHeadersWidth = 51;
+            this.dgvDoanhThuTheoThongKe.Size = new System.Drawing.Size(1291, 373);
             this.dgvDoanhThuTheoThongKe.TabIndex = 0;
             // 
             // btnXuatExcel
             // 
             this.btnXuatExcel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnXuatExcel.BackColor = Color.FromArgb(72, 201, 176);
+            this.btnXuatExcel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(201)))), ((int)(((byte)(176)))));
             this.btnXuatExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXuatExcel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnXuatExcel.ForeColor = System.Drawing.Color.White;
-            this.btnXuatExcel.Location = new System.Drawing.Point(439, 675);
+            this.btnXuatExcel.Location = new System.Drawing.Point(586, 830);
+            this.btnXuatExcel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXuatExcel.Name = "btnXuatExcel";
-            this.btnXuatExcel.Size = new System.Drawing.Size(101, 36);
+            this.btnXuatExcel.Size = new System.Drawing.Size(135, 44);
             this.btnXuatExcel.TabIndex = 4;
             this.btnXuatExcel.Text = "Xuất Excel";
             this.btnXuatExcel.UseVisualStyleBackColor = false;
@@ -131,13 +138,15 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             // 
             this.grpChonThongKe.Controls.Add(this.tableLayoutPanel2);
             this.grpChonThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grpChonThongKe.Location = new System.Drawing.Point(3, 112);
+            this.grpChonThongKe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.grpChonThongKe.Location = new System.Drawing.Point(4, 138);
+            this.grpChonThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpChonThongKe.Name = "grpChonThongKe";
-            this.grpChonThongKe.Size = new System.Drawing.Size(974, 67);
+            this.grpChonThongKe.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpChonThongKe.Size = new System.Drawing.Size(1299, 81);
             this.grpChonThongKe.TabIndex = 5;
             this.grpChonThongKe.TabStop = false;
             this.grpChonThongKe.Text = "Chọn Thống Kê";
-            this.grpChonThongKe.ForeColor = Color.FromArgb(50, 50, 50);
             // 
             // tableLayoutPanel2
             // 
@@ -151,53 +160,63 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.tableLayoutPanel2.Controls.Add(this.cbLoaiThongKe, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnThongKe, 3, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 19);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(968, 48);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1291, 58);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // dtpDenNgay
             // 
             this.dtpDenNgay.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dtpDenNgay.Location = new System.Drawing.Point(283, 14);
+            this.dtpDenNgay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDenNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDenNgay.Location = new System.Drawing.Point(377, 15);
+            this.dtpDenNgay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpDenNgay.Name = "dtpDenNgay";
-            this.dtpDenNgay.Size = new System.Drawing.Size(160, 20);
+            this.dtpDenNgay.Size = new System.Drawing.Size(212, 27);
             this.dtpDenNgay.TabIndex = 5;
-            this.dtpDenNgay.Value = new System.DateTime(2000, 1, 1, 20, 54, 0, 0);
+            this.dtpDenNgay.Value = new System.DateTime(2025, 1, 1, 0, 0, 0, 0);
             // 
             // dtpTuNgay
             // 
             this.dtpTuNgay.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dtpTuNgay.Location = new System.Drawing.Point(42, 14);
+            this.dtpTuNgay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTuNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTuNgay.Location = new System.Drawing.Point(56, 15);
+            this.dtpTuNgay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpTuNgay.Name = "dtpTuNgay";
-            this.dtpTuNgay.Size = new System.Drawing.Size(158, 20);
+            this.dtpTuNgay.Size = new System.Drawing.Size(209, 27);
             this.dtpTuNgay.TabIndex = 4;
-            this.dtpTuNgay.Value = new System.DateTime(2000, 1, 1, 20, 54, 0, 0);
+            this.dtpTuNgay.Value = new System.DateTime(2025, 1, 1, 0, 0, 0, 0);
             // 
             // cbLoaiThongKe
             // 
             this.cbLoaiThongKe.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbLoaiThongKe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbLoaiThongKe.FormattingEnabled = true;
             this.cbLoaiThongKe.Items.AddRange(new object[] {
             "Doanh Thu",
             "Số Lượng"});
-            this.cbLoaiThongKe.Location = new System.Drawing.Point(544, 13);
+            this.cbLoaiThongKe.Location = new System.Drawing.Point(725, 17);
+            this.cbLoaiThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbLoaiThongKe.Name = "cbLoaiThongKe";
-            this.cbLoaiThongKe.Size = new System.Drawing.Size(121, 21);
+            this.cbLoaiThongKe.Size = new System.Drawing.Size(160, 26);
             this.cbLoaiThongKe.TabIndex = 6;
             // 
             // btnThongKe
             // 
             this.btnThongKe.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnThongKe.BackColor = Color.FromArgb(85, 85, 85);
+            this.btnThongKe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             this.btnThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThongKe.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnThongKe.ForeColor = System.Drawing.Color.White;
-            this.btnThongKe.Location = new System.Drawing.Point(793, 6);
+            this.btnThongKe.Location = new System.Drawing.Point(1056, 7);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(108, 35);
+            this.btnThongKe.Size = new System.Drawing.Size(144, 43);
             this.btnThongKe.TabIndex = 3;
             this.btnThongKe.Text = "Thống Kê";
             this.btnThongKe.UseVisualStyleBackColor = false;
@@ -206,13 +225,15 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             // 
             this.grpSLThongKe.Controls.Add(this.tableLayoutPanel3);
             this.grpSLThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grpSLThongKe.Location = new System.Drawing.Point(3, 185);
+            this.grpSLThongKe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.grpSLThongKe.Location = new System.Drawing.Point(4, 227);
+            this.grpSLThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpSLThongKe.Name = "grpSLThongKe";
-            this.grpSLThongKe.Size = new System.Drawing.Size(974, 140);
+            this.grpSLThongKe.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpSLThongKe.Size = new System.Drawing.Size(1299, 171);
             this.grpSLThongKe.TabIndex = 6;
             this.grpSLThongKe.TabStop = false;
             this.grpSLThongKe.Text = "Thống Kê";
-            this.grpSLThongKe.ForeColor = Color.FromArgb(50, 50, 50);
             // 
             // tableLayoutPanel3
             // 
@@ -230,101 +251,111 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.tableLayoutPanel3.Controls.Add(this.txtSoKhachHang, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.lblDaiLy, 2, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 19);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(968, 121);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1291, 148);
             this.tableLayoutPanel3.TabIndex = 4;
             // 
-            // lblSoKhachHang
+            // txtDaiLy
             // 
-            this.lblSoKhachHang.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblSoKhachHang.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblSoKhachHang.ForeColor = Color.FromArgb(50, 50, 50);
-            this.lblSoKhachHang.Location = new System.Drawing.Point(101, 79);
-            this.lblSoKhachHang.Name = "lblSoKhachHang";
-            this.lblSoKhachHang.Size = new System.Drawing.Size(138, 23);
-            this.lblSoKhachHang.TabIndex = 2;
-            this.lblSoKhachHang.Text = "Số Khách Hàng";
+            this.txtDaiLy.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtDaiLy.Location = new System.Drawing.Point(970, 100);
+            this.txtDaiLy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDaiLy.Name = "txtDaiLy";
+            this.txtDaiLy.Size = new System.Drawing.Size(152, 22);
+            this.txtDaiLy.TabIndex = 7;
             // 
             // txtTongDoanhThu
             // 
             this.txtTongDoanhThu.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtTongDoanhThu.Location = new System.Drawing.Point(245, 20);
+            this.txtTongDoanhThu.Location = new System.Drawing.Point(326, 26);
+            this.txtTongDoanhThu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTongDoanhThu.Name = "txtTongDoanhThu";
-            this.txtTongDoanhThu.Size = new System.Drawing.Size(115, 20);
+            this.txtTongDoanhThu.Size = new System.Drawing.Size(152, 22);
             this.txtTongDoanhThu.TabIndex = 3;
-            // 
-            // txtSoKhachHang
-            // 
-            this.txtSoKhachHang.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtSoKhachHang.Location = new System.Drawing.Point(245, 80);
-            this.txtSoKhachHang.Name = "txtSoKhachHang";
-            this.txtSoKhachHang.Size = new System.Drawing.Size(115, 20);
-            this.txtSoKhachHang.TabIndex = 5;
             // 
             // lblTongDoanhThu
             // 
             this.lblTongDoanhThu.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblTongDoanhThu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblTongDoanhThu.ForeColor = Color.FromArgb(50, 50, 50);
-            this.lblTongDoanhThu.Location = new System.Drawing.Point(101, 18);
+            this.lblTongDoanhThu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.lblTongDoanhThu.Location = new System.Drawing.Point(134, 23);
+            this.lblTongDoanhThu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTongDoanhThu.Name = "lblTongDoanhThu";
-            this.lblTongDoanhThu.Size = new System.Drawing.Size(138, 23);
+            this.lblTongDoanhThu.Size = new System.Drawing.Size(184, 28);
             this.lblTongDoanhThu.TabIndex = 0;
             this.lblTongDoanhThu.Text = "Tổng Doanh Thu";
-            // 
-            // lblDaiLy
-            // 
-            this.lblDaiLy.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblDaiLy.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblDaiLy.ForeColor = Color.FromArgb(50, 50, 50);
-            this.lblDaiLy.Location = new System.Drawing.Point(585, 79);
-            this.lblDaiLy.Name = "lblDaiLy";
-            this.lblDaiLy.Size = new System.Drawing.Size(138, 23);
-            this.lblDaiLy.TabIndex = 6;
-            this.lblDaiLy.Text = "Đại Lý";
             // 
             // txtTongSoXeBanRa
             // 
             this.txtTongSoXeBanRa.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtTongSoXeBanRa.Location = new System.Drawing.Point(729, 20);
+            this.txtTongSoXeBanRa.Location = new System.Drawing.Point(970, 26);
+            this.txtTongSoXeBanRa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTongSoXeBanRa.Name = "txtTongSoXeBanRa";
-            this.txtTongSoXeBanRa.Size = new System.Drawing.Size(115, 20);
+            this.txtTongSoXeBanRa.Size = new System.Drawing.Size(152, 22);
             this.txtTongSoXeBanRa.TabIndex = 4;
             // 
             // lblTongSoXeBanRa
             // 
             this.lblTongSoXeBanRa.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblTongSoXeBanRa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblTongSoXeBanRa.ForeColor = Color.FromArgb(50, 50, 50);
-            this.lblTongSoXeBanRa.Location = new System.Drawing.Point(581, 18);
+            this.lblTongSoXeBanRa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.lblTongSoXeBanRa.Location = new System.Drawing.Point(773, 23);
+            this.lblTongSoXeBanRa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTongSoXeBanRa.Name = "lblTongSoXeBanRa";
-            this.lblTongSoXeBanRa.Size = new System.Drawing.Size(142, 23);
+            this.lblTongSoXeBanRa.Size = new System.Drawing.Size(189, 28);
             this.lblTongSoXeBanRa.TabIndex = 1;
             this.lblTongSoXeBanRa.Text = "Tổng Số Xe Bán Ra";
             // 
-            // txtDaiLy
+            // lblSoKhachHang
             // 
-            this.txtDaiLy.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtDaiLy.Location = new System.Drawing.Point(729, 80);
-            this.txtDaiLy.Name = "txtDaiLy";
-            this.txtDaiLy.Size = new System.Drawing.Size(115, 20);
-            this.txtDaiLy.TabIndex = 7;
+            this.lblSoKhachHang.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblSoKhachHang.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblSoKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.lblSoKhachHang.Location = new System.Drawing.Point(134, 97);
+            this.lblSoKhachHang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSoKhachHang.Name = "lblSoKhachHang";
+            this.lblSoKhachHang.Size = new System.Drawing.Size(184, 28);
+            this.lblSoKhachHang.TabIndex = 2;
+            this.lblSoKhachHang.Text = "Số Khách Hàng";
+            // 
+            // txtSoKhachHang
+            // 
+            this.txtSoKhachHang.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtSoKhachHang.Location = new System.Drawing.Point(326, 100);
+            this.txtSoKhachHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoKhachHang.Name = "txtSoKhachHang";
+            this.txtSoKhachHang.Size = new System.Drawing.Size(152, 22);
+            this.txtSoKhachHang.TabIndex = 5;
+            // 
+            // lblDaiLy
+            // 
+            this.lblDaiLy.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblDaiLy.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblDaiLy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.lblDaiLy.Location = new System.Drawing.Point(778, 97);
+            this.lblDaiLy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDaiLy.Name = "lblDaiLy";
+            this.lblDaiLy.Size = new System.Drawing.Size(184, 28);
+            this.lblDaiLy.TabIndex = 6;
+            this.lblDaiLy.Text = "Đại Lý";
             // 
             // BaoCaoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = Color.White;
-            this.ClientSize = new System.Drawing.Size(1000, 750);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1333, 923);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "BaoCaoForm";
-            this.Padding = new System.Windows.Forms.Padding(10);
+            this.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
             this.Text = "BaoCaoForm";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.grpDoanhThu.ResumeLayout(false);
