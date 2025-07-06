@@ -57,106 +57,112 @@
     <Compile Include="Data_Transfer_Objects\TonXe.cs" />
     <Compile Include="Data_Transfer_Objects\TaiKhoan.cs" />
     <Compile Include="Data_Transfer_Objects\ThongTinXe.cs" />
-    <Compile Include="Forms\QLBaoCao\BaoCaoForm.cs">
+    <Compile Include="Forms\QLBaoCao\usBaoCao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLBaoCao\usBaoCao.Designer.cs">
+      <DependentUpon>usBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLBaoHanh\usBaoHanh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLBaoHanh\usBaoHanh.Designer.cs">
+      <DependentUpon>usBaoHanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLDaiLy\usDaiLy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLDaiLy\usDaiLy.Designer.cs">
+      <DependentUpon>usDaiLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLHoaDon\usHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLHoaDon\usHoaDon.Designer.cs">
+      <DependentUpon>usHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLKhachHang\usKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLKhachHang\usKhachHang.Designer.cs">
+      <DependentUpon>usKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLTaiKhoan\usTaiKhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLTaiKhoan\usTaiKhoan.Designer.cs">
+      <DependentUpon>usTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLTonKho\usTonKho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLTonKho\usTonKho.Designer.cs">
+      <DependentUpon>usTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLXe\usXeMayDien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLXe\usXeMayDien.Designer.cs">
+      <DependentUpon>usXeMayDien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLXe\usXeDapDien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\QLXe\usXeDapDien.Designer.cs">
+      <DependentUpon>usXeDapDien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\QLBaoCao\BaoCaoForm.Designer.cs">
-      <DependentUpon>BaoCaoForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\QLBaoHanh\BaoHanhForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\QLBaoHanh\BaoHanhForm.Designer.cs">
-      <DependentUpon>BaoHanhForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\QLDaiLy\DaiLyForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\QLDaiLy\DaiLyForm.Designer.cs">
-      <DependentUpon>DaiLyForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\QLHoaDon\HoaDonForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\QLHoaDon\HoaDonForm.Designer.cs">
-      <DependentUpon>HoaDonForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\QLKhachHang\KhachHangForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\QLKhachHang\KhachHangForm.Designer.cs">
-      <DependentUpon>KhachHangForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\QLTaiKhoan\TaiKhoanForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\QLTaiKhoan\TaiKhoanForm.Designer.cs">
-      <DependentUpon>TaiKhoanForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\QLTonKho\TonKhoForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\QLTonKho\TonKhoForm.Designer.cs">
-      <DependentUpon>TonKhoForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\QLXe\QLXeDapDienForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\QLXe\QLXeDapDienForm.Designer.cs">
-      <DependentUpon>QLXeDapDienForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\QLXe\QLXeMayDienForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\QLXe\QLXeMayDienForm.Designer.cs">
-      <DependentUpon>QLXeMayDienForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\TongQuan\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\TongQuan\MainForm.Designer.cs">
+    <Compile Include="Forms\Main\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\TongQuan\TongQuanForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Forms\Main\usSideBar.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\TongQuan\TongQuanForm.Designer.cs">
-      <DependentUpon>TongQuanForm.cs</DependentUpon>
+    <Compile Include="Forms\Main\usSideBar.Designer.cs">
+      <DependentUpon>usSideBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TongQuan\usTongQuan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TongQuan\usTongQuan.Designer.cs">
+      <DependentUpon>usTongQuan.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\QLBaoCao\BaoCaoForm.resx">
-      <DependentUpon>BaoCaoForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLBaoHanh\BaoHanhForm.resx">
-      <DependentUpon>BaoHanhForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLDaiLy\DaiLyForm.resx">
-      <DependentUpon>DaiLyForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLHoaDon\HoaDonForm.resx">
-      <DependentUpon>HoaDonForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLKhachHang\KhachHangForm.resx">
-      <DependentUpon>KhachHangForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLTaiKhoan\TaiKhoanForm.resx">
-      <DependentUpon>TaiKhoanForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLTonKho\TonKhoForm.resx">
-      <DependentUpon>TonKhoForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLXe\QLXeDapDienForm.resx">
-      <DependentUpon>QLXeDapDienForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLXe\QLXeMayDienForm.resx">
-      <DependentUpon>QLXeMayDienForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TongQuan\MainForm.resx">
+    <EmbeddedResource Include="Forms\Main\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TongQuan\TongQuanForm.resx">
-      <DependentUpon>TongQuanForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Main\usSideBar.resx">
+      <DependentUpon>usSideBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLBaoCao\usBaoCao.resx">
+      <DependentUpon>usBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLBaoHanh\usBaoHanh.resx">
+      <DependentUpon>usBaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLDaiLy\usDaiLy.resx">
+      <DependentUpon>usDaiLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLHoaDon\usHoaDon.resx">
+      <DependentUpon>usHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLKhachHang\usKhachHang.resx">
+      <DependentUpon>usKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLTaiKhoan\usTaiKhoan.resx">
+      <DependentUpon>usTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLTonKho\usTonKho.resx">
+      <DependentUpon>usTonKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLXe\usXeDapDien.resx">
+      <DependentUpon>usXeDapDien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLXe\usXeMayDien.resx">
+      <DependentUpon>usXeMayDien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

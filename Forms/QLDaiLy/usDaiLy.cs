@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
+namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
 {
-    public partial class KhachHangForm : Form
+    public partial class usDaiLy : UserControl
     {
-        public KhachHangForm()
+        public usDaiLy()
         {
             InitializeComponent();
         }
-
     }
 }

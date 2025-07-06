@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
+namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
 {
-    public partial class QLXeDapDienForm : Form
+    public partial class usTongQuan : UserControl
     {
-        public QLXeDapDienForm()
+        public usTongQuan()
         {
             InitializeComponent();
         }

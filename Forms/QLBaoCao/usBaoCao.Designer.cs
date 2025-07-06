@@ -1,8 +1,6 @@
-﻿using System.Drawing;
-
-namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
+﻿namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
 {
-    partial class BaoCaoForm
+    partial class usBaoCao
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -17,7 +15,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lblTieuDe = new System.Windows.Forms.Label();
             this.grpDoanhThu = new System.Windows.Forms.GroupBox();
@@ -60,7 +58,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.tableLayoutPanel1.Controls.Add(this.grpSLThongKe, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 12);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
@@ -74,7 +72,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             // lblTieuDe
             // 
             this.lblTieuDe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTieuDe.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
+            this.lblTieuDe.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.lblTieuDe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.lblTieuDe.Location = new System.Drawing.Point(4, 0);
             this.lblTieuDe.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -90,9 +88,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.grpDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpDoanhThu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.grpDoanhThu.Location = new System.Drawing.Point(4, 406);
-            this.grpDoanhThu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDoanhThu.Margin = new System.Windows.Forms.Padding(4);
             this.grpDoanhThu.Name = "grpDoanhThu";
-            this.grpDoanhThu.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpDoanhThu.Padding = new System.Windows.Forms.Padding(4);
             this.grpDoanhThu.Size = new System.Drawing.Size(1299, 396);
             this.grpDoanhThu.TabIndex = 3;
             this.grpDoanhThu.TabStop = false;
@@ -101,22 +99,22 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             // dgvDoanhThuTheoThongKe
             // 
             this.dgvDoanhThuTheoThongKe.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDoanhThuTheoThongKe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDoanhThuTheoThongKe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDoanhThuTheoThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDoanhThuTheoThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDoanhThuTheoThongKe.EnableHeadersVisualStyles = false;
-            this.dgvDoanhThuTheoThongKe.Location = new System.Drawing.Point(4, 19);
-            this.dgvDoanhThuTheoThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDoanhThuTheoThongKe.Location = new System.Drawing.Point(4, 17);
+            this.dgvDoanhThuTheoThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDoanhThuTheoThongKe.Name = "dgvDoanhThuTheoThongKe";
             this.dgvDoanhThuTheoThongKe.RowHeadersWidth = 51;
-            this.dgvDoanhThuTheoThongKe.Size = new System.Drawing.Size(1291, 373);
+            this.dgvDoanhThuTheoThongKe.Size = new System.Drawing.Size(1291, 375);
             this.dgvDoanhThuTheoThongKe.TabIndex = 0;
             // 
             // btnXuatExcel
@@ -127,7 +125,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.btnXuatExcel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnXuatExcel.ForeColor = System.Drawing.Color.White;
             this.btnXuatExcel.Location = new System.Drawing.Point(586, 830);
-            this.btnXuatExcel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXuatExcel.Margin = new System.Windows.Forms.Padding(4);
             this.btnXuatExcel.Name = "btnXuatExcel";
             this.btnXuatExcel.Size = new System.Drawing.Size(135, 44);
             this.btnXuatExcel.TabIndex = 4;
@@ -140,9 +138,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.grpChonThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpChonThongKe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.grpChonThongKe.Location = new System.Drawing.Point(4, 138);
-            this.grpChonThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpChonThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.grpChonThongKe.Name = "grpChonThongKe";
-            this.grpChonThongKe.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpChonThongKe.Padding = new System.Windows.Forms.Padding(4);
             this.grpChonThongKe.Size = new System.Drawing.Size(1299, 81);
             this.grpChonThongKe.TabIndex = 5;
             this.grpChonThongKe.TabStop = false;
@@ -160,12 +158,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.tableLayoutPanel2.Controls.Add(this.cbLoaiThongKe, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnThongKe, 3, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 19);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 17);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1291, 58);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1291, 60);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // dtpDenNgay
@@ -173,10 +171,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.dtpDenNgay.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtpDenNgay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDenNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDenNgay.Location = new System.Drawing.Point(377, 15);
-            this.dtpDenNgay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpDenNgay.Location = new System.Drawing.Point(377, 18);
+            this.dtpDenNgay.Margin = new System.Windows.Forms.Padding(4);
             this.dtpDenNgay.Name = "dtpDenNgay";
-            this.dtpDenNgay.Size = new System.Drawing.Size(212, 27);
+            this.dtpDenNgay.Size = new System.Drawing.Size(212, 23);
             this.dtpDenNgay.TabIndex = 5;
             this.dtpDenNgay.Value = new System.DateTime(2025, 1, 1, 0, 0, 0, 0);
             // 
@@ -185,10 +183,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.dtpTuNgay.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtpTuNgay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpTuNgay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpTuNgay.Location = new System.Drawing.Point(56, 15);
-            this.dtpTuNgay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpTuNgay.Location = new System.Drawing.Point(56, 18);
+            this.dtpTuNgay.Margin = new System.Windows.Forms.Padding(4);
             this.dtpTuNgay.Name = "dtpTuNgay";
-            this.dtpTuNgay.Size = new System.Drawing.Size(209, 27);
+            this.dtpTuNgay.Size = new System.Drawing.Size(209, 23);
             this.dtpTuNgay.TabIndex = 4;
             this.dtpTuNgay.Value = new System.DateTime(2025, 1, 1, 0, 0, 0, 0);
             // 
@@ -200,10 +198,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.cbLoaiThongKe.Items.AddRange(new object[] {
             "Doanh Thu",
             "Số Lượng"});
-            this.cbLoaiThongKe.Location = new System.Drawing.Point(725, 17);
-            this.cbLoaiThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbLoaiThongKe.Location = new System.Drawing.Point(725, 18);
+            this.cbLoaiThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.cbLoaiThongKe.Name = "cbLoaiThongKe";
-            this.cbLoaiThongKe.Size = new System.Drawing.Size(160, 26);
+            this.cbLoaiThongKe.Size = new System.Drawing.Size(160, 23);
             this.cbLoaiThongKe.TabIndex = 6;
             // 
             // btnThongKe
@@ -213,10 +211,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.btnThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThongKe.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnThongKe.ForeColor = System.Drawing.Color.White;
-            this.btnThongKe.Location = new System.Drawing.Point(1056, 7);
-            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThongKe.Location = new System.Drawing.Point(1056, 12);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(144, 43);
+            this.btnThongKe.Size = new System.Drawing.Size(144, 35);
             this.btnThongKe.TabIndex = 3;
             this.btnThongKe.Text = "Thống Kê";
             this.btnThongKe.UseVisualStyleBackColor = false;
@@ -227,9 +225,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.grpSLThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpSLThongKe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.grpSLThongKe.Location = new System.Drawing.Point(4, 227);
-            this.grpSLThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpSLThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.grpSLThongKe.Name = "grpSLThongKe";
-            this.grpSLThongKe.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpSLThongKe.Padding = new System.Windows.Forms.Padding(4);
             this.grpSLThongKe.Size = new System.Drawing.Size(1299, 171);
             this.grpSLThongKe.TabIndex = 6;
             this.grpSLThongKe.TabStop = false;
@@ -251,33 +249,33 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.tableLayoutPanel3.Controls.Add(this.txtSoKhachHang, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.lblDaiLy, 2, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 19);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 17);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1291, 148);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1291, 150);
             this.tableLayoutPanel3.TabIndex = 4;
             // 
             // txtDaiLy
             // 
             this.txtDaiLy.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtDaiLy.Location = new System.Drawing.Point(970, 100);
-            this.txtDaiLy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDaiLy.Location = new System.Drawing.Point(970, 102);
+            this.txtDaiLy.Margin = new System.Windows.Forms.Padding(4);
             this.txtDaiLy.Name = "txtDaiLy";
-            this.txtDaiLy.Size = new System.Drawing.Size(152, 22);
+            this.txtDaiLy.Size = new System.Drawing.Size(152, 20);
             this.txtDaiLy.TabIndex = 7;
             // 
             // txtTongDoanhThu
             // 
             this.txtTongDoanhThu.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtTongDoanhThu.Location = new System.Drawing.Point(326, 26);
-            this.txtTongDoanhThu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTongDoanhThu.Location = new System.Drawing.Point(326, 27);
+            this.txtTongDoanhThu.Margin = new System.Windows.Forms.Padding(4);
             this.txtTongDoanhThu.Name = "txtTongDoanhThu";
-            this.txtTongDoanhThu.Size = new System.Drawing.Size(152, 22);
+            this.txtTongDoanhThu.Size = new System.Drawing.Size(152, 20);
             this.txtTongDoanhThu.TabIndex = 3;
             // 
             // lblTongDoanhThu
@@ -295,10 +293,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             // txtTongSoXeBanRa
             // 
             this.txtTongSoXeBanRa.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtTongSoXeBanRa.Location = new System.Drawing.Point(970, 26);
-            this.txtTongSoXeBanRa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTongSoXeBanRa.Location = new System.Drawing.Point(970, 27);
+            this.txtTongSoXeBanRa.Margin = new System.Windows.Forms.Padding(4);
             this.txtTongSoXeBanRa.Name = "txtTongSoXeBanRa";
-            this.txtTongSoXeBanRa.Size = new System.Drawing.Size(152, 22);
+            this.txtTongSoXeBanRa.Size = new System.Drawing.Size(152, 20);
             this.txtTongSoXeBanRa.TabIndex = 4;
             // 
             // lblTongSoXeBanRa
@@ -318,7 +316,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.lblSoKhachHang.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblSoKhachHang.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblSoKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.lblSoKhachHang.Location = new System.Drawing.Point(134, 97);
+            this.lblSoKhachHang.Location = new System.Drawing.Point(134, 98);
             this.lblSoKhachHang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSoKhachHang.Name = "lblSoKhachHang";
             this.lblSoKhachHang.Size = new System.Drawing.Size(184, 28);
@@ -328,10 +326,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             // txtSoKhachHang
             // 
             this.txtSoKhachHang.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtSoKhachHang.Location = new System.Drawing.Point(326, 100);
-            this.txtSoKhachHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoKhachHang.Location = new System.Drawing.Point(326, 102);
+            this.txtSoKhachHang.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoKhachHang.Name = "txtSoKhachHang";
-            this.txtSoKhachHang.Size = new System.Drawing.Size(152, 22);
+            this.txtSoKhachHang.Size = new System.Drawing.Size(152, 20);
             this.txtSoKhachHang.TabIndex = 5;
             // 
             // lblDaiLy
@@ -339,24 +337,23 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
             this.lblDaiLy.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblDaiLy.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblDaiLy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.lblDaiLy.Location = new System.Drawing.Point(778, 97);
+            this.lblDaiLy.Location = new System.Drawing.Point(778, 98);
             this.lblDaiLy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDaiLy.Name = "lblDaiLy";
             this.lblDaiLy.Size = new System.Drawing.Size(184, 28);
             this.lblDaiLy.TabIndex = 6;
             this.lblDaiLy.Text = "Đại Lý";
             // 
-            // BaoCaoForm
+            // usBaoCao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1333, 923);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "BaoCaoForm";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "usBaoCao";
             this.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
-            this.Text = "BaoCaoForm";
+            this.Size = new System.Drawing.Size(1333, 923);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.grpDoanhThu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDoanhThuTheoThongKe)).EndInit();

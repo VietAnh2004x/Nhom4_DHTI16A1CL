@@ -1,10 +1,8 @@
-﻿using DoAn1_Nhom4_DHTI16A1CL.Data_Transfer_Objects;
-using System.Drawing;
-using System.Windows.Forms.DataVisualization.Charting;
+﻿using System.Windows.Forms.DataVisualization.Charting;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
 {
-    partial class TongQuanForm
+    partial class usTongQuan
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -253,12 +251,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             // 
             // TongQuanForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.Name = "TongQuanForm";
-            this.Text = "TongQuanForm";
             this.panel1.ResumeLayout(false);
             this.tbTong.ResumeLayout(false);
             this.tbHienThi.ResumeLayout(false);
@@ -267,6 +262,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             ((System.ComponentModel.ISupportInitialize)(this.chartDoanhThu)).EndInit();
             this.ResumeLayout(false);
 
+            LoadDashboard();
         }
 
         private System.Windows.Forms.Panel panel1;

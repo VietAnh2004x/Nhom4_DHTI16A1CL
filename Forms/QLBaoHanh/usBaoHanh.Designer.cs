@@ -1,40 +1,10 @@
-﻿using System.Drawing;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
 {
-    partial class BaoHanhForm
+    partial class usBaoHanh
     {
         private System.ComponentModel.IContainer components = null;
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TableLayoutPanel tbTong;
-        private System.Windows.Forms.TableLayoutPanel tbHienThi;
-        private System.Windows.Forms.TableLayoutPanel tbTrai;
-        private System.Windows.Forms.TableLayoutPanel tbPhai;
-        private System.Windows.Forms.GroupBox grpTTBaoHanh;
-        private System.Windows.Forms.Label lblTieuDe;
-        private System.Windows.Forms.GroupBox grpTacVu;
-        private System.Windows.Forms.GroupBox grpTimKiemPhieuBaoHanh;
-        private System.Windows.Forms.GroupBox grpDSBaoHanh;
-        private System.Windows.Forms.TextBox txtThoiHan;
-        private System.Windows.Forms.TextBox txtNgayBatDau;
-        private System.Windows.Forms.TextBox txtMaHoaDon;
-        private System.Windows.Forms.TextBox txtMaXe;
-        private System.Windows.Forms.TextBox txtMaBaoHanh;
-        private System.Windows.Forms.Label lblThoiHan;
-        private System.Windows.Forms.Label lblNgayBatDau;
-        private System.Windows.Forms.Label lblMaXe;
-        private System.Windows.Forms.Label lblMaHoaDon;
-        private System.Windows.Forms.Label lblMaBaoHanh;
-        private System.Windows.Forms.Button btnLamMoi;
-        private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.TextBox txtTimKiemPhieuBaoHanh;
-        private System.Windows.Forms.Label lblTimKiemPhieuBaoHanh;
-        private System.Windows.Forms.Button btnTimKiem;
-        private System.Windows.Forms.DataGridView dgvDSBaoHanh;
 
         protected override void Dispose(bool disposing)
         {
@@ -128,14 +98,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.tbHienThi.Location = new System.Drawing.Point(3, 115);
             this.tbHienThi.Name = "tbHienThi";
             this.tbHienThi.RowCount = 1;
-            this.tbHienThi.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tbHienThi.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 632F));
             this.tbHienThi.Size = new System.Drawing.Size(994, 632);
             this.tbHienThi.TabIndex = 0;
             // 
             // tbTrai
             // 
             this.tbTrai.ColumnCount = 1;
-            this.tbTrai.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
+            this.tbTrai.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 391F));
             this.tbTrai.Controls.Add(this.grpTTBaoHanh, 0, 0);
             this.tbTrai.Controls.Add(this.grpTacVu, 0, 1);
             this.tbTrai.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -171,35 +141,35 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             // 
             this.txtThoiHan.Location = new System.Drawing.Point(139, 300);
             this.txtThoiHan.Name = "txtThoiHan";
-            this.txtThoiHan.Size = new System.Drawing.Size(163, 30);
+            this.txtThoiHan.Size = new System.Drawing.Size(163, 25);
             this.txtThoiHan.TabIndex = 9;
             // 
             // txtNgayBatDau
             // 
             this.txtNgayBatDau.Location = new System.Drawing.Point(139, 236);
             this.txtNgayBatDau.Name = "txtNgayBatDau";
-            this.txtNgayBatDau.Size = new System.Drawing.Size(163, 30);
+            this.txtNgayBatDau.Size = new System.Drawing.Size(163, 25);
             this.txtNgayBatDau.TabIndex = 8;
             // 
             // txtMaHoaDon
             // 
             this.txtMaHoaDon.Location = new System.Drawing.Point(139, 108);
             this.txtMaHoaDon.Name = "txtMaHoaDon";
-            this.txtMaHoaDon.Size = new System.Drawing.Size(163, 30);
+            this.txtMaHoaDon.Size = new System.Drawing.Size(163, 25);
             this.txtMaHoaDon.TabIndex = 7;
             // 
             // txtMaXe
             // 
             this.txtMaXe.Location = new System.Drawing.Point(139, 172);
             this.txtMaXe.Name = "txtMaXe";
-            this.txtMaXe.Size = new System.Drawing.Size(163, 30);
+            this.txtMaXe.Size = new System.Drawing.Size(163, 25);
             this.txtMaXe.TabIndex = 6;
             // 
             // txtMaBaoHanh
             // 
             this.txtMaBaoHanh.Location = new System.Drawing.Point(139, 45);
             this.txtMaBaoHanh.Name = "txtMaBaoHanh";
-            this.txtMaBaoHanh.Size = new System.Drawing.Size(163, 30);
+            this.txtMaBaoHanh.Size = new System.Drawing.Size(163, 25);
             this.txtMaBaoHanh.TabIndex = 5;
             // 
             // lblThoiHan
@@ -262,7 +232,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.btnLamMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLamMoi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnLamMoi.ForeColor = System.Drawing.Color.White;
-            this.btnLamMoi.Location = new System.Drawing.Point(210, 87);
+            this.btnLamMoi.Location = new System.Drawing.Point(224, 97);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(100, 35);
             this.btnLamMoi.TabIndex = 3;
@@ -275,7 +245,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(76, 87);
+            this.btnXoa.Location = new System.Drawing.Point(59, 97);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(100, 35);
             this.btnXoa.TabIndex = 2;
@@ -288,7 +258,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnSua.ForeColor = System.Drawing.Color.White;
-            this.btnSua.Location = new System.Drawing.Point(210, 26);
+            this.btnSua.Location = new System.Drawing.Point(224, 36);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(100, 35);
             this.btnSua.TabIndex = 1;
@@ -301,7 +271,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnThem.ForeColor = System.Drawing.Color.White;
-            this.btnThem.Location = new System.Drawing.Point(76, 26);
+            this.btnThem.Location = new System.Drawing.Point(59, 36);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(100, 35);
             this.btnThem.TabIndex = 0;
@@ -311,15 +281,15 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             // tbPhai
             // 
             this.tbPhai.ColumnCount = 1;
-            this.tbPhai.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
+            this.tbPhai.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 591F));
             this.tbPhai.Controls.Add(this.grpTimKiemPhieuBaoHanh, 0, 0);
             this.tbPhai.Controls.Add(this.grpDSBaoHanh, 0, 1);
             this.tbPhai.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbPhai.Location = new System.Drawing.Point(400, 3);
             this.tbPhai.Name = "tbPhai";
             this.tbPhai.RowCount = 2;
-            this.tbPhai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tbPhai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
+            this.tbPhai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tbPhai.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tbPhai.Size = new System.Drawing.Size(591, 626);
             this.tbPhai.TabIndex = 1;
             // 
@@ -331,21 +301,21 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.grpTimKiemPhieuBaoHanh.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpTimKiemPhieuBaoHanh.Location = new System.Drawing.Point(3, 3);
             this.grpTimKiemPhieuBaoHanh.Name = "grpTimKiemPhieuBaoHanh";
-            this.grpTimKiemPhieuBaoHanh.Size = new System.Drawing.Size(585, 150);
+            this.grpTimKiemPhieuBaoHanh.Size = new System.Drawing.Size(585, 119);
             this.grpTimKiemPhieuBaoHanh.TabIndex = 0;
             this.grpTimKiemPhieuBaoHanh.TabStop = false;
             this.grpTimKiemPhieuBaoHanh.Text = "Tìm Kiếm Phiếu Bảo Hành";
             // 
             // txtTimKiemPhieuBaoHanh
             // 
-            this.txtTimKiemPhieuBaoHanh.Location = new System.Drawing.Point(179, 61);
+            this.txtTimKiemPhieuBaoHanh.Location = new System.Drawing.Point(180, 49);
             this.txtTimKiemPhieuBaoHanh.Name = "txtTimKiemPhieuBaoHanh";
-            this.txtTimKiemPhieuBaoHanh.Size = new System.Drawing.Size(196, 30);
+            this.txtTimKiemPhieuBaoHanh.Size = new System.Drawing.Size(196, 25);
             this.txtTimKiemPhieuBaoHanh.TabIndex = 6;
             // 
             // lblTimKiemPhieuBaoHanh
             // 
-            this.lblTimKiemPhieuBaoHanh.Location = new System.Drawing.Point(13, 64);
+            this.lblTimKiemPhieuBaoHanh.Location = new System.Drawing.Point(14, 52);
             this.lblTimKiemPhieuBaoHanh.Name = "lblTimKiemPhieuBaoHanh";
             this.lblTimKiemPhieuBaoHanh.Size = new System.Drawing.Size(160, 23);
             this.lblTimKiemPhieuBaoHanh.TabIndex = 5;
@@ -357,7 +327,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.btnTimKiem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnTimKiem.ForeColor = System.Drawing.Color.White;
-            this.btnTimKiem.Location = new System.Drawing.Point(431, 60);
+            this.btnTimKiem.Location = new System.Drawing.Point(433, 43);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(125, 35);
             this.btnTimKiem.TabIndex = 4;
@@ -368,9 +338,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             // 
             this.grpDSBaoHanh.Controls.Add(this.dgvDSBaoHanh);
             this.grpDSBaoHanh.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grpDSBaoHanh.Location = new System.Drawing.Point(3, 159);
+            this.grpDSBaoHanh.Location = new System.Drawing.Point(3, 128);
             this.grpDSBaoHanh.Name = "grpDSBaoHanh";
-            this.grpDSBaoHanh.Size = new System.Drawing.Size(585, 464);
+            this.grpDSBaoHanh.Size = new System.Drawing.Size(585, 495);
             this.grpDSBaoHanh.TabIndex = 1;
             this.grpDSBaoHanh.TabStop = false;
             this.grpDSBaoHanh.Text = "Danh Sách Bảo Hành";
@@ -387,10 +357,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.colNgayBatDau,
             this.colThoiHan});
             this.dgvDSBaoHanh.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSBaoHanh.Location = new System.Drawing.Point(3, 26);
+            this.dgvDSBaoHanh.Location = new System.Drawing.Point(3, 21);
             this.dgvDSBaoHanh.Name = "dgvDSBaoHanh";
             this.dgvDSBaoHanh.RowHeadersWidth = 51;
-            this.dgvDSBaoHanh.Size = new System.Drawing.Size(579, 435);
+            this.dgvDSBaoHanh.Size = new System.Drawing.Size(579, 471);
             this.dgvDSBaoHanh.TabIndex = 0;
             // 
             // colMaBaoHanh
@@ -435,24 +405,23 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             // lblTieuDe
             // 
             this.lblTieuDe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTieuDe.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.lblTieuDe.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.lblTieuDe.ForeColor = System.Drawing.Color.MediumPurple;
             this.lblTieuDe.Location = new System.Drawing.Point(3, 0);
             this.lblTieuDe.Name = "lblTieuDe";
             this.lblTieuDe.Size = new System.Drawing.Size(994, 112);
             this.lblTieuDe.TabIndex = 1;
-            this.lblTieuDe.Text = "Quản Lý Bảo Hành";
+            this.lblTieuDe.Text = "QUẢN LÝ BẢO HÀNH";
             this.lblTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // BaoHanhForm
+            // usBaoHanh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 750);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.Name = "BaoHanhForm";
-            this.Text = "DaiLyForm";
+            this.Name = "usBaoHanh";
+            this.Size = new System.Drawing.Size(1000, 750);
             this.panel1.ResumeLayout(false);
             this.tbTong.ResumeLayout(false);
             this.tbHienThi.ResumeLayout(false);
@@ -469,6 +438,34 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
 
         }
 
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TableLayoutPanel tbTong;
+        private System.Windows.Forms.TableLayoutPanel tbHienThi;
+        private System.Windows.Forms.TableLayoutPanel tbTrai;
+        private System.Windows.Forms.TableLayoutPanel tbPhai;
+        private System.Windows.Forms.GroupBox grpTTBaoHanh;
+        private System.Windows.Forms.Label lblTieuDe;
+        private System.Windows.Forms.GroupBox grpTacVu;
+        private System.Windows.Forms.GroupBox grpTimKiemPhieuBaoHanh;
+        private System.Windows.Forms.GroupBox grpDSBaoHanh;
+        private System.Windows.Forms.TextBox txtThoiHan;
+        private System.Windows.Forms.TextBox txtNgayBatDau;
+        private System.Windows.Forms.TextBox txtMaHoaDon;
+        private System.Windows.Forms.TextBox txtMaXe;
+        private System.Windows.Forms.TextBox txtMaBaoHanh;
+        private System.Windows.Forms.Label lblThoiHan;
+        private System.Windows.Forms.Label lblNgayBatDau;
+        private System.Windows.Forms.Label lblMaXe;
+        private System.Windows.Forms.Label lblMaHoaDon;
+        private System.Windows.Forms.Label lblMaBaoHanh;
+        private System.Windows.Forms.Button btnLamMoi;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.TextBox txtTimKiemPhieuBaoHanh;
+        private System.Windows.Forms.Label lblTimKiemPhieuBaoHanh;
+        private System.Windows.Forms.Button btnTimKiem;
+        private System.Windows.Forms.DataGridView dgvDSBaoHanh;
         private DataGridViewTextBoxColumn colMaBaoHanh;
         private DataGridViewTextBoxColumn colMaHoaDon;
         private DataGridViewTextBoxColumn colMaXe;

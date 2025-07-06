@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
+namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTaiKhoan
 {
-    public partial class HoaDonForm : Form
+    public partial class usTaiKhoan : UserControl
     {
-        public HoaDonForm()
+        public usTaiKhoan()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
 {
-    public partial class BaoHanhForm : Form
+    public partial class usBaoHanh : UserControl
     {
-        public BaoHanhForm()
+        public usBaoHanh()
         {
             InitializeComponent();
         }

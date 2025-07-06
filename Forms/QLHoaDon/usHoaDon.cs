@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoCao
+namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
 {
-    public partial class BaoCaoForm : Form
+    public partial class usHoaDon : UserControl
     {
-        public BaoCaoForm()
+        public usHoaDon()
         {
             InitializeComponent();
         }

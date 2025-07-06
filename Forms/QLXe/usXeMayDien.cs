@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
+namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
 {
-    public partial class DaiLyForm : Form
+    public partial class usXeMayDien : UserControl
     {
-        public DaiLyForm()
+        public usXeMayDien()
         {
             InitializeComponent();
         }
-
     }
 }
