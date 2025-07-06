@@ -298,6 +298,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // tbPhai
             // 

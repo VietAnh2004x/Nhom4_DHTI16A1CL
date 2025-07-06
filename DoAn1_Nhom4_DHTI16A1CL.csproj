@@ -63,11 +63,23 @@
     <Compile Include="Forms\QLBaoCao\usBaoCao.Designer.cs">
       <DependentUpon>usBaoCao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\QLBaoHanh\PhieuBaoHanhForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLBaoHanh\PhieuBaoHanhForm.Designer.cs">
+      <DependentUpon>PhieuBaoHanhForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QLBaoHanh\usBaoHanh.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Forms\QLBaoHanh\usBaoHanh.Designer.cs">
       <DependentUpon>usBaoHanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLDaiLy\PhieuDaiLyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLDaiLy\PhieuDaiLyForm.Designer.cs">
+      <DependentUpon>PhieuDaiLyForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLDaiLy\usDaiLy.cs">
       <SubType>UserControl</SubType>
@@ -75,11 +87,23 @@
     <Compile Include="Forms\QLDaiLy\usDaiLy.Designer.cs">
       <DependentUpon>usDaiLy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\QLHoaDon\PhieuHoaDonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLHoaDon\PhieuHoaDonForm.Designer.cs">
+      <DependentUpon>PhieuHoaDonForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QLHoaDon\usHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Forms\QLHoaDon\usHoaDon.Designer.cs">
       <DependentUpon>usHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLKhachHang\PhieuKhachHangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLKhachHang\PhieuKhachHangForm.Designer.cs">
+      <DependentUpon>PhieuKhachHangForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLKhachHang\usKhachHang.cs">
       <SubType>UserControl</SubType>
@@ -98,6 +122,12 @@
     </Compile>
     <Compile Include="Forms\QLTonKho\usTonKho.Designer.cs">
       <DependentUpon>usTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLXe\PhieuThemXeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLXe\PhieuThemXeForm.Designer.cs">
+      <DependentUpon>PhieuThemXeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLXe\usXeMayDien.cs">
       <SubType>UserControl</SubType>
@@ -140,14 +170,23 @@
     <EmbeddedResource Include="Forms\QLBaoCao\usBaoCao.resx">
       <DependentUpon>usBaoCao.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLBaoHanh\PhieuBaoHanhForm.resx">
+      <DependentUpon>PhieuBaoHanhForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLBaoHanh\usBaoHanh.resx">
       <DependentUpon>usBaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLDaiLy\PhieuDaiLyForm.resx">
+      <DependentUpon>PhieuDaiLyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLDaiLy\usDaiLy.resx">
       <DependentUpon>usDaiLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLHoaDon\usHoaDon.resx">
       <DependentUpon>usHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLKhachHang\PhieuKhachHangForm.resx">
+      <DependentUpon>PhieuKhachHangForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLKhachHang\usKhachHang.resx">
       <DependentUpon>usKhachHang.cs</DependentUpon>
@@ -157,6 +196,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLTonKho\usTonKho.resx">
       <DependentUpon>usTonKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLXe\PhieuThemXeForm.resx">
+      <DependentUpon>PhieuThemXeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLXe\usXeDapDien.resx">
       <DependentUpon>usXeDapDien.cs</DependentUpon>

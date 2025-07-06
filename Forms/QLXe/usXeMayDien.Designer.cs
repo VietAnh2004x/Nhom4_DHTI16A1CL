@@ -24,6 +24,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.tbHienThiBang = new System.Windows.Forms.TableLayoutPanel();
             this.grpDSXeMayDien = new System.Windows.Forms.GroupBox();
             this.dgvDSXeMayDien = new System.Windows.Forms.DataGridView();
+            this.colMaXeDapDien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDongXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colMauSac = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSoBinhAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDungLuongAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colHinhAnh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grpTacVu = new System.Windows.Forms.GroupBox();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -45,14 +53,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.lblTenXe = new System.Windows.Forms.Label();
             this.lblMaXe = new System.Windows.Forms.Label();
             this.lblDongXe = new System.Windows.Forms.Label();
-            this.colMaXeDapDien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDongXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colMauSac = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSoBinhAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDungLuongAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colHinhAnh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.tbTong.SuspendLayout();
             this.tbHienThiXe.SuspendLayout();
@@ -163,6 +163,70 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.dgvDSXeMayDien.Size = new System.Drawing.Size(579, 470);
             this.dgvDSXeMayDien.TabIndex = 0;
             // 
+            // colMaXeDapDien
+            // 
+            this.colMaXeDapDien.HeaderText = "Mã Xe Máy Điện";
+            this.colMaXeDapDien.MinimumWidth = 6;
+            this.colMaXeDapDien.Name = "colMaXeDapDien";
+            this.colMaXeDapDien.ReadOnly = true;
+            this.colMaXeDapDien.Width = 175;
+            // 
+            // colTenXe
+            // 
+            this.colTenXe.HeaderText = "Tên Xe";
+            this.colTenXe.MinimumWidth = 6;
+            this.colTenXe.Name = "colTenXe";
+            this.colTenXe.ReadOnly = true;
+            this.colTenXe.Width = 125;
+            // 
+            // colDongXe
+            // 
+            this.colDongXe.HeaderText = "Dòng Xe";
+            this.colDongXe.MinimumWidth = 6;
+            this.colDongXe.Name = "colDongXe";
+            this.colDongXe.ReadOnly = true;
+            this.colDongXe.Width = 125;
+            // 
+            // colMauSac
+            // 
+            this.colMauSac.HeaderText = "Màu Sắc";
+            this.colMauSac.MinimumWidth = 6;
+            this.colMauSac.Name = "colMauSac";
+            this.colMauSac.ReadOnly = true;
+            this.colMauSac.Width = 125;
+            // 
+            // colSoBinhAcQuy
+            // 
+            this.colSoBinhAcQuy.HeaderText = "Số Bình Ắc Quy";
+            this.colSoBinhAcQuy.MinimumWidth = 6;
+            this.colSoBinhAcQuy.Name = "colSoBinhAcQuy";
+            this.colSoBinhAcQuy.ReadOnly = true;
+            this.colSoBinhAcQuy.Width = 175;
+            // 
+            // colDungLuongAcQuy
+            // 
+            this.colDungLuongAcQuy.HeaderText = "Dung Lượng Ắc Quy";
+            this.colDungLuongAcQuy.MinimumWidth = 6;
+            this.colDungLuongAcQuy.Name = "colDungLuongAcQuy";
+            this.colDungLuongAcQuy.ReadOnly = true;
+            this.colDungLuongAcQuy.Width = 200;
+            // 
+            // colGia
+            // 
+            this.colGia.HeaderText = "Giá";
+            this.colGia.MinimumWidth = 6;
+            this.colGia.Name = "colGia";
+            this.colGia.ReadOnly = true;
+            this.colGia.Width = 125;
+            // 
+            // colHinhAnh
+            // 
+            this.colHinhAnh.HeaderText = "Hình Ảnh";
+            this.colHinhAnh.MinimumWidth = 6;
+            this.colHinhAnh.Name = "colHinhAnh";
+            this.colHinhAnh.ReadOnly = true;
+            this.colHinhAnh.Width = 125;
+            // 
             // grpTacVu
             // 
             this.grpTacVu.Controls.Add(this.btnLamMoi);
@@ -232,6 +296,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // grpTTXe
             // 
@@ -380,70 +445,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.lblDongXe.Size = new System.Drawing.Size(84, 21);
             this.lblDongXe.TabIndex = 0;
             this.lblDongXe.Text = "Dòng Xe:";
-            // 
-            // colMaXeDapDien
-            // 
-            this.colMaXeDapDien.HeaderText = "Mã Xe Máy Điện";
-            this.colMaXeDapDien.MinimumWidth = 6;
-            this.colMaXeDapDien.Name = "colMaXeDapDien";
-            this.colMaXeDapDien.ReadOnly = true;
-            this.colMaXeDapDien.Width = 175;
-            // 
-            // colTenXe
-            // 
-            this.colTenXe.HeaderText = "Tên Xe";
-            this.colTenXe.MinimumWidth = 6;
-            this.colTenXe.Name = "colTenXe";
-            this.colTenXe.ReadOnly = true;
-            this.colTenXe.Width = 125;
-            // 
-            // colDongXe
-            // 
-            this.colDongXe.HeaderText = "Dòng Xe";
-            this.colDongXe.MinimumWidth = 6;
-            this.colDongXe.Name = "colDongXe";
-            this.colDongXe.ReadOnly = true;
-            this.colDongXe.Width = 125;
-            // 
-            // colMauSac
-            // 
-            this.colMauSac.HeaderText = "Màu Sắc";
-            this.colMauSac.MinimumWidth = 6;
-            this.colMauSac.Name = "colMauSac";
-            this.colMauSac.ReadOnly = true;
-            this.colMauSac.Width = 125;
-            // 
-            // colSoBinhAcQuy
-            // 
-            this.colSoBinhAcQuy.HeaderText = "Số Bình Ắc Quy";
-            this.colSoBinhAcQuy.MinimumWidth = 6;
-            this.colSoBinhAcQuy.Name = "colSoBinhAcQuy";
-            this.colSoBinhAcQuy.ReadOnly = true;
-            this.colSoBinhAcQuy.Width = 175;
-            // 
-            // colDungLuongAcQuy
-            // 
-            this.colDungLuongAcQuy.HeaderText = "Dung Lượng Ắc Quy";
-            this.colDungLuongAcQuy.MinimumWidth = 6;
-            this.colDungLuongAcQuy.Name = "colDungLuongAcQuy";
-            this.colDungLuongAcQuy.ReadOnly = true;
-            this.colDungLuongAcQuy.Width = 200;
-            // 
-            // colGia
-            // 
-            this.colGia.HeaderText = "Giá";
-            this.colGia.MinimumWidth = 6;
-            this.colGia.Name = "colGia";
-            this.colGia.ReadOnly = true;
-            this.colGia.Width = 125;
-            // 
-            // colHinhAnh
-            // 
-            this.colHinhAnh.HeaderText = "Hình Ảnh";
-            this.colHinhAnh.MinimumWidth = 6;
-            this.colHinhAnh.Name = "colHinhAnh";
-            this.colHinhAnh.ReadOnly = true;
-            this.colHinhAnh.Width = 125;
             // 
             // usXeMayDien
             // 

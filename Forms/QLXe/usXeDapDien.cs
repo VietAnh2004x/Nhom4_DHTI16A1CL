@@ -16,5 +16,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
         {
             InitializeComponent();
         }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            PhieuThemXeForm phieuThemXeForm = new PhieuThemXeForm();
+            if (phieuThemXeForm.ShowDialog() == DialogResult.OK)
+                MessageBox.Show("Thêm xe đạp điện thành công!");
+            else
+                MessageBox.Show("Thêm xe đạp điện thất bại!");
+        }
     }
 }

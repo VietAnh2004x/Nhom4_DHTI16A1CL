@@ -10,20 +10,22 @@ using System.Windows.Forms;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
 {
-    public partial class usBaoHanh : UserControl
+    public partial class PhieuBaoHanhForm : Form
     {
-        public usBaoHanh()
+        public PhieuBaoHanhForm()
         {
             InitializeComponent();
         }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            PhieuBaoHanhForm phieuBaoHanhForm = new PhieuBaoHanhForm();
-            if (phieuBaoHanhForm.ShowDialog() == DialogResult.OK)
-                MessageBox.Show("Thêm phiếu bảo hành thành công!");
-            else
-                MessageBox.Show("Thêm phiếu bảo hành thất bại!");
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

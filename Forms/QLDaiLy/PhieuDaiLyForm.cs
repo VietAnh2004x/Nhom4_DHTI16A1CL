@@ -10,20 +10,22 @@ using System.Windows.Forms;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
 {
-    public partial class usDaiLy : UserControl
+    public partial class PhieuDaiLyForm : Form
     {
-        public usDaiLy()
+        public PhieuDaiLyForm()
         {
             InitializeComponent();
         }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            PhieuDaiLyForm phieuDaiLyForm = new PhieuDaiLyForm();
-            if (phieuDaiLyForm.ShowDialog() == DialogResult.OK)
-                MessageBox.Show("Thêm đại lý thành công!");
-            else
-                MessageBox.Show("Thêm đại lý thất bại!");
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
