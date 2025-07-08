@@ -182,6 +182,9 @@
     <EmbeddedResource Include="Forms\QLDaiLy\usDaiLy.resx">
       <DependentUpon>usDaiLy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLHoaDon\PhieuHoaDonForm.resx">
+      <DependentUpon>PhieuHoaDonForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLHoaDon\usHoaDon.resx">
       <DependentUpon>usHoaDon.cs</DependentUpon>
     </EmbeddedResource>
