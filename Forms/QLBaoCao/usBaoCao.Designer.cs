@@ -268,6 +268,7 @@
             this.txtDaiLy.Name = "txtDaiLy";
             this.txtDaiLy.Size = new System.Drawing.Size(152, 20);
             this.txtDaiLy.TabIndex = 7;
+            this.txtDaiLy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtTongDoanhThu
             // 
@@ -277,11 +278,11 @@
             this.txtTongDoanhThu.Name = "txtTongDoanhThu";
             this.txtTongDoanhThu.Size = new System.Drawing.Size(152, 20);
             this.txtTongDoanhThu.TabIndex = 3;
+            this.txtTongDoanhThu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTongDoanhThu
             // 
             this.lblTongDoanhThu.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblTongDoanhThu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblTongDoanhThu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.lblTongDoanhThu.Location = new System.Drawing.Point(134, 23);
             this.lblTongDoanhThu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -289,6 +290,7 @@
             this.lblTongDoanhThu.Size = new System.Drawing.Size(184, 28);
             this.lblTongDoanhThu.TabIndex = 0;
             this.lblTongDoanhThu.Text = "Tổng Doanh Thu";
+            this.lblTongDoanhThu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             // 
             // txtTongSoXeBanRa
             // 
@@ -298,6 +300,7 @@
             this.txtTongSoXeBanRa.Name = "txtTongSoXeBanRa";
             this.txtTongSoXeBanRa.Size = new System.Drawing.Size(152, 20);
             this.txtTongSoXeBanRa.TabIndex = 4;
+            this.txtTongSoXeBanRa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTongSoXeBanRa
             // 
@@ -331,6 +334,7 @@
             this.txtSoKhachHang.Name = "txtSoKhachHang";
             this.txtSoKhachHang.Size = new System.Drawing.Size(152, 20);
             this.txtSoKhachHang.TabIndex = 5;
+            this.txtSoKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblDaiLy
             // 

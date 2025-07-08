@@ -176,6 +176,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
             this.txtTongTien.Name = "txtTongTien";
             this.txtTongTien.Size = new System.Drawing.Size(163, 25);
             this.txtTongTien.TabIndex = 9;
+            this.txtTongTien.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtNgayLap
             // 
@@ -183,6 +184,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
             this.txtNgayLap.Name = "txtNgayLap";
             this.txtNgayLap.Size = new System.Drawing.Size(163, 25);
             this.txtNgayLap.TabIndex = 8;
+            this.txtNgayLap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaKhach
             // 
@@ -190,6 +192,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
             this.txtMaKhach.Name = "txtMaKhach";
             this.txtMaKhach.Size = new System.Drawing.Size(163, 25);
             this.txtMaKhach.TabIndex = 7;
+            this.txtMaKhach.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaXe
             // 
@@ -197,6 +200,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
             this.txtMaXe.Name = "txtMaXe";
             this.txtMaXe.Size = new System.Drawing.Size(163, 25);
             this.txtMaXe.TabIndex = 6;
+            this.txtMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaHoaDon
             // 
@@ -204,6 +208,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
             this.txtMaHoaDon.Name = "txtMaHoaDon";
             this.txtMaHoaDon.Size = new System.Drawing.Size(163, 25);
             this.txtMaHoaDon.TabIndex = 5;
+            this.txtMaHoaDon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTongTien
             // 
@@ -345,6 +350,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
             this.txtTimKiemHoaDon.Name = "txtTimKiemHoaDon";
             this.txtTimKiemHoaDon.Size = new System.Drawing.Size(196, 25);
             this.txtTimKiemHoaDon.TabIndex = 6;
+            this.txtTimKiemHoaDon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTimKiemHoaDon
             // 
@@ -453,6 +459,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
             this.txtTenDangNhap.Name = "txtTenDangNhap";
             this.txtTenDangNhap.Size = new System.Drawing.Size(163, 25);
             this.txtTenDangNhap.TabIndex = 11;
+            this.txtTenDangNhap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTenDangNhap
             // 

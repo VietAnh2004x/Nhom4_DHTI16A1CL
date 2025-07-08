@@ -135,6 +135,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.txtTongTien.Name = "txtTongTien";
             this.txtTongTien.Size = new System.Drawing.Size(163, 25);
             this.txtTongTien.TabIndex = 9;
+            this.txtTongTien.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtNgayNhap
             // 
@@ -142,6 +143,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.txtNgayNhap.Name = "txtNgayNhap";
             this.txtNgayNhap.Size = new System.Drawing.Size(163, 25);
             this.txtNgayNhap.TabIndex = 8;
+            this.txtNgayNhap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaXe
             // 
@@ -149,6 +151,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.txtMaXe.Name = "txtMaXe";
             this.txtMaXe.Size = new System.Drawing.Size(163, 25);
             this.txtMaXe.TabIndex = 7;
+            this.txtMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtTenXe
             // 
@@ -156,6 +159,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.txtTenXe.Name = "txtTenXe";
             this.txtTenXe.Size = new System.Drawing.Size(163, 25);
             this.txtTenXe.TabIndex = 6;
+            this.txtTenXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaNhap
             // 
@@ -163,6 +167,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.txtMaNhap.Name = "txtMaNhap";
             this.txtMaNhap.Size = new System.Drawing.Size(163, 25);
             this.txtMaNhap.TabIndex = 5;
+            this.txtMaNhap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblSoLuong
             // 
@@ -238,6 +243,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.txtTimKiemMaXe.Name = "txtTimKiemMaXe";
             this.txtTimKiemMaXe.Size = new System.Drawing.Size(196, 25);
             this.txtTimKiemMaXe.TabIndex = 6;
+            this.txtTimKiemMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTimKiemMaXe
             // 

@@ -155,6 +155,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(180, 25);
             this.txtEmail.TabIndex = 10;
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtSoDienThoai
             // 
@@ -162,6 +163,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.txtSoDienThoai.Name = "txtSoDienThoai";
             this.txtSoDienThoai.Size = new System.Drawing.Size(180, 25);
             this.txtSoDienThoai.TabIndex = 9;
+            this.txtSoDienThoai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtHoTen
             // 
@@ -169,6 +171,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(180, 25);
             this.txtHoTen.TabIndex = 8;
+            this.txtHoTen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtDiaChi
             // 
@@ -176,6 +179,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(180, 25);
             this.txtDiaChi.TabIndex = 7;
+            this.txtDiaChi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaKhachHang
             // 
@@ -183,6 +187,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.txtMaKhachHang.Name = "txtMaKhachHang";
             this.txtMaKhachHang.Size = new System.Drawing.Size(180, 25);
             this.txtMaKhachHang.TabIndex = 6;
+            this.txtMaKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblDiaChi
             // 
@@ -350,6 +355,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.txtTimKiemKhachHang.Name = "txtTimKiemKhachHang";
             this.txtTimKiemKhachHang.Size = new System.Drawing.Size(196, 25);
             this.txtTimKiemKhachHang.TabIndex = 7;
+            this.txtTimKiemKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTimKiemKhachHang
             // 
