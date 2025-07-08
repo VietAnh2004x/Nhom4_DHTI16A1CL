@@ -1,6 +1,6 @@
 ﻿namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
 {
-    partial class PhieuBaoHanhForm
+    partial class frmPhieuBaoHanh
     {
         /// <summary>
         /// Required designer variable.
@@ -22,8 +22,10 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PhieuBaoHanhForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPhieuBaoHanh));
             this.grpThongTinKhachHang = new System.Windows.Forms.GroupBox();
+            this.dtpNgayHetHan = new System.Windows.Forms.DateTimePicker();
+            this.lblNgayHetHan = new System.Windows.Forms.Label();
             this.dtpNgayLap = new System.Windows.Forms.DateTimePicker();
             this.lblNgayNhap = new System.Windows.Forms.Label();
             this.txtMaXe = new System.Windows.Forms.TextBox();
@@ -39,8 +41,6 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
-            this.dtpNgayHetHan = new System.Windows.Forms.DateTimePicker();
-            this.lblNgayHetHan = new System.Windows.Forms.Label();
             this.grpThongTinKhachHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +60,7 @@
             this.grpThongTinKhachHang.Controls.Add(this.lblMaBaoHanh);
             this.grpThongTinKhachHang.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpThongTinKhachHang.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.grpThongTinKhachHang.Location = new System.Drawing.Point(53, 238);
+            this.grpThongTinKhachHang.Location = new System.Drawing.Point(53, 230);
             this.grpThongTinKhachHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpThongTinKhachHang.Name = "grpThongTinKhachHang";
             this.grpThongTinKhachHang.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -68,6 +68,25 @@
             this.grpThongTinKhachHang.TabIndex = 9;
             this.grpThongTinKhachHang.TabStop = false;
             this.grpThongTinKhachHang.Text = "Thông tin bảo hành";
+            // 
+            // dtpNgayHetHan
+            // 
+            this.dtpNgayHetHan.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpNgayHetHan.Location = new System.Drawing.Point(706, 141);
+            this.dtpNgayHetHan.Name = "dtpNgayHetHan";
+            this.dtpNgayHetHan.Size = new System.Drawing.Size(161, 27);
+            this.dtpNgayHetHan.TabIndex = 26;
+            this.dtpNgayHetHan.Value = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
+            // 
+            // lblNgayHetHan
+            // 
+            this.lblNgayHetHan.AutoSize = true;
+            this.lblNgayHetHan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayHetHan.Location = new System.Drawing.Point(582, 146);
+            this.lblNgayHetHan.Name = "lblNgayHetHan";
+            this.lblNgayHetHan.Size = new System.Drawing.Size(100, 20);
+            this.lblNgayHetHan.TabIndex = 25;
+            this.lblNgayHetHan.Text = "Ngày hết hạn:";
             // 
             // dtpNgayLap
             // 
@@ -193,7 +212,7 @@
             // 
             this.btnThoat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnThoat.Location = new System.Drawing.Point(800, 538);
+            this.btnThoat.Location = new System.Drawing.Point(721, 541);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(132, 37);
@@ -206,7 +225,7 @@
             // 
             this.btnLamMoi.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamMoi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLamMoi.Location = new System.Drawing.Point(549, 537);
+            this.btnLamMoi.Location = new System.Drawing.Point(470, 540);
             this.btnLamMoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(132, 39);
@@ -218,7 +237,7 @@
             // 
             this.btnThem.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnThem.Location = new System.Drawing.Point(298, 537);
+            this.btnThem.Location = new System.Drawing.Point(219, 540);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(132, 37);
@@ -227,30 +246,11 @@
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
-            // dtpNgayHetHan
-            // 
-            this.dtpNgayHetHan.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgayHetHan.Location = new System.Drawing.Point(706, 141);
-            this.dtpNgayHetHan.Name = "dtpNgayHetHan";
-            this.dtpNgayHetHan.Size = new System.Drawing.Size(161, 27);
-            this.dtpNgayHetHan.TabIndex = 26;
-            this.dtpNgayHetHan.Value = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
-            // 
-            // lblNgayHetHan
-            // 
-            this.lblNgayHetHan.AutoSize = true;
-            this.lblNgayHetHan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayHetHan.Location = new System.Drawing.Point(582, 146);
-            this.lblNgayHetHan.Name = "lblNgayHetHan";
-            this.lblNgayHetHan.Size = new System.Drawing.Size(100, 20);
-            this.lblNgayHetHan.TabIndex = 25;
-            this.lblNgayHetHan.Text = "Ngày hết hạn:";
-            // 
             // PhieuBaoHanhForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1062, 668);
+            this.ClientSize = new System.Drawing.Size(1062, 653);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnLamMoi);
             this.Controls.Add(this.btnThem);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
 {
-    public partial class PhieuKhachHangForm : Form
+    public partial class frmPhieuKhachHang : Form
     {
-        public PhieuKhachHangForm()
+        public frmPhieuKhachHang()
         {
             InitializeComponent();
         }

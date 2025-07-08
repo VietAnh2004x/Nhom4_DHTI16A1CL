@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
+namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
 {
-    public partial class PhieuBaoHanhForm : Form
+    public partial class frmPhieuDaiLy : Form
     {
-        public PhieuBaoHanhForm()
+        public frmPhieuDaiLy()
         {
             InitializeComponent();
         }
@@ -27,6 +27,5 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
         {
             this.Close();
         }
-
     }
 }

@@ -24,14 +24,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.grTTXe = new System.Windows.Forms.GroupBox();
             this.txtTongTien = new System.Windows.Forms.TextBox();
             this.txtNgayNhap = new System.Windows.Forms.TextBox();
-            this.txtMaXe = new System.Windows.Forms.TextBox();
             this.txtTenXe = new System.Windows.Forms.TextBox();
-            this.txtMaNhap = new System.Windows.Forms.TextBox();
             this.lblSoLuong = new System.Windows.Forms.Label();
             this.lblNgayNhap = new System.Windows.Forms.Label();
             this.lblTenXe = new System.Windows.Forms.Label();
-            this.lblMaXe = new System.Windows.Forms.Label();
-            this.lblMaNhap = new System.Windows.Forms.Label();
             this.tbPhai = new System.Windows.Forms.TableLayoutPanel();
             this.grpTimKiemXe = new System.Windows.Forms.GroupBox();
             this.txtTimKiemMaXe = new System.Windows.Forms.TextBox();
@@ -113,14 +109,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             // 
             this.grTTXe.Controls.Add(this.txtTongTien);
             this.grTTXe.Controls.Add(this.txtNgayNhap);
-            this.grTTXe.Controls.Add(this.txtMaXe);
             this.grTTXe.Controls.Add(this.txtTenXe);
-            this.grTTXe.Controls.Add(this.txtMaNhap);
             this.grTTXe.Controls.Add(this.lblSoLuong);
             this.grTTXe.Controls.Add(this.lblNgayNhap);
             this.grTTXe.Controls.Add(this.lblTenXe);
-            this.grTTXe.Controls.Add(this.lblMaXe);
-            this.grTTXe.Controls.Add(this.lblMaNhap);
             this.grTTXe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grTTXe.Location = new System.Drawing.Point(3, 3);
             this.grTTXe.Name = "grTTXe";
@@ -131,83 +123,51 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             // 
             // txtTongTien
             // 
-            this.txtTongTien.Location = new System.Drawing.Point(176, 359);
-            this.txtTongTien.Name = "txtTongTien";
-            this.txtTongTien.Size = new System.Drawing.Size(163, 25);
-            this.txtTongTien.TabIndex = 9;
             this.txtTongTien.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTongTien.Location = new System.Drawing.Point(176, 295);
+            this.txtTongTien.Name = "txtTongTien";
+            this.txtTongTien.Size = new System.Drawing.Size(139, 30);
+            this.txtTongTien.TabIndex = 9;
             // 
             // txtNgayNhap
             // 
-            this.txtNgayNhap.Location = new System.Drawing.Point(176, 286);
-            this.txtNgayNhap.Name = "txtNgayNhap";
-            this.txtNgayNhap.Size = new System.Drawing.Size(163, 25);
-            this.txtNgayNhap.TabIndex = 8;
             this.txtNgayNhap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            // 
-            // txtMaXe
-            // 
-            this.txtMaXe.Location = new System.Drawing.Point(176, 140);
-            this.txtMaXe.Name = "txtMaXe";
-            this.txtMaXe.Size = new System.Drawing.Size(163, 25);
-            this.txtMaXe.TabIndex = 7;
-            this.txtMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNgayNhap.Location = new System.Drawing.Point(176, 195);
+            this.txtNgayNhap.Name = "txtNgayNhap";
+            this.txtNgayNhap.Size = new System.Drawing.Size(139, 30);
+            this.txtNgayNhap.TabIndex = 8;
             // 
             // txtTenXe
             // 
-            this.txtTenXe.Location = new System.Drawing.Point(176, 213);
-            this.txtTenXe.Name = "txtTenXe";
-            this.txtTenXe.Size = new System.Drawing.Size(163, 25);
-            this.txtTenXe.TabIndex = 6;
             this.txtTenXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            // 
-            // txtMaNhap
-            // 
-            this.txtMaNhap.Location = new System.Drawing.Point(176, 67);
-            this.txtMaNhap.Name = "txtMaNhap";
-            this.txtMaNhap.Size = new System.Drawing.Size(163, 25);
-            this.txtMaNhap.TabIndex = 5;
-            this.txtMaNhap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTenXe.Location = new System.Drawing.Point(176, 95);
+            this.txtTenXe.Name = "txtTenXe";
+            this.txtTenXe.Size = new System.Drawing.Size(139, 30);
+            this.txtTenXe.TabIndex = 6;
             // 
             // lblSoLuong
             // 
-            this.lblSoLuong.Location = new System.Drawing.Point(18, 365);
+            this.lblSoLuong.Location = new System.Drawing.Point(18, 297);
             this.lblSoLuong.Name = "lblSoLuong";
-            this.lblSoLuong.Size = new System.Drawing.Size(152, 22);
+            this.lblSoLuong.Size = new System.Drawing.Size(127, 22);
             this.lblSoLuong.TabIndex = 4;
             this.lblSoLuong.Text = "Số Lượng:";
             // 
             // lblNgayNhap
             // 
-            this.lblNgayNhap.Location = new System.Drawing.Point(18, 291);
+            this.lblNgayNhap.Location = new System.Drawing.Point(18, 197);
             this.lblNgayNhap.Name = "lblNgayNhap";
-            this.lblNgayNhap.Size = new System.Drawing.Size(152, 22);
+            this.lblNgayNhap.Size = new System.Drawing.Size(127, 22);
             this.lblNgayNhap.TabIndex = 3;
             this.lblNgayNhap.Text = "Ngày Nhập:";
             // 
             // lblTenXe
             // 
-            this.lblTenXe.Location = new System.Drawing.Point(18, 217);
+            this.lblTenXe.Location = new System.Drawing.Point(18, 97);
             this.lblTenXe.Name = "lblTenXe";
-            this.lblTenXe.Size = new System.Drawing.Size(152, 22);
+            this.lblTenXe.Size = new System.Drawing.Size(127, 22);
             this.lblTenXe.TabIndex = 2;
             this.lblTenXe.Text = "Tên Xe:";
-            // 
-            // lblMaXe
-            // 
-            this.lblMaXe.Location = new System.Drawing.Point(18, 143);
-            this.lblMaXe.Name = "lblMaXe";
-            this.lblMaXe.Size = new System.Drawing.Size(152, 22);
-            this.lblMaXe.TabIndex = 1;
-            this.lblMaXe.Text = "Mã Xe:";
-            // 
-            // lblMaNhap
-            // 
-            this.lblMaNhap.Location = new System.Drawing.Point(18, 70);
-            this.lblMaNhap.Name = "lblMaNhap";
-            this.lblMaNhap.Size = new System.Drawing.Size(152, 21);
-            this.lblMaNhap.TabIndex = 0;
-            this.lblMaNhap.Text = "Mã Nhập:";
             // 
             // tbPhai
             // 
@@ -239,11 +199,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             // 
             // txtTimKiemMaXe
             // 
+            this.txtTimKiemMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTimKiemMaXe.Location = new System.Drawing.Point(180, 49);
             this.txtTimKiemMaXe.Name = "txtTimKiemMaXe";
-            this.txtTimKiemMaXe.Size = new System.Drawing.Size(196, 25);
+            this.txtTimKiemMaXe.Size = new System.Drawing.Size(196, 30);
             this.txtTimKiemMaXe.TabIndex = 6;
-            this.txtTimKiemMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTimKiemMaXe
             // 
@@ -289,10 +249,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.colNgayNhap,
             this.colSoLuong});
             this.dgvDSDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSDaiLy.Location = new System.Drawing.Point(3, 21);
+            this.dgvDSDaiLy.Location = new System.Drawing.Point(3, 26);
             this.dgvDSDaiLy.Name = "dgvDSDaiLy";
             this.dgvDSDaiLy.RowHeadersWidth = 51;
-            this.dgvDSDaiLy.Size = new System.Drawing.Size(579, 471);
+            this.dgvDSDaiLy.Size = new System.Drawing.Size(579, 466);
             this.dgvDSDaiLy.TabIndex = 0;
             // 
             // colMaNhap
@@ -348,7 +308,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             // 
             // usTonKho
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -380,14 +340,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
         private System.Windows.Forms.GroupBox grDSXe;
         private System.Windows.Forms.TextBox txtTongTien;
         private System.Windows.Forms.TextBox txtNgayNhap;
-        private System.Windows.Forms.TextBox txtMaXe;
         private System.Windows.Forms.TextBox txtTenXe;
-        private System.Windows.Forms.TextBox txtMaNhap;
         private System.Windows.Forms.Label lblSoLuong;
         private System.Windows.Forms.Label lblNgayNhap;
         private System.Windows.Forms.Label lblTenXe;
-        private System.Windows.Forms.Label lblMaXe;
-        private System.Windows.Forms.Label lblMaNhap;
         private System.Windows.Forms.TextBox txtTimKiemMaXe;
         private System.Windows.Forms.Label lblTimKiemMaXe;
         private System.Windows.Forms.Button btnTimKiem;

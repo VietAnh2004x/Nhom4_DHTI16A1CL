@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
 {
-    public partial class PhieuHoaDonForm : Form
+    public partial class frmPhieuHoaDon : Form
     {
-        public PhieuHoaDonForm()
+        public frmPhieuHoaDon()
         {
             InitializeComponent();
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
     }
 }

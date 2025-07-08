@@ -19,7 +19,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            PhieuKhachHangForm phieuKhachHangForm = new PhieuKhachHangForm();
+            frmPhieuKhachHang phieuKhachHangForm = new frmPhieuKhachHang();
             if(phieuKhachHangForm.ShowDialog() == DialogResult.OK)
                 MessageBox.Show("Thêm khách hàng thành công!");
             else

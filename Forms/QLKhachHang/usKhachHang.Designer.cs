@@ -27,12 +27,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
-            this.txtMaKhachHang = new System.Windows.Forms.TextBox();
             this.lblDiaChi = new System.Windows.Forms.Label();
             this.lblHoTen = new System.Windows.Forms.Label();
             this.lblSoDienThoai = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.lblMaKhachHang = new System.Windows.Forms.Label();
             this.grpTacVu = new System.Windows.Forms.GroupBox();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -134,12 +132,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.grpTTKhachHang.Controls.Add(this.txtSoDienThoai);
             this.grpTTKhachHang.Controls.Add(this.txtHoTen);
             this.grpTTKhachHang.Controls.Add(this.txtDiaChi);
-            this.grpTTKhachHang.Controls.Add(this.txtMaKhachHang);
             this.grpTTKhachHang.Controls.Add(this.lblDiaChi);
             this.grpTTKhachHang.Controls.Add(this.lblHoTen);
             this.grpTTKhachHang.Controls.Add(this.lblSoDienThoai);
             this.grpTTKhachHang.Controls.Add(this.lblEmail);
-            this.grpTTKhachHang.Controls.Add(this.lblMaKhachHang);
             this.grpTTKhachHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpTTKhachHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
             this.grpTTKhachHang.Location = new System.Drawing.Point(3, 3);
@@ -151,47 +147,39 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(170, 314);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(180, 25);
-            this.txtEmail.TabIndex = 10;
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.Location = new System.Drawing.Point(170, 333);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(154, 30);
+            this.txtEmail.TabIndex = 10;
             // 
             // txtSoDienThoai
             // 
-            this.txtSoDienThoai.Location = new System.Drawing.Point(170, 252);
-            this.txtSoDienThoai.Name = "txtSoDienThoai";
-            this.txtSoDienThoai.Size = new System.Drawing.Size(180, 25);
-            this.txtSoDienThoai.TabIndex = 9;
             this.txtSoDienThoai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSoDienThoai.Location = new System.Drawing.Point(170, 250);
+            this.txtSoDienThoai.Name = "txtSoDienThoai";
+            this.txtSoDienThoai.Size = new System.Drawing.Size(154, 30);
+            this.txtSoDienThoai.TabIndex = 9;
             // 
             // txtHoTen
             // 
-            this.txtHoTen.Location = new System.Drawing.Point(170, 120);
-            this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(180, 25);
-            this.txtHoTen.TabIndex = 8;
             this.txtHoTen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtHoTen.Location = new System.Drawing.Point(170, 84);
+            this.txtHoTen.Name = "txtHoTen";
+            this.txtHoTen.Size = new System.Drawing.Size(154, 30);
+            this.txtHoTen.TabIndex = 8;
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(170, 186);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(180, 25);
-            this.txtDiaChi.TabIndex = 7;
             this.txtDiaChi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            // 
-            // txtMaKhachHang
-            // 
-            this.txtMaKhachHang.Location = new System.Drawing.Point(170, 54);
-            this.txtMaKhachHang.Name = "txtMaKhachHang";
-            this.txtMaKhachHang.Size = new System.Drawing.Size(180, 25);
-            this.txtMaKhachHang.TabIndex = 6;
-            this.txtMaKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDiaChi.Location = new System.Drawing.Point(170, 167);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(154, 30);
+            this.txtDiaChi.TabIndex = 7;
             // 
             // lblDiaChi
             // 
-            this.lblDiaChi.Location = new System.Drawing.Point(6, 189);
+            this.lblDiaChi.Location = new System.Drawing.Point(6, 169);
             this.lblDiaChi.Name = "lblDiaChi";
             this.lblDiaChi.Size = new System.Drawing.Size(100, 23);
             this.lblDiaChi.TabIndex = 5;
@@ -199,7 +187,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // lblHoTen
             // 
-            this.lblHoTen.Location = new System.Drawing.Point(6, 123);
+            this.lblHoTen.Location = new System.Drawing.Point(6, 86);
             this.lblHoTen.Name = "lblHoTen";
             this.lblHoTen.Size = new System.Drawing.Size(100, 23);
             this.lblHoTen.TabIndex = 4;
@@ -207,7 +195,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // lblSoDienThoai
             // 
-            this.lblSoDienThoai.Location = new System.Drawing.Point(6, 255);
+            this.lblSoDienThoai.Location = new System.Drawing.Point(6, 252);
             this.lblSoDienThoai.Name = "lblSoDienThoai";
             this.lblSoDienThoai.Size = new System.Drawing.Size(121, 23);
             this.lblSoDienThoai.TabIndex = 3;
@@ -215,19 +203,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // lblEmail
             // 
-            this.lblEmail.Location = new System.Drawing.Point(6, 321);
+            this.lblEmail.Location = new System.Drawing.Point(6, 335);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(100, 23);
             this.lblEmail.TabIndex = 2;
             this.lblEmail.Text = "Email:";
-            // 
-            // lblMaKhachHang
-            // 
-            this.lblMaKhachHang.Location = new System.Drawing.Point(6, 57);
-            this.lblMaKhachHang.Name = "lblMaKhachHang";
-            this.lblMaKhachHang.Size = new System.Drawing.Size(140, 23);
-            this.lblMaKhachHang.TabIndex = 0;
-            this.lblMaKhachHang.Text = "Mã khách hàng:";
             // 
             // grpTacVu
             // 
@@ -351,11 +331,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // txtTimKiemKhachHang
             // 
+            this.txtTimKiemKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTimKiemKhachHang.Location = new System.Drawing.Point(180, 49);
             this.txtTimKiemKhachHang.Name = "txtTimKiemKhachHang";
-            this.txtTimKiemKhachHang.Size = new System.Drawing.Size(196, 25);
+            this.txtTimKiemKhachHang.Size = new System.Drawing.Size(196, 30);
             this.txtTimKiemKhachHang.TabIndex = 7;
-            this.txtTimKiemKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTimKiemKhachHang
             // 
@@ -389,10 +369,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             this.colSDT,
             this.colEmail});
             this.dgvDSKhachHang.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSKhachHang.Location = new System.Drawing.Point(3, 21);
+            this.dgvDSKhachHang.Location = new System.Drawing.Point(3, 26);
             this.dgvDSKhachHang.Name = "dgvDSKhachHang";
             this.dgvDSKhachHang.RowHeadersWidth = 51;
-            this.dgvDSKhachHang.Size = new System.Drawing.Size(579, 471);
+            this.dgvDSKhachHang.Size = new System.Drawing.Size(579, 466);
             this.dgvDSKhachHang.TabIndex = 0;
             // 
             // colMaKhachHang
@@ -437,7 +417,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
             // 
             // usKhachHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.panel1);
@@ -474,13 +454,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLKhachHang
         private System.Windows.Forms.Label lblHoTen;
         private System.Windows.Forms.Label lblSoDienThoai;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.Label lblMaKhachHang;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtSoDienThoai;
         private System.Windows.Forms.TextBox txtHoTen;
         private System.Windows.Forms.TextBox txtDiaChi;
-        private System.Windows.Forms.TextBox txtMaKhachHang;
         private System.Windows.Forms.Button btnLamMoi;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;

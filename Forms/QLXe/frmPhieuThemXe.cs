@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
 {
-    public partial class PhieuThemXeForm : Form
+    public partial class frmPhieuThemXe : Form
     {
-        public PhieuThemXeForm()
+        public frmPhieuThemXe()
         {
             InitializeComponent();
         }

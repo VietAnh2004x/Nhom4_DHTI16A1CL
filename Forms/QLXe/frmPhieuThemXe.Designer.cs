@@ -1,6 +1,6 @@
 ﻿namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
 {
-    partial class PhieuThemXeForm
+    partial class frmPhieuThemXe
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -15,7 +15,7 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PhieuThemXeForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPhieuThemXe));
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblTenCuaHang = new System.Windows.Forms.Label();
             this.lblDiaChi = new System.Windows.Forms.Label();

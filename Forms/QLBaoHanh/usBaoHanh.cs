@@ -19,7 +19,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            PhieuBaoHanhForm phieuBaoHanhForm = new PhieuBaoHanhForm();
+            frmPhieuBaoHanh phieuBaoHanhForm = new frmPhieuBaoHanh();
             if (phieuBaoHanhForm.ShowDialog() == DialogResult.OK)
                 MessageBox.Show("Thêm phiếu bảo hành thành công!");
             else

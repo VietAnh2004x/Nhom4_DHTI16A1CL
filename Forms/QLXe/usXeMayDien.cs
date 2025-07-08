@@ -19,7 +19,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            PhieuThemXeForm phieuThemXeForm = new PhieuThemXeForm();
+            frmPhieuThemXe phieuThemXeForm = new frmPhieuThemXe();
             if (phieuThemXeForm.ShowDialog() == DialogResult.OK)
                 MessageBox.Show("Thêm xe máy điện thành công!");
             else

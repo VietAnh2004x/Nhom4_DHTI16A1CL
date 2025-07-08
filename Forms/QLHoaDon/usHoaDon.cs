@@ -16,5 +16,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
         {
             InitializeComponent();
         }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            frmPhieuHoaDon frmPhieuHoaDon = new frmPhieuHoaDon();
+            if (frmPhieuHoaDon.ShowDialog() == DialogResult.OK)
+                MessageBox.Show("Thêm hóa đơn thành công!");
+            else
+                MessageBox.Show("Thêm hóa đơn thất bại!");
+        }
     }
 }
