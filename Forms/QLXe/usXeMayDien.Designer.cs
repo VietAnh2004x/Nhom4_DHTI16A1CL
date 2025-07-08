@@ -25,8 +25,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.grpDSXeMayDien = new System.Windows.Forms.GroupBox();
             this.dgvDSXeMayDien = new System.Windows.Forms.DataGridView();
             this.colMaXeDapDien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colMaDaiLy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDongXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colMauSac = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSoBinhAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDungLuongAcQuy = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,17 +42,13 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtDungLuongAcQuy = new System.Windows.Forms.TextBox();
             this.txtBaoHanh = new System.Windows.Forms.TextBox();
             this.txtGia = new System.Windows.Forms.TextBox();
-            this.txtMaXe = new System.Windows.Forms.TextBox();
             this.txtTenXe = new System.Windows.Forms.TextBox();
-            this.cboDongXe = new System.Windows.Forms.ComboBox();
             this.picAnhXe = new System.Windows.Forms.PictureBox();
             this.lblSoBinhAcQuy = new System.Windows.Forms.Label();
             this.lblDungLuongAcQuy = new System.Windows.Forms.Label();
-            this.lblBaoHanh = new System.Windows.Forms.Label();
+            this.lblMauSac = new System.Windows.Forms.Label();
             this.lblGia = new System.Windows.Forms.Label();
             this.lblTenXe = new System.Windows.Forms.Label();
-            this.lblMaXe = new System.Windows.Forms.Label();
-            this.lblDongXe = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tbTong.SuspendLayout();
             this.tbHienThiXe.SuspendLayout();
@@ -149,18 +145,18 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.dgvDSXeMayDien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDSXeMayDien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colMaXeDapDien,
+            this.colMaDaiLy,
             this.colTenXe,
-            this.colDongXe,
             this.colMauSac,
             this.colSoBinhAcQuy,
             this.colDungLuongAcQuy,
             this.colGia,
             this.colHinhAnh});
             this.dgvDSXeMayDien.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSXeMayDien.Location = new System.Drawing.Point(3, 21);
+            this.dgvDSXeMayDien.Location = new System.Drawing.Point(3, 26);
             this.dgvDSXeMayDien.Name = "dgvDSXeMayDien";
             this.dgvDSXeMayDien.RowHeadersWidth = 51;
-            this.dgvDSXeMayDien.Size = new System.Drawing.Size(579, 470);
+            this.dgvDSXeMayDien.Size = new System.Drawing.Size(579, 465);
             this.dgvDSXeMayDien.TabIndex = 0;
             // 
             // colMaXeDapDien
@@ -171,6 +167,14 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.colMaXeDapDien.ReadOnly = true;
             this.colMaXeDapDien.Width = 175;
             // 
+            // colMaDaiLy
+            // 
+            this.colMaDaiLy.HeaderText = "Mã Đại Lý";
+            this.colMaDaiLy.MinimumWidth = 6;
+            this.colMaDaiLy.Name = "colMaDaiLy";
+            this.colMaDaiLy.ReadOnly = true;
+            this.colMaDaiLy.Width = 125;
+            // 
             // colTenXe
             // 
             this.colTenXe.HeaderText = "Tên Xe";
@@ -178,14 +182,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.colTenXe.Name = "colTenXe";
             this.colTenXe.ReadOnly = true;
             this.colTenXe.Width = 125;
-            // 
-            // colDongXe
-            // 
-            this.colDongXe.HeaderText = "Dòng Xe";
-            this.colDongXe.MinimumWidth = 6;
-            this.colDongXe.Name = "colDongXe";
-            this.colDongXe.ReadOnly = true;
-            this.colDongXe.Width = 125;
             // 
             // colMauSac
             // 
@@ -304,17 +300,13 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.grpTTXe.Controls.Add(this.txtDungLuongAcQuy);
             this.grpTTXe.Controls.Add(this.txtBaoHanh);
             this.grpTTXe.Controls.Add(this.txtGia);
-            this.grpTTXe.Controls.Add(this.txtMaXe);
             this.grpTTXe.Controls.Add(this.txtTenXe);
-            this.grpTTXe.Controls.Add(this.cboDongXe);
             this.grpTTXe.Controls.Add(this.picAnhXe);
             this.grpTTXe.Controls.Add(this.lblSoBinhAcQuy);
             this.grpTTXe.Controls.Add(this.lblDungLuongAcQuy);
-            this.grpTTXe.Controls.Add(this.lblBaoHanh);
+            this.grpTTXe.Controls.Add(this.lblMauSac);
             this.grpTTXe.Controls.Add(this.lblGia);
             this.grpTTXe.Controls.Add(this.lblTenXe);
-            this.grpTTXe.Controls.Add(this.lblMaXe);
-            this.grpTTXe.Controls.Add(this.lblDongXe);
             this.grpTTXe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpTTXe.Location = new System.Drawing.Point(3, 3);
             this.grpTTXe.Name = "grpTTXe";
@@ -326,58 +318,42 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // txtSoBinhAcQuy
             // 
             this.txtSoBinhAcQuy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSoBinhAcQuy.Location = new System.Drawing.Point(140, 550);
+            this.txtSoBinhAcQuy.Location = new System.Drawing.Point(187, 547);
             this.txtSoBinhAcQuy.Name = "txtSoBinhAcQuy";
-            this.txtSoBinhAcQuy.Size = new System.Drawing.Size(100, 25);
+            this.txtSoBinhAcQuy.Size = new System.Drawing.Size(117, 30);
             this.txtSoBinhAcQuy.TabIndex = 15;
             // 
             // txtDungLuongAcQuy
             // 
             this.txtDungLuongAcQuy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDungLuongAcQuy.Location = new System.Drawing.Point(150, 474);
+            this.txtDungLuongAcQuy.Location = new System.Drawing.Point(187, 457);
             this.txtDungLuongAcQuy.Name = "txtDungLuongAcQuy";
-            this.txtDungLuongAcQuy.Size = new System.Drawing.Size(100, 25);
+            this.txtDungLuongAcQuy.Size = new System.Drawing.Size(117, 30);
             this.txtDungLuongAcQuy.TabIndex = 14;
             // 
             // txtBaoHanh
             // 
             this.txtBaoHanh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBaoHanh.Location = new System.Drawing.Point(267, 401);
+            this.txtBaoHanh.Location = new System.Drawing.Point(110, 370);
             this.txtBaoHanh.Name = "txtBaoHanh";
-            this.txtBaoHanh.Size = new System.Drawing.Size(100, 25);
+            this.txtBaoHanh.Size = new System.Drawing.Size(118, 30);
             this.txtBaoHanh.TabIndex = 13;
             // 
             // txtGia
             // 
             this.txtGia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtGia.Location = new System.Drawing.Point(56, 401);
+            this.txtGia.Location = new System.Drawing.Point(110, 283);
             this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(100, 25);
+            this.txtGia.Size = new System.Drawing.Size(118, 30);
             this.txtGia.TabIndex = 12;
-            // 
-            // txtMaXe
-            // 
-            this.txtMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtMaXe.Location = new System.Drawing.Point(96, 248);
-            this.txtMaXe.Name = "txtMaXe";
-            this.txtMaXe.Size = new System.Drawing.Size(100, 25);
-            this.txtMaXe.TabIndex = 11;
             // 
             // txtTenXe
             // 
             this.txtTenXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTenXe.Location = new System.Drawing.Point(96, 175);
+            this.txtTenXe.Location = new System.Drawing.Point(111, 196);
             this.txtTenXe.Name = "txtTenXe";
-            this.txtTenXe.Size = new System.Drawing.Size(100, 25);
+            this.txtTenXe.Size = new System.Drawing.Size(117, 30);
             this.txtTenXe.TabIndex = 10;
-            // 
-            // cboDongXe
-            // 
-            this.cboDongXe.FormattingEnabled = true;
-            this.cboDongXe.Location = new System.Drawing.Point(96, 320);
-            this.cboDongXe.Name = "cboDongXe";
-            this.cboDongXe.Size = new System.Drawing.Size(121, 25);
-            this.cboDongXe.TabIndex = 9;
             // 
             // picAnhXe
             // 
@@ -392,7 +368,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             // lblSoBinhAcQuy
             // 
-            this.lblSoBinhAcQuy.Location = new System.Drawing.Point(6, 550);
+            this.lblSoBinhAcQuy.Location = new System.Drawing.Point(6, 549);
             this.lblSoBinhAcQuy.Name = "lblSoBinhAcQuy";
             this.lblSoBinhAcQuy.Size = new System.Drawing.Size(152, 28);
             this.lblSoBinhAcQuy.TabIndex = 7;
@@ -400,23 +376,23 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             // lblDungLuongAcQuy
             // 
-            this.lblDungLuongAcQuy.Location = new System.Drawing.Point(6, 473);
+            this.lblDungLuongAcQuy.Location = new System.Drawing.Point(6, 459);
             this.lblDungLuongAcQuy.Name = "lblDungLuongAcQuy";
             this.lblDungLuongAcQuy.Size = new System.Drawing.Size(175, 24);
             this.lblDungLuongAcQuy.TabIndex = 6;
             this.lblDungLuongAcQuy.Text = "Dung Lượng Ắc Quy:";
             // 
-            // lblBaoHanh
+            // lblMauSac
             // 
-            this.lblBaoHanh.Location = new System.Drawing.Point(172, 403);
-            this.lblBaoHanh.Name = "lblBaoHanh";
-            this.lblBaoHanh.Size = new System.Drawing.Size(98, 21);
-            this.lblBaoHanh.TabIndex = 5;
-            this.lblBaoHanh.Text = "Bảo Hành:";
+            this.lblMauSac.Location = new System.Drawing.Point(8, 372);
+            this.lblMauSac.Name = "lblMauSac";
+            this.lblMauSac.Size = new System.Drawing.Size(98, 21);
+            this.lblMauSac.TabIndex = 5;
+            this.lblMauSac.Text = "Màu Sắc:";
             // 
             // lblGia
             // 
-            this.lblGia.Location = new System.Drawing.Point(6, 399);
+            this.lblGia.Location = new System.Drawing.Point(8, 285);
             this.lblGia.Name = "lblGia";
             this.lblGia.Size = new System.Drawing.Size(44, 21);
             this.lblGia.TabIndex = 3;
@@ -424,31 +400,15 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             // lblTenXe
             // 
-            this.lblTenXe.Location = new System.Drawing.Point(6, 177);
+            this.lblTenXe.Location = new System.Drawing.Point(6, 198);
             this.lblTenXe.Name = "lblTenXe";
             this.lblTenXe.Size = new System.Drawing.Size(81, 21);
             this.lblTenXe.TabIndex = 2;
             this.lblTenXe.Text = "Tên Xe:";
             // 
-            // lblMaXe
-            // 
-            this.lblMaXe.Location = new System.Drawing.Point(6, 251);
-            this.lblMaXe.Name = "lblMaXe";
-            this.lblMaXe.Size = new System.Drawing.Size(70, 21);
-            this.lblMaXe.TabIndex = 1;
-            this.lblMaXe.Text = "Mã Xe:";
-            // 
-            // lblDongXe
-            // 
-            this.lblDongXe.Location = new System.Drawing.Point(6, 325);
-            this.lblDongXe.Name = "lblDongXe";
-            this.lblDongXe.Size = new System.Drawing.Size(84, 21);
-            this.lblDongXe.TabIndex = 0;
-            this.lblDongXe.Text = "Dòng Xe:";
-            // 
             // usXeMayDien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.panel1);
@@ -479,16 +439,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
         private System.Windows.Forms.GroupBox grpTacVu;
         private System.Windows.Forms.Label lblSoBinhAcQuy;
         private System.Windows.Forms.Label lblDungLuongAcQuy;
-        private System.Windows.Forms.Label lblBaoHanh;
+        private System.Windows.Forms.Label lblMauSac;
         private System.Windows.Forms.Label lblGia;
         private System.Windows.Forms.Label lblTenXe;
-        private System.Windows.Forms.Label lblMaXe;
-        private System.Windows.Forms.Label lblDongXe;
         private System.Windows.Forms.DataGridView dgvDSXeMayDien;
         private System.Windows.Forms.TextBox txtGia;
-        private System.Windows.Forms.TextBox txtMaXe;
         private System.Windows.Forms.TextBox txtTenXe;
-        private System.Windows.Forms.ComboBox cboDongXe;
         private System.Windows.Forms.PictureBox picAnhXe;
         private System.Windows.Forms.Button btnLamMoi;
         private System.Windows.Forms.Button btnXoa;
@@ -498,8 +454,8 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
         private TextBox txtDungLuongAcQuy;
         private TextBox txtBaoHanh;
         private DataGridViewTextBoxColumn colMaXeDapDien;
+        private DataGridViewTextBoxColumn colMaDaiLy;
         private DataGridViewTextBoxColumn colTenXe;
-        private DataGridViewTextBoxColumn colDongXe;
         private DataGridViewTextBoxColumn colMauSac;
         private DataGridViewTextBoxColumn colSoBinhAcQuy;
         private DataGridViewTextBoxColumn colDungLuongAcQuy;

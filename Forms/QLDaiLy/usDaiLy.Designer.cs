@@ -143,6 +143,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtSoDienThoai.Name = "txtSoDienThoai";
             this.txtSoDienThoai.Size = new System.Drawing.Size(159, 25);
             this.txtSoDienThoai.TabIndex = 9;
+            this.txtSoDienThoai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtEmail
             // 
@@ -150,6 +151,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(159, 25);
             this.txtEmail.TabIndex = 8;
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtTenDaiLy
             // 
@@ -157,6 +159,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtTenDaiLy.Name = "txtTenDaiLy";
             this.txtTenDaiLy.Size = new System.Drawing.Size(159, 25);
             this.txtTenDaiLy.TabIndex = 7;
+            this.txtTenDaiLy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtDiaChi
             // 
@@ -164,6 +167,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(159, 25);
             this.txtDiaChi.TabIndex = 6;
+            this.txtDiaChi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaDaiLy
             // 
@@ -171,6 +175,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtMaDaiLy.Name = "txtMaDaiLy";
             this.txtMaDaiLy.Size = new System.Drawing.Size(159, 25);
             this.txtMaDaiLy.TabIndex = 5;
+            this.txtMaDaiLy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblSoDienThoai
             // 
@@ -313,6 +318,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtTimKiemDaiLy.Name = "txtTimKiemDaiLy";
             this.txtTimKiemDaiLy.Size = new System.Drawing.Size(196, 25);
             this.txtTimKiemDaiLy.TabIndex = 6;
+            this.txtTimKiemDaiLy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTimKiemDaiLy
             // 

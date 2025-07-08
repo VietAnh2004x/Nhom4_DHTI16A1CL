@@ -143,6 +143,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.txtThoiHan.Name = "txtThoiHan";
             this.txtThoiHan.Size = new System.Drawing.Size(163, 25);
             this.txtThoiHan.TabIndex = 9;
+            this.txtThoiHan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtNgayBatDau
             // 
@@ -150,6 +151,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.txtNgayBatDau.Name = "txtNgayBatDau";
             this.txtNgayBatDau.Size = new System.Drawing.Size(163, 25);
             this.txtNgayBatDau.TabIndex = 8;
+            this.txtNgayBatDau.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaHoaDon
             // 
@@ -157,6 +159,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.txtMaHoaDon.Name = "txtMaHoaDon";
             this.txtMaHoaDon.Size = new System.Drawing.Size(163, 25);
             this.txtMaHoaDon.TabIndex = 7;
+            this.txtMaHoaDon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaXe
             // 
@@ -164,6 +167,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.txtMaXe.Name = "txtMaXe";
             this.txtMaXe.Size = new System.Drawing.Size(163, 25);
             this.txtMaXe.TabIndex = 6;
+            this.txtMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // txtMaBaoHanh
             // 
@@ -171,6 +175,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.txtMaBaoHanh.Name = "txtMaBaoHanh";
             this.txtMaBaoHanh.Size = new System.Drawing.Size(163, 25);
             this.txtMaBaoHanh.TabIndex = 5;
+            this.txtMaBaoHanh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblThoiHan
             // 
@@ -313,6 +318,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.txtTimKiemPhieuBaoHanh.Name = "txtTimKiemPhieuBaoHanh";
             this.txtTimKiemPhieuBaoHanh.Size = new System.Drawing.Size(196, 25);
             this.txtTimKiemPhieuBaoHanh.TabIndex = 6;
+            this.txtTimKiemPhieuBaoHanh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             // 
             // lblTimKiemPhieuBaoHanh
             // 
