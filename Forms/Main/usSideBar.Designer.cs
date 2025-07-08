@@ -117,6 +117,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.panelButton.Controls.Add(this.btnQLXe);
             this.panelButton.Controls.Add(this.btnTongQuan);
             this.panelButton.Font = new System.Drawing.Font("Arial", 10F);
+            this.panelButton.ForeColor = Color.White;
             this.panelButton.Location = new System.Drawing.Point(3, 153);
             this.panelButton.Name = "panelButton";
             this.panelButton.Size = new System.Drawing.Size(194, 594);
@@ -127,8 +128,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnDangXuat.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDangXuat.FlatAppearance.BorderSize = 0;
             this.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDangXuat.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnDangXuat.ForeColor = System.Drawing.Color.White;
             this.btnDangXuat.Location = new System.Drawing.Point(0, 360);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -143,7 +142,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLTaiKhoan.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLTaiKhoan.FlatAppearance.BorderSize = 0;
             this.btnQLTaiKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLTaiKhoan.ForeColor = System.Drawing.Color.White;
             this.btnQLTaiKhoan.Location = new System.Drawing.Point(0, 320);
             this.btnQLTaiKhoan.Name = "btnQLTaiKhoan";
             this.btnQLTaiKhoan.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -159,7 +157,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnBaoCao.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBaoCao.FlatAppearance.BorderSize = 0;
             this.btnBaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBaoCao.ForeColor = System.Drawing.Color.White;
             this.btnBaoCao.Location = new System.Drawing.Point(0, 280);
             this.btnBaoCao.Name = "btnBaoCao";
             this.btnBaoCao.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -175,7 +172,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLDaiLy.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLDaiLy.FlatAppearance.BorderSize = 0;
             this.btnQLDaiLy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLDaiLy.ForeColor = System.Drawing.Color.White;
             this.btnQLDaiLy.Location = new System.Drawing.Point(0, 240);
             this.btnQLDaiLy.Name = "btnQLDaiLy";
             this.btnQLDaiLy.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -191,7 +187,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLBaoHanh.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLBaoHanh.FlatAppearance.BorderSize = 0;
             this.btnQLBaoHanh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLBaoHanh.ForeColor = System.Drawing.Color.White;
             this.btnQLBaoHanh.Location = new System.Drawing.Point(0, 200);
             this.btnQLBaoHanh.Name = "btnQLBaoHanh";
             this.btnQLBaoHanh.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -207,7 +202,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLHoaDon.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLHoaDon.FlatAppearance.BorderSize = 0;
             this.btnQLHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLHoaDon.ForeColor = System.Drawing.Color.White;
             this.btnQLHoaDon.Location = new System.Drawing.Point(0, 160);
             this.btnQLHoaDon.Name = "btnQLHoaDon";
             this.btnQLHoaDon.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -223,7 +217,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLTonKho.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLTonKho.FlatAppearance.BorderSize = 0;
             this.btnQLTonKho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLTonKho.ForeColor = System.Drawing.Color.White;
             this.btnQLTonKho.Location = new System.Drawing.Point(0, 120);
             this.btnQLTonKho.Name = "btnQLTonKho";
             this.btnQLTonKho.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -239,7 +232,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLKhachHang.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLKhachHang.FlatAppearance.BorderSize = 0;
             this.btnQLKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLKhachHang.ForeColor = System.Drawing.Color.White;
             this.btnQLKhachHang.Location = new System.Drawing.Point(0, 80);
             this.btnQLKhachHang.Name = "btnQLKhachHang";
             this.btnQLKhachHang.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -266,13 +258,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLXeMayDien.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLXeMayDien.FlatAppearance.BorderSize = 0;
             this.btnQLXeMayDien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLXeMayDien.ForeColor = System.Drawing.Color.White;
             this.btnQLXeMayDien.Location = new System.Drawing.Point(0, 40);
             this.btnQLXeMayDien.Name = "btnQLXeMayDien";
-            this.btnQLXeMayDien.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btnQLXeMayDien.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.btnQLXeMayDien.Size = new System.Drawing.Size(194, 40);
             this.btnQLXeMayDien.TabIndex = 0;
-            this.btnQLXeMayDien.Text = "   Xe Máy Điện";
+            this.btnQLXeMayDien.Text = "Xe Máy Điện";
             this.btnQLXeMayDien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLXeMayDien.UseVisualStyleBackColor = false;
             this.btnQLXeMayDien.Click += new System.EventHandler(this.btnQLXeMayDien_Click);
@@ -282,13 +273,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLXeDapDien.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLXeDapDien.FlatAppearance.BorderSize = 0;
             this.btnQLXeDapDien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLXeDapDien.ForeColor = System.Drawing.Color.White;
             this.btnQLXeDapDien.Location = new System.Drawing.Point(0, 0);
             this.btnQLXeDapDien.Name = "btnQLXeDapDien";
-            this.btnQLXeDapDien.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btnQLXeDapDien.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.btnQLXeDapDien.Size = new System.Drawing.Size(194, 40);
             this.btnQLXeDapDien.TabIndex = 1;
-            this.btnQLXeDapDien.Text = "   Xe Đạp Điện";
+            this.btnQLXeDapDien.Text = "Xe Đạp Điện";
             this.btnQLXeDapDien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLXeDapDien.UseVisualStyleBackColor = false;
             this.btnQLXeDapDien.Click += new System.EventHandler(this.btnQLXeDapDien_Click);
@@ -298,7 +288,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnQLXe.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLXe.FlatAppearance.BorderSize = 0;
             this.btnQLXe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQLXe.ForeColor = System.Drawing.Color.White;
             this.btnQLXe.Location = new System.Drawing.Point(0, 40);
             this.btnQLXe.Name = "btnQLXe";
             this.btnQLXe.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -314,7 +303,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.btnTongQuan.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTongQuan.FlatAppearance.BorderSize = 0;
             this.btnTongQuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTongQuan.ForeColor = System.Drawing.Color.White;
             this.btnTongQuan.Location = new System.Drawing.Point(0, 0);
             this.btnTongQuan.Name = "btnTongQuan";
             this.btnTongQuan.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -349,6 +337,20 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             subMenuPanel.Height = subMenuVisible ? 80 : 0;
         }
 
+        private void ActivateButton(Button btn)
+        {
+            // Reset nút trước đó
+            if (currentButton != null)
+            {
+                currentButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(160))))); // màu gốc
+                currentButton.Font = new System.Drawing.Font("Arial", 10F);
+            }
+
+            // Đổi màu nút được bấm
+            currentButton = btn;
+            currentButton.BackColor = Color.FromArgb(70, 130, 200);
+            currentButton.Font = new System.Drawing.Font("Arial", 11F);
+        }
 
         private System.Windows.Forms.TableLayoutPanel tbTong;
         private System.Windows.Forms.TableLayoutPanel tbLogo;
@@ -368,5 +370,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
         private System.Windows.Forms.Panel subMenuPanel;
         private System.Windows.Forms.Button btnQLXeMayDien;
         private System.Windows.Forms.Button btnQLXeDapDien;
+        private Button currentButton = null;
     }
 }

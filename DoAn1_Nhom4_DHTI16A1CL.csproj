@@ -206,6 +206,9 @@
     <EmbeddedResource Include="Forms\QLXe\usXeMayDien.resx">
       <DependentUpon>usXeMayDien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TongQuan\usTongQuan.resx">
+      <DependentUpon>usTongQuan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -23,7 +23,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.tbTong = new System.Windows.Forms.TableLayoutPanel();
             this.tbHienThi = new System.Windows.Forms.TableLayoutPanel();
             this.txtSoDonHang = new System.Windows.Forms.Label();
@@ -37,23 +36,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.tbBangBieu = new System.Windows.Forms.TableLayoutPanel();
             this.chartTopSanPham = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartDoanhThu = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.panel1.SuspendLayout();
             this.tbTong.SuspendLayout();
             this.tbHienThi.SuspendLayout();
             this.tbBangBieu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartTopSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartDoanhThu)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Window;
-            this.panel1.Controls.Add(this.tbTong);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 450);
-            this.panel1.TabIndex = 0;
             // 
             // tbTong
             // 
@@ -65,12 +53,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.tbTong.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbTong.Location = new System.Drawing.Point(0, 0);
             this.tbTong.Name = "tbTong";
-            this.tbTong.Padding = new System.Windows.Forms.Padding(20);
             this.tbTong.RowCount = 2;
-            this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35F));
-            this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65F));
+            this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tbTong.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tbTong.Size = new System.Drawing.Size(800, 450);
-            this.tbTong.TabIndex = 0;
+            this.tbTong.TabIndex = 1;
             // 
             // tbHienThi
             // 
@@ -88,12 +75,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.tbHienThi.Controls.Add(this.lblSoLuongXeMayDien, 1, 0);
             this.tbHienThi.Controls.Add(this.lblSoLuongXeDapDien, 0, 0);
             this.tbHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbHienThi.Location = new System.Drawing.Point(23, 23);
+            this.tbHienThi.Location = new System.Drawing.Point(3, 3);
             this.tbHienThi.Name = "tbHienThi";
             this.tbHienThi.RowCount = 2;
             this.tbHienThi.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tbHienThi.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tbHienThi.Size = new System.Drawing.Size(754, 137);
+            this.tbHienThi.Size = new System.Drawing.Size(794, 61);
             this.tbHienThi.TabIndex = 0;
             // 
             // txtSoDonHang
@@ -102,9 +89,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.txtSoDonHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtSoDonHang.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
             this.txtSoDonHang.ForeColor = System.Drawing.Color.DarkRed;
-            this.txtSoDonHang.Location = new System.Drawing.Point(567, 82);
+            this.txtSoDonHang.Location = new System.Drawing.Point(597, 36);
             this.txtSoDonHang.Name = "txtSoDonHang";
-            this.txtSoDonHang.Size = new System.Drawing.Size(184, 55);
+            this.txtSoDonHang.Size = new System.Drawing.Size(194, 25);
             this.txtSoDonHang.TabIndex = 7;
             this.txtSoDonHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -114,9 +101,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.txtDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtDoanhThu.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
             this.txtDoanhThu.ForeColor = System.Drawing.Color.DarkOrange;
-            this.txtDoanhThu.Location = new System.Drawing.Point(379, 82);
+            this.txtDoanhThu.Location = new System.Drawing.Point(399, 36);
             this.txtDoanhThu.Name = "txtDoanhThu";
-            this.txtDoanhThu.Size = new System.Drawing.Size(182, 55);
+            this.txtDoanhThu.Size = new System.Drawing.Size(192, 25);
             this.txtDoanhThu.TabIndex = 6;
             this.txtDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -126,9 +113,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.txtSoLuongXeMayDien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtSoLuongXeMayDien.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
             this.txtSoLuongXeMayDien.ForeColor = System.Drawing.Color.DarkGreen;
-            this.txtSoLuongXeMayDien.Location = new System.Drawing.Point(191, 82);
+            this.txtSoLuongXeMayDien.Location = new System.Drawing.Point(201, 36);
             this.txtSoLuongXeMayDien.Name = "txtSoLuongXeMayDien";
-            this.txtSoLuongXeMayDien.Size = new System.Drawing.Size(182, 55);
+            this.txtSoLuongXeMayDien.Size = new System.Drawing.Size(192, 25);
             this.txtSoLuongXeMayDien.TabIndex = 5;
             this.txtSoLuongXeMayDien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -138,9 +125,9 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.txtSoLuongXeDapDien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtSoLuongXeDapDien.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
             this.txtSoLuongXeDapDien.ForeColor = System.Drawing.Color.DarkBlue;
-            this.txtSoLuongXeDapDien.Location = new System.Drawing.Point(3, 82);
+            this.txtSoLuongXeDapDien.Location = new System.Drawing.Point(3, 36);
             this.txtSoLuongXeDapDien.Name = "txtSoLuongXeDapDien";
-            this.txtSoLuongXeDapDien.Size = new System.Drawing.Size(182, 55);
+            this.txtSoLuongXeDapDien.Size = new System.Drawing.Size(192, 25);
             this.txtSoLuongXeDapDien.TabIndex = 4;
             this.txtSoLuongXeDapDien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -150,10 +137,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.lblSoDonHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblSoDonHang.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
             this.lblSoDonHang.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblSoDonHang.Location = new System.Drawing.Point(567, 0);
+            this.lblSoDonHang.Location = new System.Drawing.Point(597, 0);
             this.lblSoDonHang.Name = "lblSoDonHang";
             this.lblSoDonHang.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lblSoDonHang.Size = new System.Drawing.Size(184, 82);
+            this.lblSoDonHang.Size = new System.Drawing.Size(194, 36);
             this.lblSoDonHang.TabIndex = 3;
             this.lblSoDonHang.Text = "Tổng số khách hàng mua hôm nay";
             this.lblSoDonHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -164,10 +151,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.lblDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDoanhThu.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
             this.lblDoanhThu.ForeColor = System.Drawing.Color.DarkOrange;
-            this.lblDoanhThu.Location = new System.Drawing.Point(379, 0);
+            this.lblDoanhThu.Location = new System.Drawing.Point(399, 0);
             this.lblDoanhThu.Name = "lblDoanhThu";
             this.lblDoanhThu.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lblDoanhThu.Size = new System.Drawing.Size(182, 82);
+            this.lblDoanhThu.Size = new System.Drawing.Size(192, 36);
             this.lblDoanhThu.TabIndex = 2;
             this.lblDoanhThu.Text = "Doanh thu hôm nay";
             this.lblDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -178,10 +165,10 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.lblSoLuongXeMayDien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblSoLuongXeMayDien.Font = new System.Drawing.Font("Segoe UI Semibold", 16F);
             this.lblSoLuongXeMayDien.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblSoLuongXeMayDien.Location = new System.Drawing.Point(191, 0);
+            this.lblSoLuongXeMayDien.Location = new System.Drawing.Point(201, 0);
             this.lblSoLuongXeMayDien.Name = "lblSoLuongXeMayDien";
             this.lblSoLuongXeMayDien.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lblSoLuongXeMayDien.Size = new System.Drawing.Size(182, 82);
+            this.lblSoLuongXeMayDien.Size = new System.Drawing.Size(192, 36);
             this.lblSoLuongXeMayDien.TabIndex = 1;
             this.lblSoLuongXeMayDien.Text = "Tổng số xe máy điện hiện có";
             this.lblSoLuongXeMayDien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -195,7 +182,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.lblSoLuongXeDapDien.Location = new System.Drawing.Point(3, 0);
             this.lblSoLuongXeDapDien.Name = "lblSoLuongXeDapDien";
             this.lblSoLuongXeDapDien.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.lblSoLuongXeDapDien.Size = new System.Drawing.Size(182, 82);
+            this.lblSoLuongXeDapDien.Size = new System.Drawing.Size(192, 36);
             this.lblSoLuongXeDapDien.TabIndex = 0;
             this.lblSoLuongXeDapDien.Text = "Tổng số xe đạp điện hiện có";
             this.lblSoLuongXeDapDien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,11 +195,11 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.tbBangBieu.Controls.Add(this.chartTopSanPham, 0, 0);
             this.tbBangBieu.Controls.Add(this.chartDoanhThu, 1, 0);
             this.tbBangBieu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbBangBieu.Location = new System.Drawing.Point(23, 166);
+            this.tbBangBieu.Location = new System.Drawing.Point(3, 70);
             this.tbBangBieu.Name = "tbBangBieu";
             this.tbBangBieu.RowCount = 1;
             this.tbBangBieu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 219F));
-            this.tbBangBieu.Size = new System.Drawing.Size(754, 261);
+            this.tbBangBieu.Size = new System.Drawing.Size(794, 129);
             this.tbBangBieu.TabIndex = 1;
             // 
             // chartTopSanPham
@@ -228,7 +215,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             series1.Legend = "Legend1";
             series1.Name = "Sản Phẩm";
             this.chartTopSanPham.Series.Add(series1);
-            this.chartTopSanPham.Size = new System.Drawing.Size(371, 255);
+            this.chartTopSanPham.Size = new System.Drawing.Size(391, 213);
             this.chartTopSanPham.TabIndex = 0;
             this.chartTopSanPham.Text = "Top Sản Phẩm";
             // 
@@ -239,22 +226,23 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             this.chartDoanhThu.Dock = System.Windows.Forms.DockStyle.Fill;
             legend2.Name = "Legend1";
             this.chartDoanhThu.Legends.Add(legend2);
-            this.chartDoanhThu.Location = new System.Drawing.Point(380, 3);
+            this.chartDoanhThu.Location = new System.Drawing.Point(400, 3);
             this.chartDoanhThu.Name = "chartDoanhThu";
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
             series2.Name = "VNĐ";
             this.chartDoanhThu.Series.Add(series2);
-            this.chartDoanhThu.Size = new System.Drawing.Size(371, 255);
+            this.chartDoanhThu.Size = new System.Drawing.Size(391, 213);
             this.chartDoanhThu.TabIndex = 1;
             this.chartDoanhThu.Text = "Doanh Thu";
             // 
-            // TongQuanForm
+            // usTongQuan
             // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel1);
-            this.panel1.ResumeLayout(false);
+            this.Controls.Add(this.tbTong);
+            this.Name = "usTongQuan";
+            this.Size = new System.Drawing.Size(800, 450);
             this.tbTong.ResumeLayout(false);
             this.tbHienThi.ResumeLayout(false);
             this.tbBangBieu.ResumeLayout(false);
@@ -264,21 +252,6 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
 
             LoadDashboard();
         }
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TableLayoutPanel tbTong;
-        private System.Windows.Forms.TableLayoutPanel tbHienThi;
-        private System.Windows.Forms.TableLayoutPanel tbBangBieu;
-        private System.Windows.Forms.Label txtSoDonHang;
-        private System.Windows.Forms.Label txtDoanhThu;
-        private System.Windows.Forms.Label txtSoLuongXeMayDien;
-        private System.Windows.Forms.Label txtSoLuongXeDapDien;
-        private System.Windows.Forms.Label lblSoDonHang;
-        private System.Windows.Forms.Label lblDoanhThu;
-        private System.Windows.Forms.Label lblSoLuongXeMayDien;
-        private System.Windows.Forms.Label lblSoLuongXeDapDien;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartTopSanPham;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartDoanhThu;
 
         private void LoadDashboard()
         {
@@ -311,5 +284,19 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
             columnSeries.Points.AddXY("Tháng 4", 12000000);
             chartDoanhThu.Series.Add(columnSeries);
         }
+
+        private System.Windows.Forms.TableLayoutPanel tbTong;
+        private System.Windows.Forms.TableLayoutPanel tbHienThi;
+        private System.Windows.Forms.Label txtSoDonHang;
+        private System.Windows.Forms.Label txtDoanhThu;
+        private System.Windows.Forms.Label txtSoLuongXeMayDien;
+        private System.Windows.Forms.Label txtSoLuongXeDapDien;
+        private System.Windows.Forms.Label lblSoDonHang;
+        private System.Windows.Forms.Label lblDoanhThu;
+        private System.Windows.Forms.Label lblSoLuongXeMayDien;
+        private System.Windows.Forms.Label lblSoLuongXeDapDien;
+        private System.Windows.Forms.TableLayoutPanel tbBangBieu;
+        private Chart chartTopSanPham;
+        private Chart chartDoanhThu;
     }
 }

@@ -25,51 +25,61 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.TongQuan
         private void btnBaoCao_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usBaoCao());
+            ActivateButton((Button)sender);
         }
 
         private void btnQLBaoHanh_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usBaoHanh());
+            ActivateButton((Button)sender);
         }
 
         private void btnTongQuan_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usTongQuan());
+            ActivateButton((Button)sender);
         }
 
         private void btnQLKhachHang_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usKhachHang());
+            ActivateButton((Button)sender);
         }
 
         private void btnQLTonKho_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usTonKho());
+            ActivateButton((Button)sender);
         }
 
         private void btnQLHoaDon_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usHoaDon());
+            ActivateButton((Button)sender);
         }
 
         private void btnQLDaiLy_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usDaiLy());
+            ActivateButton((Button)sender);
         }
 
         private void btnQLTaiKhoan_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usTaiKhoan());
+            ActivateButton((Button)sender);
         }
 
         private void btnQLXeDapDien_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usXeDapDien());
+            ActivateButton((Button)sender);
         }
 
         private void btnQLXeMayDien_Click(object sender, EventArgs e)
         {
             onMenuClick?.Invoke(new usXeMayDien());
+            ActivateButton((Button)sender);
         }
     }
 }
