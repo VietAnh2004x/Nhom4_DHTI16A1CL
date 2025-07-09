@@ -138,7 +138,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtSoDienThoai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSoDienThoai.Location = new System.Drawing.Point(164, 349);
             this.txtSoDienThoai.Name = "txtSoDienThoai";
-            this.txtSoDienThoai.Size = new System.Drawing.Size(143, 30);
+            this.txtSoDienThoai.Size = new System.Drawing.Size(143, 34);
             this.txtSoDienThoai.TabIndex = 9;
             // 
             // txtEmail
@@ -146,7 +146,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEmail.Location = new System.Drawing.Point(164, 260);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(143, 30);
+            this.txtEmail.Size = new System.Drawing.Size(143, 34);
             this.txtEmail.TabIndex = 8;
             // 
             // txtTenDaiLy
@@ -154,7 +154,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtTenDaiLy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTenDaiLy.Location = new System.Drawing.Point(165, 82);
             this.txtTenDaiLy.Name = "txtTenDaiLy";
-            this.txtTenDaiLy.Size = new System.Drawing.Size(143, 30);
+            this.txtTenDaiLy.Size = new System.Drawing.Size(143, 34);
             this.txtTenDaiLy.TabIndex = 7;
             // 
             // txtDiaChi
@@ -162,7 +162,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtDiaChi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDiaChi.Location = new System.Drawing.Point(164, 171);
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(143, 30);
+            this.txtDiaChi.Size = new System.Drawing.Size(143, 34);
             this.txtDiaChi.TabIndex = 6;
             // 
             // lblSoDienThoai
@@ -297,7 +297,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.txtTimKiemDaiLy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTimKiemDaiLy.Location = new System.Drawing.Point(180, 49);
             this.txtTimKiemDaiLy.Name = "txtTimKiemDaiLy";
-            this.txtTimKiemDaiLy.Size = new System.Drawing.Size(196, 30);
+            this.txtTimKiemDaiLy.Size = new System.Drawing.Size(196, 34);
             this.txtTimKiemDaiLy.TabIndex = 6;
             // 
             // lblTimKiemDaiLy
@@ -344,11 +344,12 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             this.colEmail,
             this.colSoDienThoai});
             this.dgvDSDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSDaiLy.Location = new System.Drawing.Point(3, 26);
+            this.dgvDSDaiLy.Location = new System.Drawing.Point(3, 30);
             this.dgvDSDaiLy.Name = "dgvDSDaiLy";
             this.dgvDSDaiLy.RowHeadersWidth = 51;
-            this.dgvDSDaiLy.Size = new System.Drawing.Size(579, 466);
+            this.dgvDSDaiLy.Size = new System.Drawing.Size(579, 462);
             this.dgvDSDaiLy.TabIndex = 0;
+            this.dgvDSDaiLy.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSDaiLy_CellContentClick);
             // 
             // colMaDaiLy
             // 
@@ -403,7 +404,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
             // 
             // usDaiLy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 10F);

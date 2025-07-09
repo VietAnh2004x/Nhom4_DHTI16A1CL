@@ -22,7 +22,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.grpTTHoaDon = new System.Windows.Forms.TableLayoutPanel();
             this.tbTrai = new System.Windows.Forms.TableLayoutPanel();
             this.grTTXe = new System.Windows.Forms.GroupBox();
-            this.txtTongTien = new System.Windows.Forms.TextBox();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.txtNgayNhap = new System.Windows.Forms.TextBox();
             this.txtTenXe = new System.Windows.Forms.TextBox();
             this.lblSoLuong = new System.Windows.Forms.Label();
@@ -34,7 +34,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.lblTimKiemMaXe = new System.Windows.Forms.Label();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.grDSXe = new System.Windows.Forms.GroupBox();
-            this.dgvDSDaiLy = new System.Windows.Forms.DataGridView();
+            this.dgvDSTonKho = new System.Windows.Forms.DataGridView();
             this.colMaNhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colMaXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,7 +49,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.tbPhai.SuspendLayout();
             this.grpTimKiemXe.SuspendLayout();
             this.grDSXe.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDSDaiLy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSTonKho)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -107,7 +107,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             // 
             // grTTXe
             // 
-            this.grTTXe.Controls.Add(this.txtTongTien);
+            this.grTTXe.Controls.Add(this.txtSoLuong);
             this.grTTXe.Controls.Add(this.txtNgayNhap);
             this.grTTXe.Controls.Add(this.txtTenXe);
             this.grTTXe.Controls.Add(this.lblSoLuong);
@@ -121,20 +121,20 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.grTTXe.TabStop = false;
             this.grTTXe.Text = "Thông Tin Xe";
             // 
-            // txtTongTien
+            // txtSoLuong
             // 
-            this.txtTongTien.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTongTien.Location = new System.Drawing.Point(176, 295);
-            this.txtTongTien.Name = "txtTongTien";
-            this.txtTongTien.Size = new System.Drawing.Size(139, 30);
-            this.txtTongTien.TabIndex = 9;
+            this.txtSoLuong.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSoLuong.Location = new System.Drawing.Point(176, 295);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(139, 34);
+            this.txtSoLuong.TabIndex = 9;
             // 
             // txtNgayNhap
             // 
             this.txtNgayNhap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNgayNhap.Location = new System.Drawing.Point(176, 195);
             this.txtNgayNhap.Name = "txtNgayNhap";
-            this.txtNgayNhap.Size = new System.Drawing.Size(139, 30);
+            this.txtNgayNhap.Size = new System.Drawing.Size(139, 34);
             this.txtNgayNhap.TabIndex = 8;
             // 
             // txtTenXe
@@ -142,7 +142,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.txtTenXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTenXe.Location = new System.Drawing.Point(176, 95);
             this.txtTenXe.Name = "txtTenXe";
-            this.txtTenXe.Size = new System.Drawing.Size(139, 30);
+            this.txtTenXe.Size = new System.Drawing.Size(139, 34);
             this.txtTenXe.TabIndex = 6;
             // 
             // lblSoLuong
@@ -202,7 +202,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.txtTimKiemMaXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTimKiemMaXe.Location = new System.Drawing.Point(180, 49);
             this.txtTimKiemMaXe.Name = "txtTimKiemMaXe";
-            this.txtTimKiemMaXe.Size = new System.Drawing.Size(196, 30);
+            this.txtTimKiemMaXe.Size = new System.Drawing.Size(196, 34);
             this.txtTimKiemMaXe.TabIndex = 6;
             // 
             // lblTimKiemMaXe
@@ -228,7 +228,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             // 
             // grDSXe
             // 
-            this.grDSXe.Controls.Add(this.dgvDSDaiLy);
+            this.grDSXe.Controls.Add(this.dgvDSTonKho);
             this.grDSXe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grDSXe.Location = new System.Drawing.Point(3, 128);
             this.grDSXe.Name = "grDSXe";
@@ -237,23 +237,24 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.grDSXe.TabStop = false;
             this.grDSXe.Text = "Danh Sách Xe";
             // 
-            // dgvDSDaiLy
+            // dgvDSTonKho
             // 
-            this.dgvDSDaiLy.AllowUserToAddRows = false;
-            this.dgvDSDaiLy.BackgroundColor = System.Drawing.Color.White;
-            this.dgvDSDaiLy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDSDaiLy.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvDSTonKho.AllowUserToAddRows = false;
+            this.dgvDSTonKho.BackgroundColor = System.Drawing.Color.White;
+            this.dgvDSTonKho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDSTonKho.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colMaNhap,
             this.colMaXe,
             this.colTenXe,
             this.colNgayNhap,
             this.colSoLuong});
-            this.dgvDSDaiLy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSDaiLy.Location = new System.Drawing.Point(3, 26);
-            this.dgvDSDaiLy.Name = "dgvDSDaiLy";
-            this.dgvDSDaiLy.RowHeadersWidth = 51;
-            this.dgvDSDaiLy.Size = new System.Drawing.Size(579, 466);
-            this.dgvDSDaiLy.TabIndex = 0;
+            this.dgvDSTonKho.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvDSTonKho.Location = new System.Drawing.Point(3, 30);
+            this.dgvDSTonKho.Name = "dgvDSTonKho";
+            this.dgvDSTonKho.RowHeadersWidth = 51;
+            this.dgvDSTonKho.Size = new System.Drawing.Size(579, 462);
+            this.dgvDSTonKho.TabIndex = 0;
+            this.dgvDSTonKho.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSTonKho_CellContentClick_1);
             // 
             // colMaNhap
             // 
@@ -308,7 +309,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             // 
             // usTonKho
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -324,7 +325,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
             this.grpTimKiemXe.ResumeLayout(false);
             this.grpTimKiemXe.PerformLayout();
             this.grDSXe.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDSDaiLy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDSTonKho)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -338,7 +339,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
         private System.Windows.Forms.Label lblTieuDe;
         private System.Windows.Forms.GroupBox grpTimKiemXe;
         private System.Windows.Forms.GroupBox grDSXe;
-        private System.Windows.Forms.TextBox txtTongTien;
+        private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.TextBox txtNgayNhap;
         private System.Windows.Forms.TextBox txtTenXe;
         private System.Windows.Forms.Label lblSoLuong;
@@ -347,7 +348,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLTonKho
         private System.Windows.Forms.TextBox txtTimKiemMaXe;
         private System.Windows.Forms.Label lblTimKiemMaXe;
         private System.Windows.Forms.Button btnTimKiem;
-        private System.Windows.Forms.DataGridView dgvDSDaiLy;
+        private System.Windows.Forms.DataGridView dgvDSTonKho;
         private DataGridViewTextBoxColumn colMaNhap;
         private DataGridViewTextBoxColumn colMaXe;
         private DataGridViewTextBoxColumn colTenXe;
