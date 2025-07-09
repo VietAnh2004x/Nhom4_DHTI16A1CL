@@ -19,7 +19,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLDaiLy
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            frmPhieuDaiLy phieuDaiLyForm = new frmPhieuDaiLy();
+            frmThemPhieuDaiLy phieuDaiLyForm = new frmThemPhieuDaiLy();
             if (phieuDaiLyForm.ShowDialog() == DialogResult.OK)
                 MessageBox.Show("Thêm đại lý thành công!");
             else

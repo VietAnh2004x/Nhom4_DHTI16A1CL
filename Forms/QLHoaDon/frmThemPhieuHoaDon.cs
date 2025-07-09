@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
+namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
 {
-    public partial class frmPhieuBaoHanh : Form
+    public partial class frmThemPhieuHoaDon : Form
     {
-        public frmPhieuBaoHanh()
+        public frmThemPhieuHoaDon()
         {
             InitializeComponent();
         }
@@ -22,11 +22,5 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
-
-        private void btnThoat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
     }
 }

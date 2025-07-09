@@ -63,11 +63,17 @@
     <Compile Include="Forms\QLBaoCao\usBaoCao.Designer.cs">
       <DependentUpon>usBaoCao.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\QLBaoHanh\frmPhieuBaoHanh.cs">
+    <Compile Include="Forms\QLBaoHanh\frmInPhieuBaoHanh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\QLBaoHanh\frmPhieuBaoHanh.Designer.cs">
-      <DependentUpon>frmPhieuBaoHanh.cs</DependentUpon>
+    <Compile Include="Forms\QLBaoHanh\frmInPhieuBaoHanh.Designer.cs">
+      <DependentUpon>frmInPhieuBaoHanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QLBaoHanh\frmThemPhieuBaoHanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QLBaoHanh\frmThemPhieuBaoHanh.Designer.cs">
+      <DependentUpon>frmThemPhieuBaoHanh.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLBaoHanh\usBaoHanh.cs">
       <SubType>UserControl</SubType>
@@ -75,11 +81,11 @@
     <Compile Include="Forms\QLBaoHanh\usBaoHanh.Designer.cs">
       <DependentUpon>usBaoHanh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\QLDaiLy\frmPhieuDaiLy.cs">
+    <Compile Include="Forms\QLDaiLy\frmThemPhieuDaiLy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\QLDaiLy\frmPhieuDaiLy.Designer.cs">
-      <DependentUpon>frmPhieuDaiLy.cs</DependentUpon>
+    <Compile Include="Forms\QLDaiLy\frmThemPhieuDaiLy.Designer.cs">
+      <DependentUpon>frmThemPhieuDaiLy.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLDaiLy\usDaiLy.cs">
       <SubType>UserControl</SubType>
@@ -87,11 +93,11 @@
     <Compile Include="Forms\QLDaiLy\usDaiLy.Designer.cs">
       <DependentUpon>usDaiLy.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\QLHoaDon\frmPhieuHoaDon.cs">
+    <Compile Include="Forms\QLHoaDon\frmThemPhieuHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\QLHoaDon\frmPhieuHoaDon.Designer.cs">
-      <DependentUpon>frmPhieuHoaDon.cs</DependentUpon>
+    <Compile Include="Forms\QLHoaDon\frmThemPhieuHoaDon.Designer.cs">
+      <DependentUpon>frmThemPhieuHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLHoaDon\usHoaDon.cs">
       <SubType>UserControl</SubType>
@@ -99,11 +105,11 @@
     <Compile Include="Forms\QLHoaDon\usHoaDon.Designer.cs">
       <DependentUpon>usHoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\QLKhachHang\frmPhieuKhachHang.cs">
+    <Compile Include="Forms\QLKhachHang\frmThemPhieuKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\QLKhachHang\frmPhieuKhachHang.Designer.cs">
-      <DependentUpon>frmPhieuKhachHang.cs</DependentUpon>
+    <Compile Include="Forms\QLKhachHang\frmThemPhieuKhachHang.Designer.cs">
+      <DependentUpon>frmThemPhieuKhachHang.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\QLKhachHang\usKhachHang.cs">
       <SubType>UserControl</SubType>
@@ -170,26 +176,29 @@
     <EmbeddedResource Include="Forms\QLBaoCao\usBaoCao.resx">
       <DependentUpon>usBaoCao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLBaoHanh\frmPhieuBaoHanh.resx">
-      <DependentUpon>frmPhieuBaoHanh.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\QLBaoHanh\frmInPhieuBaoHanh.resx">
+      <DependentUpon>frmInPhieuBaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QLBaoHanh\frmThemPhieuBaoHanh.resx">
+      <DependentUpon>frmThemPhieuBaoHanh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLBaoHanh\usBaoHanh.resx">
       <DependentUpon>usBaoHanh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLDaiLy\frmPhieuDaiLy.resx">
-      <DependentUpon>frmPhieuDaiLy.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\QLDaiLy\frmThemPhieuDaiLy.resx">
+      <DependentUpon>frmThemPhieuDaiLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLDaiLy\usDaiLy.resx">
       <DependentUpon>usDaiLy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLHoaDon\frmPhieuHoaDon.resx">
-      <DependentUpon>frmPhieuHoaDon.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\QLHoaDon\frmThemPhieuHoaDon.resx">
+      <DependentUpon>frmThemPhieuHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLHoaDon\usHoaDon.resx">
       <DependentUpon>usHoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\QLKhachHang\frmPhieuKhachHang.resx">
-      <DependentUpon>frmPhieuKhachHang.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\QLKhachHang\frmThemPhieuKhachHang.resx">
+      <DependentUpon>frmThemPhieuKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QLKhachHang\usKhachHang.resx">
       <DependentUpon>usKhachHang.cs</DependentUpon>

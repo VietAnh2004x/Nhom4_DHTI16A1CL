@@ -19,7 +19,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            frmPhieuHoaDon frmPhieuHoaDon = new frmPhieuHoaDon();
+            frmThemPhieuHoaDon frmPhieuHoaDon = new frmThemPhieuHoaDon();
             if (frmPhieuHoaDon.ShowDialog() == DialogResult.OK)
                 MessageBox.Show("Thêm hóa đơn thành công!");
             else

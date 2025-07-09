@@ -1,6 +1,6 @@
 ﻿namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLHoaDon
 {
-    partial class frmPhieuHoaDon
+    partial class frmThemPhieuHoaDon
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -15,7 +15,7 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPhieuHoaDon));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThemPhieuHoaDon));
             this.lblTieuDe = new System.Windows.Forms.Label();
             this.lblDiaChi = new System.Windows.Forms.Label();
             this.lblTenCuaHang = new System.Windows.Forms.Label();

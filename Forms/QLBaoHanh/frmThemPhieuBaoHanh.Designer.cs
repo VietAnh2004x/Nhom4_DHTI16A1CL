@@ -1,6 +1,6 @@
 ﻿namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLBaoHanh
 {
-    partial class frmPhieuBaoHanh
+    partial class frmThemPhieuBaoHanh
     {
         /// <summary>
         /// Required designer variable.
@@ -22,7 +22,7 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPhieuBaoHanh));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThemPhieuBaoHanh));
             this.grpThongTinKhachHang = new System.Windows.Forms.GroupBox();
             this.dtpNgayHetHan = new System.Windows.Forms.DateTimePicker();
             this.lblNgayHetHan = new System.Windows.Forms.Label();
@@ -246,7 +246,7 @@
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
-            // PhieuBaoHanhForm
+            // frmThemPhieuBaoHanh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -260,7 +260,7 @@
             this.Controls.Add(this.lblTenCuaHang);
             this.Controls.Add(this.picLogo);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "PhieuBaoHanhForm";
+            this.Name = "frmThemPhieuBaoHanh";
             this.Text = "PhieuBaoHanh";
             this.grpThongTinKhachHang.ResumeLayout(false);
             this.grpThongTinKhachHang.PerformLayout();
