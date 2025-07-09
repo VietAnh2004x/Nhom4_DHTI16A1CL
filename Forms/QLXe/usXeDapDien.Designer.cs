@@ -173,12 +173,13 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvDSXeDapDien.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvDSXeDapDien.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDSXeDapDien.Location = new System.Drawing.Point(3, 26);
+            this.dgvDSXeDapDien.Location = new System.Drawing.Point(3, 30);
             this.dgvDSXeDapDien.Name = "dgvDSXeDapDien";
             this.dgvDSXeDapDien.RowHeadersWidth = 51;
             this.dgvDSXeDapDien.RowTemplate.Height = 24;
-            this.dgvDSXeDapDien.Size = new System.Drawing.Size(579, 465);
+            this.dgvDSXeDapDien.Size = new System.Drawing.Size(579, 461);
             this.dgvDSXeDapDien.TabIndex = 0;
+            this.dgvDSXeDapDien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSXeDapDien_CellContentClick);
             // 
             // colMaXeDapDien
             // 
@@ -344,7 +345,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtSoBinhAcQuy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSoBinhAcQuy.Location = new System.Drawing.Point(187, 547);
             this.txtSoBinhAcQuy.Name = "txtSoBinhAcQuy";
-            this.txtSoBinhAcQuy.Size = new System.Drawing.Size(117, 30);
+            this.txtSoBinhAcQuy.Size = new System.Drawing.Size(117, 34);
             this.txtSoBinhAcQuy.TabIndex = 15;
             // 
             // txtDungLuongAcQuy
@@ -352,7 +353,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtDungLuongAcQuy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDungLuongAcQuy.Location = new System.Drawing.Point(187, 457);
             this.txtDungLuongAcQuy.Name = "txtDungLuongAcQuy";
-            this.txtDungLuongAcQuy.Size = new System.Drawing.Size(117, 30);
+            this.txtDungLuongAcQuy.Size = new System.Drawing.Size(117, 34);
             this.txtDungLuongAcQuy.TabIndex = 14;
             // 
             // txtMauSac
@@ -360,7 +361,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtMauSac.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMauSac.Location = new System.Drawing.Point(111, 370);
             this.txtMauSac.Name = "txtMauSac";
-            this.txtMauSac.Size = new System.Drawing.Size(117, 30);
+            this.txtMauSac.Size = new System.Drawing.Size(117, 34);
             this.txtMauSac.TabIndex = 13;
             // 
             // txtGia
@@ -368,7 +369,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtGia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtGia.Location = new System.Drawing.Point(111, 283);
             this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(117, 30);
+            this.txtGia.Size = new System.Drawing.Size(117, 34);
             this.txtGia.TabIndex = 12;
             // 
             // txtTenXe
@@ -376,7 +377,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             this.txtTenXe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTenXe.Location = new System.Drawing.Point(111, 196);
             this.txtTenXe.Name = "txtTenXe";
-            this.txtTenXe.Size = new System.Drawing.Size(117, 30);
+            this.txtTenXe.Size = new System.Drawing.Size(117, 34);
             this.txtTenXe.TabIndex = 10;
             // 
             // picAnhXe
@@ -402,7 +403,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             this.lblDungLuongAcQuy.Location = new System.Drawing.Point(6, 459);
             this.lblDungLuongAcQuy.Name = "lblDungLuongAcQuy";
-            this.lblDungLuongAcQuy.Size = new System.Drawing.Size(175, 24);
+            this.lblDungLuongAcQuy.Size = new System.Drawing.Size(175, 32);
             this.lblDungLuongAcQuy.TabIndex = 6;
             this.lblDungLuongAcQuy.Text = "Dung Lượng Ắc Quy:";
             // 
@@ -410,7 +411,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             this.lblMauSac.Location = new System.Drawing.Point(8, 372);
             this.lblMauSac.Name = "lblMauSac";
-            this.lblMauSac.Size = new System.Drawing.Size(79, 21);
+            this.lblMauSac.Size = new System.Drawing.Size(79, 32);
             this.lblMauSac.TabIndex = 5;
             this.lblMauSac.Text = "Màu Sắc:";
             // 
@@ -418,7 +419,7 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             this.lblGia.Location = new System.Drawing.Point(8, 285);
             this.lblGia.Name = "lblGia";
-            this.lblGia.Size = new System.Drawing.Size(44, 21);
+            this.lblGia.Size = new System.Drawing.Size(44, 32);
             this.lblGia.TabIndex = 3;
             this.lblGia.Text = "Giá:";
             // 
@@ -426,13 +427,13 @@ namespace DoAn1_Nhom4_DHTI16A1CL.Forms.QLXe
             // 
             this.lblTenXe.Location = new System.Drawing.Point(6, 198);
             this.lblTenXe.Name = "lblTenXe";
-            this.lblTenXe.Size = new System.Drawing.Size(81, 21);
+            this.lblTenXe.Size = new System.Drawing.Size(81, 32);
             this.lblTenXe.TabIndex = 2;
             this.lblTenXe.Text = "Tên Xe:";
             // 
             // usXeDapDien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel1);

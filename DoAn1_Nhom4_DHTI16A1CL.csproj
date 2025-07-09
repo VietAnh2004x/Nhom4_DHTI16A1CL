@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data_Access_Layer\DataProvider.cs" />
     <Compile Include="Data_Transfer_Objects\BaoHanh.cs" />
     <Compile Include="Data_Transfer_Objects\ChiTietHoaDon.cs" />
     <Compile Include="Data_Transfer_Objects\DaiLy.cs" />
@@ -245,7 +246,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Business_Logic_Layer\" />
-    <Folder Include="Data_Access_Layer\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\icon\" />
   </ItemGroup>
